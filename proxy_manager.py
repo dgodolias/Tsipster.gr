@@ -2,13 +2,14 @@ import os
 import zipfile
 import requests
 import random
+import threading
 
 class WebshareProxyManager:
     API_ENDPOINT = "https://proxy.webshare.io/api/v2/proxy/list/download/uihaxlzojvuevihxowldkahetcpwoelozpsiuipz/-/any/username/direct/-/"
     
     @staticmethod
-    def fetch_proxies(count=3):
-        """Fetch and return specified number of proxies from Webshare"""
+    def fetch_proxies():
+        """Fetch and return all proxies from Webshare"""
         try:
             response = requests.get(WebshareProxyManager.API_ENDPOINT)
             response.raise_for_status()
@@ -23,14 +24,7 @@ class WebshareProxyManager:
                         "username": username,
                         "password": password
                     })
-            
-            if len(proxies) < count:
-                print(f"Warning: Only {len(proxies)} proxies available, requested {count}")
-                return proxies
-            
-            # Randomly select the requested number of proxies
-            return random.sample(proxies, count)
-            
+            return proxies
         except requests.RequestException as e:
             print(f"Error fetching Webshare proxies: {e}")
             return []
@@ -113,18 +107,30 @@ class WebshareProxyManager:
             os.rmdir(extension_dir)
 
 
-# Abstract base class for proxy managers that can be extended for other providers
 class ProxyManager:
-    @staticmethod
-    def get_proxies(count=3):
-        """Get proxies from the configured provider"""
-        # Default implementation uses Webshare
-        return WebshareProxyManager.fetch_proxies(count)
-    
+    def __init__(self):
+        self.all_proxies = WebshareProxyManager.fetch_proxies()
+        self.used_proxies = set()
+        self.lock = threading.Lock()
+
+    def get_proxy(self):
+        """Get an unused proxy, ensuring thread safety"""
+        with self.lock:
+            available_proxies = [p for p in self.all_proxies if tuple(p.items()) not in self.used_proxies]
+            if not available_proxies:
+                print("No unused proxies available!")
+                return None
+            proxy = random.choice(available_proxies)
+            self.used_proxies.add(tuple(proxy.items()))
+            return proxy
+
+    def mark_proxy_blocked(self, proxy_info):
+        """Mark a proxy as blocked (releases it back to the pool)"""
+        with self.lock:
+            self.used_proxies.discard(tuple(proxy_info.items()))
+
     @staticmethod
     def setup_proxy_extension(proxy_info, thread_id):
-        """Create proxy auth extension for Chrome"""
-        # Default implementation uses Webshare's format
         return WebshareProxyManager.create_proxy_auth_extension(
             proxy_info["host"], 
             proxy_info["port"],
@@ -135,6 +141,4 @@ class ProxyManager:
     
     @staticmethod
     def cleanup_proxy_resources(extension_path, extension_dir):
-        """Clean up proxy-related resources"""
-        # Default implementation uses Webshare's cleanup method
         WebshareProxyManager.cleanup_extension(extension_path, extension_dir)
