@@ -1,6 +1,7 @@
 import threading
 import time
 import random
+import re  # Import regular expressions
 from selenium import webdriver
 from selenium.webdriver.chrome.service import Service
 from selenium.webdriver.chrome.options import Options
@@ -40,6 +41,25 @@ def handle_consent_page(driver, thread_id):
         time.sleep(random.uniform(1, 2))  # Wait for page to proceed
     except TimeoutException:
         print(f"Thread {thread_id}: Consent screen detected but 'Reject All' button not clickable")
+
+def extract_prices(driver, thread_id):
+    """
+    Extract price-like patterns from the search results.
+    This example looks for prices in the form of "€ 123,45" or "€123.45".
+    """
+    prices = []
+    # Find result blocks; Google typically uses 'div.g' for search results
+    results = driver.find_elements(By.CSS_SELECTOR, "div.g")
+    price_pattern = re.compile(r"€\s?\d+(?:[.,]\d+)?")
+    for result in results:
+        text = result.text
+        found_prices = price_pattern.findall(text)
+        if found_prices:
+            prices.extend(found_prices)
+    if prices:
+        print(f"Thread {thread_id}: Extracted prices: {prices}")
+    else:
+        print(f"Thread {thread_id}: No prices found in search results.")
 
 def search_with_proxy(proxy_manager, thread_id, search_query, max_attempts=3):
     """Run a search using a proxy, retrying with new proxies if blocked"""
@@ -87,6 +107,7 @@ def search_with_proxy(proxy_manager, thread_id, search_query, max_attempts=3):
             
             print(f"Thread {thread_id}: Successfully loaded Google homepage")
 
+            # Type in the search query
             for char in search_query:
                 search_box.send_keys(char)
                 time.sleep(random.uniform(0.05, 0.2))
@@ -95,6 +116,7 @@ def search_with_proxy(proxy_manager, thread_id, search_query, max_attempts=3):
             search_box.send_keys(Keys.RETURN)
             time.sleep(random.uniform(2, 4))
 
+            # Check for CAPTCHA after search
             if is_captcha_page(driver):
                 print(f"Thread {thread_id}: CAPTCHA detected after search with proxy {proxy_host}:{proxy_port}")
                 proxy_manager.mark_proxy_blocked(proxy_info)
@@ -102,6 +124,10 @@ def search_with_proxy(proxy_manager, thread_id, search_query, max_attempts=3):
                 continue
 
             print(f"Thread {thread_id}: Search completed for '{search_query}'")
+
+            # Extract and display price information from the results
+            extract_prices(driver, thread_id)
+
             time.sleep(10)
             break
 
