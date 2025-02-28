@@ -1,6 +1,8 @@
 import threading
 import time
 import random
+import os
+import shutil
 from selenium import webdriver
 from selenium.webdriver.chrome.service import Service
 from selenium.webdriver.chrome.options import Options
@@ -13,19 +15,17 @@ from selenium.common.exceptions import TimeoutException, WebDriverException, NoS
 
 from proxy_manager import ProxyManager
 
-# Country-specific settings (example for Greece)
-EU_COUNTRIES = [
-    {"country_code": "GR", "domain": "google.gr", "lang": "el", "currency": "EUR"}
-]
-COUNTRY = EU_COUNTRIES[0]  # Use Greece for this example
+# Country-specific settings (Greece)
+EU_COUNTRIES = [{"country_code": "GR", "domain": "google.gr", "lang": "el", "currency": "EUR"}]
+COUNTRY = EU_COUNTRIES[0]
 
-# Global tracking for visited pages
+# Global tracking for visited pages and max pages
 visited_pages = set()
 page_lock = threading.Lock()
-current_start = -10  # Start before page 1 (will increment to 0 for page 1)
+current_start = -10  # Start before page 1
+max_start = None
 
 def is_captcha_page(driver):
-    """Check if the page is a CAPTCHA by looking for specific elements or text"""
     try:
         title = driver.title.lower()
         source = driver.page_source.lower()
@@ -34,7 +34,6 @@ def is_captcha_page(driver):
         return False
 
 def is_consent_page(driver):
-    """Check if the page is the Google consent screen by looking for the 'Reject All' button"""
     try:
         driver.find_element(By.ID, "W0wltc")
         return True
@@ -42,18 +41,28 @@ def is_consent_page(driver):
         return False
 
 def handle_consent_page(driver, thread_id):
-    """Handle the consent page by clicking 'Reject All'"""
     try:
         wait = WebDriverWait(driver, 5)
         reject_button = wait.until(EC.element_to_be_clickable((By.ID, "W0wltc")))
         reject_button.click()
         print(f"Thread {thread_id}: Consent screen detected and 'Reject All' clicked")
-        time.sleep(random.uniform(1, 2))  # Wait for page to proceed
+        time.sleep(random.uniform(1, 2))
     except TimeoutException:
         print(f"Thread {thread_id}: Consent screen detected but 'Reject All' button not clickable")
 
+def get_max_pages(driver):
+    try:
+        nav = driver.find_element(By.CSS_SELECTOR, "div[role='navigation'] table.AaVjTc")
+        page_links = nav.find_elements(By.XPATH, ".//a[contains(@aria-label, 'Page')]")
+        if page_links:
+            last_page = int(page_links[-1].text.strip())
+            return (last_page - 1) * 10
+        return 0
+    except Exception:
+        print(f"Thread: Could not determine max pages, assuming single page")
+        return 0
+
 def extract_urls(driver, thread_id):
-    """Extract URLs from Google search results"""
     urls = []
     try:
         results = driver.find_elements(By.CSS_SELECTOR, "div.g.Ww4FFb.vt6azd.tF2Cxc.asEBEc")
@@ -67,27 +76,30 @@ def extract_urls(driver, thread_id):
     return urls
 
 def visit_website(driver, url, thread_id):
-    """Visit a single website and wait briefly"""
     try:
         print(f"Thread {thread_id}: Visiting {url}")
         driver.get(url)
-        time.sleep(random.uniform(2, 5))  # Simulate browsing
+        time.sleep(random.uniform(2, 5))
         print(f"Thread {thread_id}: Successfully visited {url}")
-    except Exception as e:
+    except WebDriverException as e:
         print(f"Thread {thread_id}: Error visiting {url} - {str(e)}")
 
 def get_next_page():
-    """Get the next unvisited page's start value"""
-    global current_start
+    global current_start, max_start
     with page_lock:
-        current_start += 10  # Increment by 10 for next page (0, 10, 20, ...)
-        while current_start in visited_pages:
+        current_start += 10
+        while current_start in visited_pages or (max_start is not None and current_start > max_start):
             current_start += 10
+            if max_start is not None and current_start > max_start:
+                current_start = -10
+                while current_start in visited_pages and current_start <= max_start:
+                    current_start += 10
+                if current_start > max_start:
+                    return None
         visited_pages.add(current_start)
         return current_start
 
 def init_driver(proxy_info, thread_id):
-    """Initialize a WebDriver instance with proxy settings"""
     proxy_host = proxy_info["host"]
     proxy_port = proxy_info["port"]
     print(f"Thread {thread_id}: Initializing driver with proxy {proxy_host}:{proxy_port}")
@@ -108,7 +120,6 @@ def init_driver(proxy_info, thread_id):
         raise
 
 def search_with_proxy(proxy_manager, thread_id, search_query):
-    """Run a search on a unique page and visit extracted URLs, retrying until success"""
     driver = None
     extension_path = None
     extension_dir = None
@@ -121,53 +132,57 @@ def search_with_proxy(proxy_manager, thread_id, search_query):
             print(f"Thread {thread_id}: No available proxies left after {attempt-1} attempts!")
             return
 
-        # Initialize driver for this attempt
         if driver:
             driver.quit()
             ProxyManager.cleanup_proxy_resources(extension_path, extension_dir)
         try:
             driver, extension_path, extension_dir = init_driver(proxy_info, thread_id)
         except Exception as e:
-            print(f"Thread {thread_id}: Proxy initialization failed with {proxy_info['host']}:{proxy_info['port']} - retrying")
+            print(f"Thread {thread_id}: Attempt {attempt}: Proxy initialization failed with {proxy_info['host']}:{proxy_info['port']} - retrying")
             proxy_manager.mark_proxy_blocked(proxy_info)
-            time.sleep(1)  # Brief delay before retry
+            time.sleep(1)
             continue
 
-        # Get the next unvisited page
         start = get_next_page()
+        if start is None:
+            print(f"Thread {thread_id}: No more unvisited pages available after {attempt} attempts")
+            break
+
         search_url = f"https://{COUNTRY['domain']}/search?q={search_query}&start={start}&hl={COUNTRY['lang']}&gl={COUNTRY['country_code']}&cr=country{COUNTRY['country_code']}"
 
         try:
-            # Navigate to the country-specific Google search page
             print(f"Thread {thread_id}: Attempt {attempt}: Navigating to {search_url}")
             driver.get(search_url)
             time.sleep(random.uniform(2, 5))
 
-            # Check for CAPTCHA
             if is_captcha_page(driver):
-                print(f"Thread {thread_id}: CAPTCHA detected with proxy {proxy_info['host']}:{proxy_info['port']} on page start={start}")
+                print(f"Thread {thread_id}: Attempt {attempt}: CAPTCHA detected with proxy {proxy_info['host']}:{proxy_info['port']} on page start={start}")
                 proxy_manager.mark_proxy_blocked(proxy_info)
                 with page_lock:
-                    visited_pages.remove(start)  # Release this page for retry
+                    visited_pages.remove(start)
                 continue
 
-            # Handle consent screen if present
             if is_consent_page(driver):
                 handle_consent_page(driver, thread_id)
 
-            # Wait for search results
             wait = WebDriverWait(driver, 10)
             wait.until(EC.presence_of_element_located((By.CSS_SELECTOR, "div#search")),
                        message="Search results not found; page might not have loaded correctly.")
             
             print(f"Thread {thread_id}: Successfully loaded Google page with start={start}")
 
-            # Extract URLs and visit each site
+            global max_start
+            if max_start is None:
+                with page_lock:
+                    if max_start is None:
+                        max_start = get_max_pages(driver)
+                        print(f"Thread {thread_id}: Determined max_start={max_start}")
+
             urls = extract_urls(driver, thread_id)
             for url in urls:
                 visit_website(driver, url, thread_id)
 
-            break  # Success, exit loop
+            break
 
         except TimeoutException as e:
             print(f"Thread {thread_id}: Attempt {attempt}: Timeout - {str(e)} on page start={start}")
@@ -175,14 +190,13 @@ def search_with_proxy(proxy_manager, thread_id, search_query):
             print(f"Thread {thread_id}: Partial page source: {driver.page_source[:500] if driver else 'N/A'}")
             proxy_manager.mark_proxy_blocked(proxy_info)
             with page_lock:
-                visited_pages.remove(start)  # Release this page for retry
+                visited_pages.remove(start)
         except WebDriverException as e:
             print(f"Thread {thread_id}: Attempt {attempt}: WebDriver error - {str(e)} on page start={start}")
             proxy_manager.mark_proxy_blocked(proxy_info)
             with page_lock:
-                visited_pages.remove(start)  # Release this page for retry
+                visited_pages.remove(start)
         finally:
-            # Cleanup only if breaking or continuing with a new attempt
             pass
 
     if driver:
@@ -190,31 +204,42 @@ def search_with_proxy(proxy_manager, thread_id, search_query):
         ProxyManager.cleanup_proxy_resources(extension_path, extension_dir)
 
 def main():
-    """Main function to run the search bot concurrently across unique pages"""
-    proxy_manager = ProxyManager()
-    if not proxy_manager.all_proxies:
-        print("Failed to fetch proxies. Exiting.")
-        return
+    # Create temp_extensions directory
+    temp_dir = "temp_extensions"
+    os.makedirs(temp_dir, exist_ok=True)
 
-    search_query = input("Enter your search query: ").strip()
-    if not search_query:
-        print("Search query cannot be empty!")
-        return
+    try:
+        proxy_manager = ProxyManager()
+        if not proxy_manager.all_proxies:
+            print("Failed to fetch proxies. Exiting.")
+            return
 
-    # Start threads concurrently
-    threads = []
-    for i in range(3):
-        thread = threading.Thread(target=search_with_proxy, args=(proxy_manager, i + 1, search_query))
-        threads.append(thread)
-        thread.start()
+        search_query = input("Enter your search query: ").strip()
+        if not search_query:
+            print("Search query cannot be empty!")
+            return
 
-    # Wait for all threads to complete
-    for thread in threads:
-        thread.join()
+        threads = []
+        for i in range(3):
+            thread = threading.Thread(target=search_with_proxy, args=(proxy_manager, i + 1, search_query))
+            threads.append(thread)
+            thread.start()
 
-    print("All searches and site visits completed!")
-    print(f"Total proxies used: {len(proxy_manager.used_proxies)}")
-    print(f"Visited pages (start values): {sorted(visited_pages)}")
+        for thread in threads:
+            thread.join()
+
+        print("All searches and site visits completed!")
+        print(f"Total proxies used: {len(proxy_manager.used_proxies)}")
+        print(f"Visited pages (start values): {sorted(visited_pages)}")
+
+    finally:
+        # Clean up temp_extensions directory
+        try:
+            if os.path.exists(temp_dir):
+                shutil.rmtree(temp_dir)
+                print(f"Cleaned up {temp_dir} directory")
+        except Exception as e:
+            print(f"Error cleaning up {temp_dir}: {e}")
 
 if __name__ == "__main__":
     main()

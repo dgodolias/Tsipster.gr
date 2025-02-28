@@ -9,7 +9,6 @@ class WebshareProxyManager:
     
     @staticmethod
     def fetch_proxies():
-        """Fetch and return all proxies from Webshare"""
         try:
             response = requests.get(WebshareProxyManager.API_ENDPOINT)
             response.raise_for_status()
@@ -31,7 +30,10 @@ class WebshareProxyManager:
 
     @staticmethod
     def create_proxy_auth_extension(proxy_host, proxy_port, username, password, thread_id):
-        """Create a Chrome extension for proxy authentication"""
+        # Create temp_extensions directory if it doesn't exist
+        temp_dir = "temp_extensions"
+        os.makedirs(temp_dir, exist_ok=True)
+
         manifest_json = """
         {
             "version": "1.0.0",
@@ -81,7 +83,7 @@ class WebshareProxyManager:
         );
         """
 
-        extension_dir = f"proxy_auth_extension_thread_{thread_id}"
+        extension_dir = os.path.join(temp_dir, f"proxy_auth_extension_thread_{thread_id}")
         os.makedirs(extension_dir, exist_ok=True)
 
         with open(os.path.join(extension_dir, "manifest.json"), "w") as f:
@@ -89,7 +91,7 @@ class WebshareProxyManager:
         with open(os.path.join(extension_dir, "background.js"), "w") as f:
             f.write(background_js)
 
-        extension_path = f"proxy_auth_extension_thread_{thread_id}.zip"
+        extension_path = os.path.join(temp_dir, f"proxy_auth_extension_thread_{thread_id}.zip")
         with zipfile.ZipFile(extension_path, "w") as zf:
             zf.write(os.path.join(extension_dir, "manifest.json"), "manifest.json")
             zf.write(os.path.join(extension_dir, "background.js"), "background.js")
@@ -98,14 +100,15 @@ class WebshareProxyManager:
 
     @staticmethod
     def cleanup_extension(extension_path, extension_dir):
-        """Clean up the proxy extension files"""
-        if os.path.exists(extension_path):
-            os.remove(extension_path)
-        if os.path.exists(extension_dir):
-            for f in os.listdir(extension_dir):
-                os.remove(os.path.join(extension_dir, f))
-            os.rmdir(extension_dir)
-
+        try:
+            if os.path.exists(extension_path):
+                os.remove(extension_path)
+            if os.path.exists(extension_dir):
+                for f in os.listdir(extension_dir):
+                    os.remove(os.path.join(extension_dir, f))
+                os.rmdir(extension_dir)
+        except Exception as e:
+            print(f"Error cleaning up extension files: {e}")
 
 class ProxyManager:
     def __init__(self):
@@ -114,18 +117,15 @@ class ProxyManager:
         self.lock = threading.Lock()
 
     def get_proxy(self):
-        """Get an unused proxy, ensuring thread safety"""
         with self.lock:
             available_proxies = [p for p in self.all_proxies if tuple(p.items()) not in self.used_proxies]
             if not available_proxies:
-                print("No unused proxies available!")
                 return None
             proxy = random.choice(available_proxies)
             self.used_proxies.add(tuple(proxy.items()))
             return proxy
 
     def mark_proxy_blocked(self, proxy_info):
-        """Mark a proxy as blocked (releases it back to the pool)"""
         with self.lock:
             self.used_proxies.discard(tuple(proxy_info.items()))
 
