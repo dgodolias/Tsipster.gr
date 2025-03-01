@@ -3,6 +3,7 @@ import time
 import random
 import os
 import shutil
+import re  # For regular expression price matching
 from selenium import webdriver
 from selenium.webdriver.chrome.service import Service
 from selenium.webdriver.chrome.options import Options
@@ -24,6 +25,22 @@ visited_pages = set()
 page_lock = threading.Lock()
 current_start = -10  # Start before page 1
 max_start = None
+
+# Global list to store final product results
+final_results = []
+final_results_lock = threading.Lock()
+
+def parse_price(price_str):
+    """
+    Convert a price string like "€239,00" to a float (239.00).
+    Returns None if conversion fails.
+    """
+    try:
+        cleaned = price_str.replace("€", "").strip()
+        cleaned = cleaned.replace(",", ".")
+        return float(cleaned)
+    except Exception:
+        return None
 
 def is_captcha_page(driver):
     try:
@@ -59,28 +76,106 @@ def get_max_pages(driver):
             return (last_page - 1) * 10
         return 0
     except Exception:
-        print(f"Thread: Could not determine max pages, assuming single page")
+        print("Thread: Could not determine max pages, assuming single page")
         return 0
 
 def extract_urls(driver, thread_id):
-    urls = []
+    extracted_results = []
     try:
+        # Find all search result containers; adjust the selector if needed
         results = driver.find_elements(By.CSS_SELECTOR, "div.g.Ww4FFb.vt6azd.tF2Cxc.asEBEc")
         for result in results:
-            link = result.find_element(By.XPATH, ".//a[@jsname='UWckNb']")
-            url = link.get_attribute("href")
-            urls.append(url)
-        print(f"Thread {thread_id}: URLs to visit from this page: {urls}")
+            try:
+                # Extract the clickable link element and its URL
+                link_element = result.find_element(By.XPATH, ".//a[@jsname='UWckNb']")
+                url = link_element.get_attribute("href")
+                # Extract the title text (usually found in an <h3> element)
+                title_element = result.find_element(By.TAG_NAME, "h3")
+                title = title_element.text
+                # Extract a price from the snippet if available (may often be missing)
+                text_content = result.text
+                price_match = re.search(r'€\s*\d+(?:[.,]\d+)?', text_content)
+                snippet_price = price_match.group(0) if price_match else "N/A"
+                extracted_results.append({"title": title, "url": url, "snippet_price": snippet_price})
+            except Exception as e:
+                print(f"Thread {thread_id}: Error extracting one result: {str(e)}")
+        if extracted_results:
+            print(f"Thread {thread_id}: Extracted search results:")
+            for item in extracted_results:
+                print(f"    Title         : {item['title']}")
+                print(f"    URL           : {item['url']}")
+                print(f"    Snippet Price : {item['snippet_price']}\n")
+        else:
+            print(f"Thread {thread_id}: No results extracted")
     except Exception as e:
         print(f"Thread {thread_id}: Error extracting URLs - {str(e)}")
-    return urls
+    # Return the list of extracted results (each is a dictionary)
+    return extracted_results
 
-def visit_website(driver, url, thread_id):
+
+def extract_price_from_page(driver, thread_id):
+    """
+    Attempts to extract a price from the product page by iterating over a list
+    of selectors known to contain price information. It first tries:
+      - .product-price
+      - .current-price-value
+      - .price
+    and then falls back to generic selectors.
+    """
     try:
-        print(f"Thread {thread_id}: Visiting {url}")
+        # Allow dynamic content to load.
+        time.sleep(2)
+        # Define a list of selectors to try in order.
+        selectors = [
+            ".product-price",
+            ".current-price-value",
+            ".price",
+            "[id*='price']",
+            "[itemprop*='price']"
+        ]
+        for sel in selectors:
+            try:
+                elems = driver.find_elements(By.CSS_SELECTOR, sel)
+                for elem in elems:
+                    # Use textContent to capture all visible text.
+                    text = elem.get_attribute("textContent").strip()
+                    if "€" in text:
+                        price_match = re.search(r'€\s*\d+(?:[.,]\d+)?', text)
+                        if price_match:
+                            return price_match.group(0)
+            except Exception:
+                continue
+
+        # Fallback: scroll down to trigger lazy loading and search the entire page text.
+        driver.execute_script("window.scrollTo(0, document.body.scrollHeight);")
+        time.sleep(2)
+        body_text = driver.find_element(By.TAG_NAME, "body").text
+        fallback_match = re.search(r'€\s*\d+(?:[.,]\d+)?', body_text)
+        if fallback_match:
+            return fallback_match.group(0)
+        return "N/A"
+    except Exception as e:
+        print(f"Thread {thread_id}: Error extracting price from page: {str(e)}")
+        return "N/A"
+
+
+def visit_website(driver, result, thread_id):
+    url = result['url']
+    title = result.get('title', 'No Title')
+    print(f"Thread {thread_id}: Visiting '{title}' at {url}")
+    try:
         driver.get(url)
-        time.sleep(random.uniform(2, 5))
-        print(f"Thread {thread_id}: Successfully visited {url}")
+        price_str = extract_price_from_page(driver, thread_id)
+        numeric_price = parse_price(price_str) if price_str != "N/A" else None
+        print(f"Thread {thread_id}: Visited '{title}' with Price: {price_str}")
+        # Save the result for final summary
+        with final_results_lock:
+            final_results.append({
+                "title": title,
+                "url": url,
+                "price_str": price_str,
+                "price": numeric_price
+            })
     except WebDriverException as e:
         print(f"Thread {thread_id}: Error visiting {url} - {str(e)}")
 
@@ -149,7 +244,6 @@ def search_with_proxy(proxy_manager, thread_id, search_query):
             break
 
         search_url = f"https://{COUNTRY['domain']}/search?q={search_query}&start={start}&hl={COUNTRY['lang']}&gl={COUNTRY['country_code']}&cr=country{COUNTRY['country_code']}"
-
         try:
             print(f"Thread {thread_id}: Attempt {attempt}: Navigating to {search_url}")
             driver.get(search_url)
@@ -178,9 +272,10 @@ def search_with_proxy(proxy_manager, thread_id, search_query):
                         max_start = get_max_pages(driver)
                         print(f"Thread {thread_id}: Determined max_start={max_start}")
 
-            urls = extract_urls(driver, thread_id)
-            for url in urls:
-                visit_website(driver, url, thread_id)
+            # Get extracted results (each containing title, url, and snippet_price)
+            extracted_results = extract_urls(driver, thread_id)
+            for result in extracted_results:
+                visit_website(driver, result, thread_id)
 
             break
 
@@ -204,7 +299,6 @@ def search_with_proxy(proxy_manager, thread_id, search_query):
         ProxyManager.cleanup_proxy_resources(extension_path, extension_dir)
 
 def main():
-    # Create temp_extensions directory
     temp_dir = "temp_extensions"
     os.makedirs(temp_dir, exist_ok=True)
 
@@ -228,16 +322,36 @@ def main():
         for thread in threads:
             thread.join()
 
-        print("All searches and site visits completed!")
+        print("\nAll searches and site visits completed!")
         print(f"Total proxies used: {len(proxy_manager.used_proxies)}")
-        print(f"Visited pages (start values): {sorted(visited_pages)}")
+        print(f"Visited pages (start values): {sorted(visited_pages)}\n")
+
+        # Sort final results that have valid numeric prices
+        valid_results = [res for res in final_results if res["price"] is not None]
+        invalid_results = [res for res in final_results if res["price"] is None]
+
+        valid_results.sort(key=lambda x: x["price"])
+
+        print("Sorted Products by Price (Cheapest to Most Expensive):")
+        for res in valid_results:
+            print(f"    Title: {res['title']}")
+            print(f"    URL  : {res['url']}")
+            print(f"    Price: {res['price_str']} ({res['price']:.2f} EUR)")
+            print("-" * 60)
+
+        if invalid_results:
+            print("\nProducts with unavailable price information:")
+            for res in invalid_results:
+                print(f"    Title: {res['title']}")
+                print(f"    URL  : {res['url']}")
+                print(f"    Price: {res['price_str']}")
+                print("-" * 60)
 
     finally:
-        # Clean up temp_extensions directory
         try:
             if os.path.exists(temp_dir):
                 shutil.rmtree(temp_dir)
-                print(f"Cleaned up {temp_dir} directory")
+                print(f"\nCleaned up {temp_dir} directory")
         except Exception as e:
             print(f"Error cleaning up {temp_dir}: {e}")
 
