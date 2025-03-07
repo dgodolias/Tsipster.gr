@@ -1,4 +1,0 @@
-# Ignore temporary proxy extension files
-temp_extensions/
-#ignore pycache
-__pycache__/
