@@ -44,13 +44,12 @@ class BetPredictor(nn.Module):
         x = self.sigmoid(x)
         return x
 
-# Function to extract features from a bet
 def get_bet_features(bet, market_types):
     market_type = get_bet_type(bet['market'])
     # One-hot encode market type
     market_vector = [1 if mt == market_type else 0 for mt in market_types]
     # Include odds as a feature (normalized between 0 and 1 based on typical range)
-    odds_normalized = (bet['odds'] - 1.0) / 9.0  # Assuming odds range from 1 to 10
+    odds_normalized = (bet['odds'] - 1.0) / 999.0  # Assuming odds range from 1 to 1000
     return torch.tensor(market_vector + [odds_normalized], dtype=torch.float32)
 
 # Calculate preference score
@@ -98,10 +97,12 @@ N = int(input("Enter number of bets: "))
 A = float(input("Enter minimum total odds: "))
 B = float(input("Enter maximum total odds: "))
 
-# Calculate target odds range per bet
-low = A / N
-high = B / N
+# Calculate target odds range per bet using nth root method
+low = A ** (1.0 / N)
+high = B ** (1.0 / N)
 midpoint = (low + high) / 2
+
+print(f"Target odds per bet: {low:.2f} - {high:.2f}")
 
 # Filter bets within the target odds range
 filtered_bets = [bet for bet in bets if low <= bet['odds'] <= high]
@@ -113,7 +114,7 @@ for bet in filtered_bets:
         nn_score = model(features).item()
     base_score = bet['preference_score'] * nn_score
     # Add 10% chance of random adjustment for exploration
-    if random.random() < 0.1:
+    if random.random() < 0.2:
         base_score *= random.uniform(0.8, 1.2)
     bet['total_score'] = base_score
 

@@ -7780,7 +7780,7 @@
                     },
                     {
                         "outcome": "Edin Dzeko: Over 2.5",
-                        "odds": "5.60"
+                        "odds": "5.80"
                     },
                     {
                         "outcome": "Edin Dzeko: Over 3.5",
@@ -11309,6 +11309,10 @@
                 "group_title": null,
                 "outcomes": [
                     {
+                        "outcome": "Allan Saint-Maximin",
+                        "odds": "4.15"
+                    },
+                    {
                         "outcome": "Dusan Tadic",
                         "odds": "4.70"
                     },
@@ -11370,10 +11374,6 @@
                     },
                     {
                         "outcome": "Youssef En-Nesyri",
-                        "odds": "6.30"
-                    },
-                    {
-                        "outcome": "Allan Saint-Maximin",
                         "odds": "6.30"
                     },
                     {
