@@ -1,0 +1,14 @@
+{
+    "preferences": {
+        "Over/Under": 8,
+        "Goal-Goal": 6,
+        "Final Result": 3,
+        "Handicap": 2,
+        "Player-Specific": 4
+    },
+    "leagues": ["Europa League"],
+    "risk_tolerance": 4,
+    "preferred_odds_range": [1.5, 2.0],
+    "live_betting": "No",
+    "favorite_teams": ["Rangers"]
+}
