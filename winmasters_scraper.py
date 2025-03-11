@@ -1,5 +1,4 @@
-
-import requests
+import json
 from selenium import webdriver
 from selenium.webdriver.chrome.service import Service
 from selenium.webdriver.chrome.options import Options
@@ -53,59 +52,87 @@ def fetch_and_extract_all_odds():
             driver.quit()
             return
         
+        # List to hold all market data
+        all_markets = []
+        
         # Iterate through each market
         for market in markets:
             # Extract market name
             market_name_elem = market.find("span", class_="Market__CollapseText")
             market_name = market_name_elem.text.strip() if market_name_elem else "Unknown Market"
-            print(f"\n### {market_name}")
             
-            # Check for odds groups (e.g., Over/Under with multiple lines)
+            # Extract market-level headers (e.g., "1", "X", "2" or "Over", "Under")
+            market_headers_wrapper = market.find("ul", class_="Market__Headers")
+            market_headers = [header.text.strip() for header in market_headers_wrapper.find_all("li", class_="Market__Header")] if market_headers_wrapper else []
+            
+            # Find odds groups (e.g., for markets with multiple lines like Over/Under)
             odds_groups = market.find_all("ul", class_="Market__OddsGroup")
+            
+            market_dict = {"market_name": market_name, "groups": []}
             
             if odds_groups:
                 for group in odds_groups:
-                    # Extract group title (e.g., line value like "1.5" or handicap value)
+                    # Extract group title (e.g., "1.5" for Over/Under)
                     group_title_elem = group.find("li", class_="Market__OddsGroupTitle")
                     group_title = group_title_elem.text.strip() if group_title_elem else None
                     
-                    # Extract headers if present (e.g., "Over", "Under")
-                    headers_wrapper = market.find("ul", class_="Market__Headers")
-                    headers = [header.text.strip() for header in headers_wrapper.find_all("li", class_="Market__Header")] if headers_wrapper else []
-                    
-                    # Extract odds buttons
+                    # Extract odds buttons for the group
                     odds_buttons = group.find_all("button", class_="OddsButton")
                     outcomes = []
                     
-                    for button in odds_buttons:
+                    for i, button in enumerate(odds_buttons):
                         outcome_elem = button.find("span", class_="OddsButton__Text")
                         odds_elem = button.find("span", class_="OddsButton__Odds")
-                        # Use button title attribute as fallback if outcome_elem is empty
-                        outcome = outcome_elem.text.strip() if outcome_elem and outcome_elem.text.strip() else button.get('title', 'N/A')
+                        
+                        # Determine outcome text
+                        outcome_text = ""
+                        if outcome_elem and outcome_elem.text.strip():
+                            outcome_text = outcome_elem.text.strip()
+                        elif button.get('title', '').strip():
+                            outcome_text = button.get('title').strip()
+                        elif market_headers and i < len(market_headers):
+                            outcome_text = market_headers[i]
+                        else:
+                            outcome_text = f"Option {i+1}"
+                        
                         odds = odds_elem.text.strip() if odds_elem else "N/A"
-                        outcomes.append((outcome, odds))
+                        outcomes.append({"outcome": outcome_text, "odds": odds})
                     
-                    # Print the group data
-                    if group_title:
-                        print(f"#### {group_title}")
-                    
-                    if headers and len(headers) == len(outcomes):
-                        for header, (outcome, odds) in zip(headers, outcomes):
-                            print(f"- {header}: {odds}")
-                    elif outcomes:
-                        for outcome, odds in outcomes:
-                            print(f"- {outcome}: {odds}")
+                    # Add group to market
+                    market_dict["groups"].append({"group_title": group_title, "outcomes": outcomes})
             else:
-                # Handle markets without groups (e.g., simple 1X2 or Yes/No bets)
+                # No groups, treat as a single group with no title
+                outcomes = []
                 odds_buttons = market.find_all("button", class_="OddsButton")
-                if odds_buttons:
-                    for button in odds_buttons:
-                        outcome_elem = button.find("span", class_="OddsButton__Text")
-                        odds_elem = button.find("span", class_="OddsButton__Odds")
-                        # Use button title attribute as fallback if outcome_elem is empty
-                        outcome = outcome_elem.text.strip() if outcome_elem and outcome_elem.text.strip() else button.get('title', 'N/A')
-                        odds = odds_elem.text.strip() if odds_elem else "N/A"
-                        print(f"- {outcome}: {odds}")
+                for i, button in enumerate(odds_buttons):
+                    outcome_elem = button.find("span", class_="OddsButton__Text")
+                    odds_elem = button.find("span", class_="OddsButton__Odds")
+                    
+                    # Determine outcome text
+                    outcome_text = ""
+                    if outcome_elem and outcome_elem.text.strip():
+                        outcome_text = outcome_elem.text.strip()
+                    elif button.get('title', '').strip():
+                        outcome_text = button.get('title').strip()
+                    elif market_headers and i < len(market_headers):
+                        outcome_text = market_headers[i]
+                    else:
+                        outcome_text = f"Option {i+1}"
+                    
+                    odds = odds_elem.text.strip() if odds_elem else "N/A"
+                    outcomes.append({"outcome": outcome_text, "odds": odds})
+                
+                # Add a single group with no title
+                market_dict["groups"].append({"group_title": None, "outcomes": outcomes})
+            
+            # Add market to the list
+            all_markets.append(market_dict)
+        
+        # Save to JSON
+        with open("odds.json", "w", encoding="utf-8") as f:
+            json.dump(all_markets, f, ensure_ascii=False, indent=4)
+        
+        print("Odds data successfully saved to odds.json")
         
         # Clean up
         driver.quit()
