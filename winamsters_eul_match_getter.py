@@ -96,7 +96,7 @@ if __name__ == "__main__":
             print(f"{idx}. {url}")
         
         # Save to a JSON file for later use
-        with open("match_urls.json", "w", encoding="utf-8") as f:
+        with open("matches/winmasters/uel/match_urls.json", "w", encoding="utf-8") as f:
             json.dump(match_urls, f, ensure_ascii=False, indent=4)
         print("\nMatch URLs saved to 'match_urls.json'.")
     else:
