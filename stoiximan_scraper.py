@@ -11,19 +11,56 @@ import time
 driver = webdriver.Chrome()
 driver.get("https://www.stoiximan.gr/apodoseis/olybiakos-bodo-glimt/64219187/?bt=13")
 
-# Wait for the page to load market sections
+# Wait for the page to load
 WebDriverWait(driver, 10).until(
     EC.presence_of_element_located((By.CSS_SELECTOR, "div[data-marketid]"))
 )
+
+# Check for and close any popup ads
+try:
+    # Check for landing page modal
+    modal = WebDriverWait(driver, 3).until(
+        EC.presence_of_element_located((By.ID, "landing-page-modal"))
+    )
+    
+    # Try to find and click close button
+    close_button = modal.find_element(By.CSS_SELECTOR, "button.button-close")
+    close_button.click()
+    print("Closed popup ad")
+    
+    # Wait for modal to disappear
+    WebDriverWait(driver, 3).until(
+        EC.invisibility_of_element(modal)
+    )
+except:
+    # If no popup or failed to close, remove it using JavaScript
+    try:
+        driver.execute_script("""
+            var elements = document.querySelectorAll('#landing-page-modal');
+            for(var i=0; i<elements.length; i++){
+                elements[i].remove();
+            }
+            
+            // Also remove overlay if present
+            var overlays = document.querySelectorAll('.sb-modal-overlay');
+            for(var i=0; i<overlays.length; i++){
+                overlays[i].remove();
+            }
+        """)
+        print("Removed popup using JavaScript")
+    except:
+        print("No popup ads found or couldn't remove")
 
 # Find all market sections
 market_divs = driver.find_elements(By.CSS_SELECTOR, "div[data-marketid]")
 
 # Open all closed market sections
-for market_div in market_divs:
+total_divs = len(market_divs)
+for i, market_div in enumerate(market_divs):
     try:
         # Locate the arrow SVG within the market div
-        arrow = market_div.find_element(By.CSS_SELECTOR, "svg.sb-arrow")
+        arrow = market_div.find_element(By.CSS_SELECTOR, 
+            "svg.sb-arrow.tw-icon-xs.push-right.tw-icon.tw-fill-n-48-slate.dark\\:tw-fill-n-75-smokey.tw-cursor-pointer")
         # Check if the arrow has the 'sb-arrow--collapsed' class (indicating it's closed)
         if "sb-arrow--collapsed" not in arrow.get_attribute("class"):
             arrow.click()
@@ -31,8 +68,11 @@ for market_div in market_divs:
             WebDriverWait(driver, 5).until(
                 EC.presence_of_element_located((By.CLASS_NAME, "selections"))
             )
-            # Small delay to ensure content loads completely
-            time.sleep(0.01)
+            # Use a longer delay for the last 10% of sections
+            if i >= int(total_divs * 0.9):
+                time.sleep(0.2)
+            else:
+                time.sleep(0.01)
     except:
         # Skip if no arrow is found or it's already open
         continue
