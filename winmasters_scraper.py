@@ -9,16 +9,14 @@ from webdriver_manager.chrome import ChromeDriverManager
 from bs4 import BeautifulSoup
 import time
 
-def fetch_and_extract_all_odds():
-    # URL of the event page
-    url = "https://www.winmasters.gr/el/sports/i/event/1/%CF%80%CE%BF%CE%B4%CF%8C%CF%83%CF%86%CE%B1%CE%B9%CF%81%CE%BF/%CE%B5%CF%85%CF%81%CF%8E%CF%80%CE%B7/europa-league/%CF%81%CE%AD%CE%B9%CE%BD%CF%84%CE%B6%CE%B5%CF%81%CF%82-%CF%86%CE%B5%CE%BD%CE%AD%CF%81%CE%BC%CF%80%CE%B1%CF%87%CF%84%CF%83%CE%B5/263983735756566528/all"
-    
+def fetch_and_extract_all_odds(url):
     try:
         # Set up Chrome options for headless browsing
         chrome_options = Options()
         chrome_options.add_argument("--headless")
         chrome_options.add_argument("--no-sandbox")
         chrome_options.add_argument("--disable-dev-shm-usage")
+        chrome_options.add_argument("--disable-gpu")  # Disable GPU to reduce errors
         
         # Initialize the WebDriver
         driver = webdriver.Chrome(service=Service(ChromeDriverManager().install()), options=chrome_options)
@@ -31,6 +29,26 @@ def fetch_and_extract_all_odds():
         
         # Switch to the iframe
         driver.switch_to.frame("SportsIframe")
+        
+        # First, extract the match title
+        match_title = "Unknown Match"
+        try:
+            # Wait for the match header to load
+            WebDriverWait(driver, 10).until(EC.presence_of_element_located((By.CLASS_NAME, "MatchDetailsHeader__Participants")))
+            
+            # Extract home team name
+            home_team_elem = driver.find_element(By.CLASS_NAME, "MatchDetailsHeader__PartName--Home")
+            home_team = home_team_elem.text if home_team_elem else "Home"
+            
+            # Extract away team name
+            away_team_elem = driver.find_element(By.CLASS_NAME, "MatchDetailsHeader__PartName--Away")
+            away_team = away_team_elem.text if away_team_elem else "Away"
+            
+            # Create match title
+            match_title = f"{home_team} vs {away_team}"
+            print(f"Found match: {match_title}")
+        except Exception as e:
+            print(f"Could not extract match title: {e}")
         
         # Wait for market containers to appear
         WebDriverWait(driver, 15).until(EC.presence_of_element_located((By.CLASS_NAME, "MarketContainer")))
@@ -48,9 +66,9 @@ def fetch_and_extract_all_odds():
         markets = soup.find_all("article", class_="Market")
         
         if not markets:
-            print("No markets found. The page might not have loaded correctly.")
+            print(f"No markets found for URL: {url}. The page might not have loaded correctly.")
             driver.quit()
-            return
+            return None
         
         # List to hold all market data
         all_markets = []
@@ -61,18 +79,18 @@ def fetch_and_extract_all_odds():
             market_name_elem = market.find("span", class_="Market__CollapseText")
             market_name = market_name_elem.text.strip() if market_name_elem else "Unknown Market"
             
-            # Extract market-level headers (e.g., "1", "X", "2" or "Over", "Under")
+            # Extract market-level headers
             market_headers_wrapper = market.find("ul", class_="Market__Headers")
             market_headers = [header.text.strip() for header in market_headers_wrapper.find_all("li", class_="Market__Header")] if market_headers_wrapper else []
             
-            # Find odds groups (e.g., for markets with multiple lines like Over/Under)
+            # Find odds groups
             odds_groups = market.find_all("ul", class_="Market__OddsGroup")
             
             market_dict = {"market_name": market_name, "groups": []}
             
             if odds_groups:
                 for group in odds_groups:
-                    # Extract group title (e.g., "1.5" for Over/Under)
+                    # Extract group title
                     group_title_elem = group.find("li", class_="Market__OddsGroupTitle")
                     group_title = group_title_elem.text.strip() if group_title_elem else None
                     
@@ -128,18 +146,43 @@ def fetch_and_extract_all_odds():
             # Add market to the list
             all_markets.append(market_dict)
         
-        # Save to JSON
-        with open("odds.json", "w", encoding="utf-8") as f:
-            json.dump(all_markets, f, ensure_ascii=False, indent=4)
-        
-        print("Odds data successfully saved to odds.json")
+        # Create match object with title and markets
+        match_object = {
+            "match_title": match_title,
+            "markets": all_markets
+        }
         
         # Clean up
         driver.quit()
         
+        return match_object
+        
     except Exception as e:
-        print(f"Error occurred: {e}")
-        driver.quit()
+        print(f"Error occurred for URL {url}: {e}")
+        if 'driver' in locals():
+            driver.quit()
+        return None
+
+def main():
+    # Load match URLs
+    with open('match_urls.json', 'r', encoding='utf-8') as f:
+        match_urls = json.load(f)
+    
+    all_matches = []
+    
+    # Process each URL sequentially
+    for i, url in enumerate(match_urls):
+        print(f"Processing match {i+1} of {len(match_urls)}: {url}")
+        match_data = fetch_and_extract_all_odds(url)
+        if match_data:
+            all_matches.append(match_data)  # Add the complete match object
+        print(f"Completed match {i+1} of {len(match_urls)}")
+    
+    # Save all odds data to JSON
+    with open("odds.json", "w", encoding="utf-8") as f:
+        json.dump(all_matches, f, ensure_ascii=False, indent=4)
+    
+    print("Odds data successfully saved to odds.json")
 
 if __name__ == "__main__":
-    fetch_and_extract_all_odds()
+    main()
