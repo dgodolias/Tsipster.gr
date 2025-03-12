@@ -170,10 +170,10 @@ def main():
     driver.quit()
     
     # Save results
-    with open("odds.json", "w", encoding="utf-8") as f:
+    with open("odds/UEL_odds.json", "w", encoding="utf-8") as f:
         json.dump(results, f, ensure_ascii=False, indent=4)
     
-    print(f"Processed {len(results)} matches. Odds data saved to odds.json")
+    print(f"Processed {len(results)} matches. Odds data saved to odds/UEL_odds.json")
 
 if __name__ == "__main__":
     main()

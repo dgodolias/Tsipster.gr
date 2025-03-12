@@ -7,11 +7,11 @@ import torch.optim as optim
 from pathlib import Path
 
 # Load user profile
-with open('user_profile.json', 'r', encoding='utf-8') as f:
+with open('profile/user_profile.json', 'r', encoding='utf-8') as f:
     user_profile = json.load(f)
 
 # Load odds data
-with open('odds.json', 'r', encoding='utf-8') as f:
+with open('odds/UEL_odds.json', 'r', encoding='utf-8') as f:
     odds_data = json.load(f)
 
 # Define bet type categorization
