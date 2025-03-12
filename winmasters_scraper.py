@@ -8,181 +8,172 @@ from selenium.webdriver.support import expected_conditions as EC
 from webdriver_manager.chrome import ChromeDriverManager
 from bs4 import BeautifulSoup
 import time
+from queue import Queue
+from threading import Thread
 
-def fetch_and_extract_all_odds(url):
+def truncate_url(url):
+    return url[:100] + "..." if len(url) > 100 else url
+
+def fetch_page_source(driver, url):
     try:
-        # Set up Chrome options for headless browsing
-        chrome_options = Options()
-        chrome_options.add_argument("--headless")
-        chrome_options.add_argument("--no-sandbox")
-        chrome_options.add_argument("--disable-dev-shm-usage")
-        chrome_options.add_argument("--disable-gpu")  # Disable GPU to reduce errors
-        
-        # Initialize the WebDriver
-        driver = webdriver.Chrome(service=Service(ChromeDriverManager().install()), options=chrome_options)
-        
-        # Load the page
+        print(f"Fetching {truncate_url(url)}")
+        initial_time = time.time()
         driver.get(url)
+        print(f"Successfully retrieved the initial HTML page for {truncate_url(url)}")
         
-        # Wait for the iframe to load
-        WebDriverWait(driver, 15).until(EC.presence_of_element_located((By.ID, "SportsIframe")))
-        
-        # Switch to the iframe
+        WebDriverWait(driver, 10).until(EC.presence_of_element_located((By.ID, "SportsIframe")))
         driver.switch_to.frame("SportsIframe")
         
-        # First, extract the match title
         match_title = "Unknown Match"
         try:
-            # Wait for the match header to load
             WebDriverWait(driver, 10).until(EC.presence_of_element_located((By.CLASS_NAME, "MatchDetailsHeader__Participants")))
-            
-            # Extract home team name
-            home_team_elem = driver.find_element(By.CLASS_NAME, "MatchDetailsHeader__PartName--Home")
-            home_team = home_team_elem.text if home_team_elem else "Home"
-            
-            # Extract away team name
-            away_team_elem = driver.find_element(By.CLASS_NAME, "MatchDetailsHeader__PartName--Away")
-            away_team = away_team_elem.text if away_team_elem else "Away"
-            
-            # Create match title
+            home_team = driver.find_element(By.CLASS_NAME, "MatchDetailsHeader__PartName--Home").text or "Home"
+            away_team = driver.find_element(By.CLASS_NAME, "MatchDetailsHeader__PartName--Away").text or "Away"
             match_title = f"{home_team} vs {away_team}"
             print(f"Found match: {match_title}")
         except Exception as e:
-            print(f"Could not extract match title: {e}")
+            print(f"Could not extract match title for {truncate_url(url)}: {e}")
         
-        # Wait for market containers to appear
-        WebDriverWait(driver, 15).until(EC.presence_of_element_located((By.CLASS_NAME, "MarketContainer")))
+        WebDriverWait(driver, 10).until(EC.presence_of_element_located((By.CLASS_NAME, "MarketContainer")))
+        source = driver.page_source
         
-        # Allow extra time for all dynamic content to load
-        time.sleep(5)
+        print(f"Time to fetch {truncate_url(url)}: {time.time() - initial_time:.2f} seconds")
+        return match_title, source
+    except Exception as e:
+        print(f"Error fetching {truncate_url(url)}: {e}")
+        return "Unknown Match", None
+
+# Function to parse the page source (runs in parser threads)
+def parse_source(match_title, source):
+    if source is None:
+        return None
+    
+    print(f"Parsing data for {match_title}")
+    initial_time = time.time()
+    soup = BeautifulSoup(source, "html.parser")
+    markets = soup.find_all("article", class_="Market")
+    
+    if not markets:
+        print(f"No markets found for {match_title}")
+        return None
+    
+    all_markets = []
+    for market in markets:
+        market_name_elem = market.find("span", class_="Market__CollapseText")
+        market_name = market_name_elem.text.strip() if market_name_elem else "Unknown Market"
         
-        # Get the page source
-        iframe_source = driver.page_source
+        market_headers_wrapper = market.find("ul", class_="Market__Headers")
+        market_headers = [header.text.strip() for header in market_headers_wrapper.find_all("li", class_="Market__Header")] if market_headers_wrapper else []
         
-        # Parse with BeautifulSoup
-        soup = BeautifulSoup(iframe_source, "html.parser")
+        odds_groups = market.find_all("ul", class_="Market__OddsGroup")
+        market_dict = {"market_name": market_name, "groups": []}
         
-        # Find all market articles
-        markets = soup.find_all("article", class_="Market")
-        
-        if not markets:
-            print(f"No markets found for URL: {url}. The page might not have loaded correctly.")
-            driver.quit()
-            return None
-        
-        # List to hold all market data
-        all_markets = []
-        
-        # Iterate through each market
-        for market in markets:
-            # Extract market name
-            market_name_elem = market.find("span", class_="Market__CollapseText")
-            market_name = market_name_elem.text.strip() if market_name_elem else "Unknown Market"
-            
-            # Extract market-level headers
-            market_headers_wrapper = market.find("ul", class_="Market__Headers")
-            market_headers = [header.text.strip() for header in market_headers_wrapper.find_all("li", class_="Market__Header")] if market_headers_wrapper else []
-            
-            # Find odds groups
-            odds_groups = market.find_all("ul", class_="Market__OddsGroup")
-            
-            market_dict = {"market_name": market_name, "groups": []}
-            
-            if odds_groups:
-                for group in odds_groups:
-                    # Extract group title
-                    group_title_elem = group.find("li", class_="Market__OddsGroupTitle")
-                    group_title = group_title_elem.text.strip() if group_title_elem else None
-                    
-                    # Extract odds buttons for the group
-                    odds_buttons = group.find_all("button", class_="OddsButton")
-                    outcomes = []
-                    
-                    for i, button in enumerate(odds_buttons):
-                        outcome_elem = button.find("span", class_="OddsButton__Text")
-                        odds_elem = button.find("span", class_="OddsButton__Odds")
-                        
-                        # Determine outcome text
-                        outcome_text = ""
-                        if outcome_elem and outcome_elem.text.strip():
-                            outcome_text = outcome_elem.text.strip()
-                        elif button.get('title', '').strip():
-                            outcome_text = button.get('title').strip()
-                        elif market_headers and i < len(market_headers):
-                            outcome_text = market_headers[i]
-                        else:
-                            outcome_text = f"Option {i+1}"
-                        
-                        odds = odds_elem.text.strip() if odds_elem else "N/A"
-                        outcomes.append({"outcome": outcome_text, "odds": odds})
-                    
-                    # Add group to market
-                    market_dict["groups"].append({"group_title": group_title, "outcomes": outcomes})
-            else:
-                # No groups, treat as a single group with no title
+        if odds_groups:
+            for group in odds_groups:
+                group_title_elem = group.find("li", class_="Market__OddsGroupTitle")
+                group_title = group_title_elem.text.strip() if group_title_elem else None
+                odds_buttons = group.find_all("button", class_="OddsButton")
                 outcomes = []
-                odds_buttons = market.find_all("button", class_="OddsButton")
+                
                 for i, button in enumerate(odds_buttons):
                     outcome_elem = button.find("span", class_="OddsButton__Text")
                     odds_elem = button.find("span", class_="OddsButton__Odds")
-                    
-                    # Determine outcome text
-                    outcome_text = ""
-                    if outcome_elem and outcome_elem.text.strip():
-                        outcome_text = outcome_elem.text.strip()
-                    elif button.get('title', '').strip():
-                        outcome_text = button.get('title').strip()
-                    elif market_headers and i < len(market_headers):
-                        outcome_text = market_headers[i]
-                    else:
-                        outcome_text = f"Option {i+1}"
-                    
+                    outcome_text = (outcome_elem.text.strip() if outcome_elem and outcome_elem.text.strip() else
+                                    button.get('title', '').strip() or
+                                    (market_headers[i] if i < len(market_headers) else f"Option {i+1}"))
                     odds = odds_elem.text.strip() if odds_elem else "N/A"
                     outcomes.append({"outcome": outcome_text, "odds": odds})
                 
-                # Add a single group with no title
-                market_dict["groups"].append({"group_title": None, "outcomes": outcomes})
-            
-            # Add market to the list
-            all_markets.append(market_dict)
+                market_dict["groups"].append({"group_title": group_title, "outcomes": outcomes})
+        else:
+            outcomes = []
+            odds_buttons = market.find_all("button", class_="OddsButton")
+            for i, button in enumerate(odds_buttons):
+                outcome_elem = button.find("span", class_="OddsButton__Text")
+                odds_elem = button.find("span", class_="OddsButton__Odds")
+                outcome_text = (outcome_elem.text.strip() if outcome_elem and outcome_elem.text.strip() else
+                                button.get('title', '').strip() or
+                                (market_headers[i] if i < len(market_headers) else f"Option {i+1}"))
+                odds = odds_elem.text.strip() if odds_elem else "N/A"
+                outcomes.append({"outcome": outcome_text, "odds": odds})
+            market_dict["groups"].append({"group_title": None, "outcomes": outcomes})
         
-        # Create match object with title and markets
-        match_object = {
-            "match_title": match_title,
-            "markets": all_markets
-        }
-        
-        # Clean up
-        driver.quit()
-        
-        return match_object
-        
-    except Exception as e:
-        print(f"Error occurred for URL {url}: {e}")
-        if 'driver' in locals():
-            driver.quit()
-        return None
+        all_markets.append(market_dict)
+    
+    match_object = {"match_title": match_title, "markets": all_markets}
+    print(f"Time to parse {match_title}: {time.time() - initial_time:.2f} seconds")
+    return match_object
+
+# Fetcher thread function
+def fetcher(queue, urls, driver):
+    for url in urls:
+        match_title, source = fetch_page_source(driver, url)
+        queue.put((match_title, source))
+    # Signal end of fetching (one None is sufficient; main thread adds more for each parser)
+    queue.put(None)
+
+# Parser thread function
+def parser(queue, results):
+    while True:
+        item = queue.get()
+        if item is None:
+            break
+        match_title, source = item
+        match_object = parse_source(match_title, source)
+        if match_object:
+            results.append(match_object)
 
 def main():
-    # Load match URLs
+    # Load URLs
     with open('match_urls.json', 'r', encoding='utf-8') as f:
         match_urls = json.load(f)
     
-    all_matches = []
+    # Initialize queue and results list
+    queue = Queue()
+    results = []
     
-    # Process each URL sequentially
-    for i, url in enumerate(match_urls):
-        print(f"Processing match {i+1} of {len(match_urls)}: {url}")
-        match_data = fetch_and_extract_all_odds(url)
-        if match_data:
-            all_matches.append(match_data)  # Add the complete match object
-        print(f"Completed match {i+1} of {len(match_urls)}")
+    # Set up WebDriver once for all URLs
+        # In your driver setup inside main(), add these lines:
+    chrome_options = Options()
+    chrome_options.add_argument("--headless")
+    chrome_options.add_argument("--no-sandbox")
+    chrome_options.add_argument("--disable-dev-shm-usage")
+    chrome_options.add_argument("--disable-gpu")
+    chrome_options.add_argument("--log-level=3")  # suppress driver debug logs
+    chrome_options.add_experimental_option('excludeSwitches', ['enable-logging'])
+    driver = webdriver.Chrome(service=Service(ChromeDriverManager().install()), options=chrome_options)
     
-    # Save all odds data to JSON
+    # Start parser threads
+    num_workers = 4  # Adjust based on your system's capabilities
+    parsers = []
+    for _ in range(num_workers):
+        p = Thread(target=parser, args=(queue, results))
+        p.start()
+        parsers.append(p)
+    
+    # Start fetcher thread
+    fetcher_thread = Thread(target=fetcher, args=(queue, match_urls, driver))
+    fetcher_thread.start()
+    
+    # Wait for fetcher to complete
+    fetcher_thread.join()
+    
+    # Signal all parsers to stop
+    for _ in range(num_workers):
+        queue.put(None)
+    
+    # Wait for all parsers to finish
+    for p in parsers:
+        p.join()
+    
+    # Clean up WebDriver
+    driver.quit()
+    
+    # Save results
     with open("odds.json", "w", encoding="utf-8") as f:
-        json.dump(all_matches, f, ensure_ascii=False, indent=4)
+        json.dump(results, f, ensure_ascii=False, indent=4)
     
-    print("Odds data successfully saved to odds.json")
+    print(f"Processed {len(results)} matches. Odds data saved to odds.json")
 
 if __name__ == "__main__":
     main()
