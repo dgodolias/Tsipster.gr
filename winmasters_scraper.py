@@ -43,7 +43,6 @@ def fetch_page_source(driver, url):
         print(f"Error fetching {truncate_url(url)}: {e}")
         return "Unknown Match", None
 
-# Function to parse the page source (runs in parser threads)
 def parse_source(match_title, source):
     if source is None:
         return None
@@ -68,6 +67,8 @@ def parse_source(match_title, source):
         odds_groups = market.find_all("ul", class_="Market__OddsGroup")
         market_dict = {"market_name": market_name, "groups": []}
         
+        is_over_under = "Over/Under" in market_name
+        
         if odds_groups:
             for group in odds_groups:
                 group_title_elem = group.find("li", class_="Market__OddsGroupTitle")
@@ -75,6 +76,36 @@ def parse_source(match_title, source):
                 odds_buttons = group.find_all("button", class_="OddsButton")
                 outcomes = []
                 
+                # Check if this is an Over/Under market with exactly 2 outcomes
+                if is_over_under and len(odds_buttons) == 2:
+                    # Explicitly assign "Over" and "Under" with group title
+                    for i, button in enumerate(odds_buttons):
+                        odds_elem = button.find("span", class_="OddsButton__Odds")
+                        odds = odds_elem.text.strip() if odds_elem else "N/A"
+                        outcome_text = f"Over {group_title}" if i == 0 else f"Under {group_title}"
+                        outcomes.append({"outcome": outcome_text, "odds": odds})
+                else:
+                    # Fallback to existing logic for other markets
+                    for i, button in enumerate(odds_buttons):
+                        outcome_elem = button.find("span", class_="OddsButton__Text")
+                        odds_elem = button.find("span", class_="OddsButton__Odds")
+                        outcome_text = (outcome_elem.text.strip() if outcome_elem and outcome_elem.text.strip() else
+                                        button.get('title', '').strip() or
+                                        (market_headers[i] if i < len(market_headers) else f"Option {i+1}"))
+                        odds = odds_elem.text.strip() if odds_elem else "N/A"
+                        outcomes.append({"outcome": outcome_text, "odds": odds})
+                
+                market_dict["groups"].append({"group_title": group_title, "outcomes": outcomes})
+        else:
+            outcomes = []
+            odds_buttons = market.find_all("button", class_="OddsButton")
+            if is_over_under and len(odds_buttons) == 2:
+                for i, button in enumerate(odds_buttons):
+                    odds_elem = button.find("span", class_="OddsButton__Odds")
+                    odds = odds_elem.text.strip() if odds_elem else "N/A"
+                    outcome_text = "Over" if i == 0 else "Under"  # No group title available
+                    outcomes.append({"outcome": outcome_text, "odds": odds})
+            else:
                 for i, button in enumerate(odds_buttons):
                     outcome_elem = button.find("span", class_="OddsButton__Text")
                     odds_elem = button.find("span", class_="OddsButton__Odds")
@@ -83,19 +114,6 @@ def parse_source(match_title, source):
                                     (market_headers[i] if i < len(market_headers) else f"Option {i+1}"))
                     odds = odds_elem.text.strip() if odds_elem else "N/A"
                     outcomes.append({"outcome": outcome_text, "odds": odds})
-                
-                market_dict["groups"].append({"group_title": group_title, "outcomes": outcomes})
-        else:
-            outcomes = []
-            odds_buttons = market.find_all("button", class_="OddsButton")
-            for i, button in enumerate(odds_buttons):
-                outcome_elem = button.find("span", class_="OddsButton__Text")
-                odds_elem = button.find("span", class_="OddsButton__Odds")
-                outcome_text = (outcome_elem.text.strip() if outcome_elem and outcome_elem.text.strip() else
-                                button.get('title', '').strip() or
-                                (market_headers[i] if i < len(market_headers) else f"Option {i+1}"))
-                odds = odds_elem.text.strip() if odds_elem else "N/A"
-                outcomes.append({"outcome": outcome_text, "odds": odds})
             market_dict["groups"].append({"group_title": None, "outcomes": outcomes})
         
         all_markets.append(market_dict)
@@ -125,7 +143,7 @@ def parser(queue, results):
 
 def main():
     # Load URLs
-    with open('match_urls.json', 'r', encoding='utf-8') as f:
+    with open('matches/uel/match_urls.json', 'r', encoding='utf-8') as f:
         match_urls = json.load(f)
     
     # Initialize queue and results list
