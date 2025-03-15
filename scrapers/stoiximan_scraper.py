@@ -255,10 +255,10 @@ def main():
     driver.quit()
     
     # Save results
-    with open("odds/stoiximan/UEL_odds.json", "w", encoding="utf-8") as f:
+    with open("odds/stoiximan/UEL_odds_stoiximan.json", "w", encoding="utf-8") as f:
         json.dump(results, f, ensure_ascii=False, indent=4)
     
-    print(f"Processed {len(results)} matches. Odds data saved to odds/stoiximan/UEL_odds.json")
+    print(f"Processed {len(results)} matches. Odds data saved to odds/stoiximan/UEL_odds_stoiximan.json")
 
 if __name__ == "__main__":
     main()
