@@ -186,10 +186,30 @@ def parse_source(match_title, source):
     return match_object
 
 # Fetcher thread function
-def fetcher(queue, urls, driver):
+def fetcher(queue, urls):
     for url in urls:
+        # Set up WebDriver options
+        chrome_options = Options()
+        chrome_options.add_argument("--headless")  # Use traditional headless mode
+        chrome_options.add_argument("--no-sandbox")
+        chrome_options.add_argument("--disable-dev-shm-usage")
+        chrome_options.add_argument("--disable-gpu")
+        chrome_options.add_argument("--log-level=3")  # Suppress driver debug logs
+        chrome_options.add_experimental_option('excludeSwitches', ['enable-logging'])
+
+        # Make headless less detectable
+        chrome_options.add_argument("--user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36")
+        chrome_options.add_argument("--disable-blink-features=AutomationControlled")
+        chrome_options.add_argument("--window-size=1920,1080")
+        
+        driver = webdriver.Chrome(service=Service(ChromeDriverManager().install()), options=chrome_options)
+        
         match_title, source = fetch_page_source(driver, url)
         queue.put((match_title, source))
+        
+        # Clean up WebDriver
+        driver.quit()
+    
     # Signal end of fetching
     queue.put(None)
 
@@ -213,21 +233,6 @@ def main():
     queue = Queue()
     results = []
     
-    # Set up WebDriver options
-    chrome_options = Options()
-    chrome_options.add_argument("--headless")  # Use traditional headless mode
-    chrome_options.add_argument("--no-sandbox")
-    chrome_options.add_argument("--disable-dev-shm-usage")
-    chrome_options.add_argument("--disable-gpu")
-    chrome_options.add_argument("--log-level=3")  # Suppress driver debug logs
-    chrome_options.add_experimental_option('excludeSwitches', ['enable-logging'])
-
-    # Make headless less detectable
-    chrome_options.add_argument("--user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36")
-    chrome_options.add_argument("--disable-blink-features=AutomationControlled")
-    chrome_options.add_argument("--window-size=1920,1080")
-    driver = webdriver.Chrome(service=Service(ChromeDriverManager().install()), options=chrome_options)
-    
     # Start parser threads
     num_workers = 4  # Adjust based on your system's capabilities
     parsers = []
@@ -237,7 +242,7 @@ def main():
         parsers.append(p)
     
     # Start fetcher thread
-    fetcher_thread = Thread(target=fetcher, args=(queue, match_urls, driver))
+    fetcher_thread = Thread(target=fetcher, args=(queue, match_urls))
     fetcher_thread.start()
     
     # Wait for fetcher to complete
@@ -251,14 +256,10 @@ def main():
     for p in parsers:
         p.join()
     
-    # Clean up WebDriver
-    driver.quit()
-    
     # Save results
     with open("odds/stoiximan/UEL_odds_stoiximan.json", "w", encoding="utf-8") as f:
         json.dump(results, f, ensure_ascii=False, indent=4)
     
     print(f"Processed {len(results)} matches. Odds data saved to odds/stoiximan/UEL_odds_stoiximan.json")
-
 if __name__ == "__main__":
     main()
