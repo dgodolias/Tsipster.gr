@@ -244,10 +244,6 @@ def main():
                         row.extend([outcome['outcome'], outcome['odds'], "|"])
                     csvwriter.writerow(row)
     
-    for match in results:
-        for market in match['markets']:
-            for group in market['groups']:
-                group.pop('group_title', None)
     
     with open("odds/stoiximan/UEL_odds_stoiximan.json", "w", encoding="utf-8") as f:
         json.dump(results, f, ensure_ascii=False, indent=4)

@@ -13,7 +13,7 @@ from queue import Queue
 from threading import Thread
 
 def truncate_url(url):
-    return url[:100] + "..." if len(url) > 100 else truncate_url
+    return url[:100] + "..." if len(url) > 100 else url  # Fixed recursive call
 
 def fetch_page_source(driver, url):
     try:
@@ -200,7 +200,11 @@ def main():
                         row.extend([outcome['outcome'], outcome['odds'], "|"])
                     csvwriter.writerow(row)
     
-    print(f"Processed {len(results)} matches. Odds data saved to odds/winmasters/UEL_odds_winmasters.csv")
+    # Also save as JSON (added this part)
+    with open("odds/winmasters/UEL_odds_winmasters.json", "w", encoding="utf-8") as f:
+        json.dump(results, f, ensure_ascii=False, indent=4)
+    
+    print(f"Processed {len(results)} matches. Odds data saved to odds/winmasters/UEL_odds_winmasters.csv and odds/winmasters/UEL_odds_winmasters.json")
 
 if __name__ == "__main__":
     main()
