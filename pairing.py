@@ -1,31 +1,57 @@
 import difflib
 import json
 import re
-from openai import OpenAI
+import os
+from dotenv import load_dotenv
+from openai import APIError, AuthenticationError, OpenAI
+
+# Load the API key from the .env file
+load_dotenv("api_key.env")
+api_key = os.getenv("OPENAI_API_KEY")
+
+if not api_key:
+    raise ValueError("API key not found. Please set it in the api_key.env file.")
 
 client = OpenAI(
     base_url="https://openrouter.ai/api/v1",
-    api_key="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",
+    api_key=api_key,
 )
-
 def ai_compare(line1, candidates, use_api=True):
-    """Compare a betting option against candidates using API or fallback to rules-based matching"""
+    """Compare a betting option against candidates using API or fallback to rules-based matching."""
     if use_api:
         try:
+            # Step 1: Compute similarity scores for all candidates
+            similarities = []
+            for cand in candidates:
+                # Remove odds for fair comparison
+                line1_without_odds = " ".join(line1.split()[:-1])
+                cand_without_odds = " ".join(cand.split()[:-1])
+                ratio = difflib.SequenceMatcher(None, line1_without_odds, cand_without_odds).ratio()
+                similarities.append((cand, ratio))
+
+            # Step 2: Sort candidates by similarity (descending)
+            similarities.sort(key=lambda x: x[1], reverse=True)
+
+            # Step 3: Select the top 10 candidates (or fewer if less available)
+            N = 10
+            top_candidates = [cand for cand, ratio in similarities[:N]]
+            print(f"Sending {len(top_candidates)} candidates to API for '{line1}'")
+
+            # Step 4: Construct the prompt with limited candidates
             prompt = (
                 "You are an expert in matching betting options from different bookmakers. "
                 "Given the following betting option from Stoiximan bookmaker:\n"
                 f"'{line1}'\n"
                 "Find the most similar option from the following list of options from Winmasters bookmaker:\n"
-                + "\n".join([f"- '{cand}'" for cand in candidates]) + "\n\n"
+                + "\n".join([f"- '{cand}'" for cand in top_candidates]) + "\n\n"
                 "Important rules:\n"
                 "1. In betting terminology, '1' means home team, 'X' means draw, and '2' means away team\n"
                 "2. Return ONLY THE EXACT AND COMPLETE match from the candidates list\n"
                 "3. Return 'None' if no good match exists\n"
                 "Do not add any explanations, just return the exact matching string."
             )
-            
-            print(f"Comparing via API: '{line1}'")
+
+            # Step 5: Call the API
             response = client.chat.completions.create(
                 model="meta-llama/llama-3.2-3b-instruct:free",
                 messages=[
@@ -35,59 +61,69 @@ def ai_compare(line1, candidates, use_api=True):
                 max_tokens=150,
                 stream=False
             )
+
+                        # Step 6: Process the API response
+            if not response.choices:
+                print("No choices returned by API")
+                return rules_based_matching(line1, candidates)
             
             result = response.choices[0].message.content.strip().replace("'", "").replace("\"", "")
             print(f"API returned: '{result}'")
             
-            # Verify the result is actually in the candidates list
+            # Verify the result is valid
             if result in candidates:
                 return result
             else:
-                # Try to find if the returned result is a substring of any candidate
+                # Try to find the closest candidate
+                best_candidate = None
+                best_similarity = 0
+                
                 for candidate in candidates:
-                    if result in candidate:
-                        print(f"Found partial match: '{result}' in '{candidate}'")
-                        return candidate
+                    # Normalize both strings for comparison (remove odds, lowercase)
+                    norm_result = " ".join(result.split()[:-1]).lower() if result.split() else ""
+                    norm_candidate = " ".join(candidate.split()[:-1]).lower() if candidate.split() else ""
+                    
+                    # Check for Greek/Latin character mixups
+                    norm_result = norm_result.replace('t', 'τ')  # Replace Latin 't' with Greek 'τ'
+                    
+                    similarity = difflib.SequenceMatcher(None, norm_result, norm_candidate).ratio()
+                    if similarity > best_similarity and similarity > 0.9:  # High threshold
+                        best_similarity = similarity
+                        best_candidate = candidate
                 
-                # Fall back to rules-based matching
-                print("API returned invalid match, falling back to rules-based matching")
-                return rules_based_matching(line1, candidates)
-                
-        except Exception as e:
+                if best_candidate:
+                    print(f"Found close API match: '{best_candidate}' with confidence {best_similarity:.2f}")
+                    return best_candidate
+                else:
+                    print("API returned invalid match, falling back to rules-based matching")
+                    return rules_based_matching(line1, candidates)
+        except AuthenticationError as e:
+            print(f"Authentication error: {e}")
+            return rules_based_matching(line1, candidates)
+        except APIError as e:
             print(f"API error: {e}")
-            # Fall back to rules-based matching on error
+            return rules_based_matching(line1, candidates)
+        except Exception as e:
+            print(f"Unexpected error: {e}")
             return rules_based_matching(line1, candidates)
     else:
-        # Skip API and use rules-based matching directly
         return rules_based_matching(line1, candidates)
 
 def rules_based_matching(line1, candidates):
-    """Match betting options using predefined rules and string similarity"""
+    """Fallback method to match betting options using string similarity."""
     print(f"Using rules-based matching for: '{line1}'")
-    
-    # Extract market type, value and odds
-    parts = line1.split()
-    market_type = " ".join(parts[:-2]) if len(parts) > 2 else ""
-    odds = parts[-1] if len(parts) > 0 else ""
-    
-    
-    # Try fuzzy string matching for everything else
     best_match = None
     best_ratio = 0
     for candidate in candidates:
-        # Compare without the odds part
         line1_without_odds = " ".join(line1.split()[:-1])
         candidate_without_odds = " ".join(candidate.split()[:-1])
-        
         ratio = difflib.SequenceMatcher(None, line1_without_odds, candidate_without_odds).ratio()
-        if ratio > best_ratio and ratio > 0.7:  # 0.7 is the threshold
+        if ratio > best_ratio and ratio > 0.7:  # Threshold of 0.7 for a good match
             best_ratio = ratio
             best_match = candidate
-    
     if best_match:
         print(f"Found fuzzy match: '{best_match}' with confidence {best_ratio:.2f}")
         return best_match
-        
     return None
 
 def read_file(file_path):
