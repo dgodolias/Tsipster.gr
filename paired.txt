@@ -1,0 +1,1651 @@
+stoiximan Τελικό Αποτέλεσμα 1 3.40, winmasters Τελικό Αποτέλεσμα Λιόν 2.46
+stoiximan Τελικό Αποτέλεσμα X 3.30, winmasters Τελικό Αποτέλεσμα Ισοπαλία 3.60
+stoiximan Τελικό Αποτέλεσμα 2 2.20, winmasters Τελικό Αποτέλεσμα Λάτσιο 2.23
+stoiximan Πρόκριση Μπόντο Γκλιμτ 3.70, winmasters Πρόκριση, Αγώνας Μπόντο Γκλιμτ 4.15
+stoiximan Πρόκριση Λάτσιο 1.28, winmasters Πρόκριση, Αγώνας Λάτσιο 1.25
+stoiximan Γκολ Over/Under 2.5 Over2.5 2.05, winmasters Γκολ Over/Under 2.5 Over 2.5 2.06
+stoiximan Γκολ Over/Under 2.5 Under2.5 1.78, winmasters Γκολ Over/Under 2.5 Under 2.5 1.80
+stoiximan Να σκοράρουν και οι 2 ομάδες Ναι (GG) 1.80, winmasters Να Σκοράρουν Και Οι Δύο Ομάδες Ναι 1.83
+stoiximan Να σκοράρουν και οι 2 ομάδες Όχι (NG) 1.95, winmasters Να Σκοράρουν Και Οι Δύο Ομάδες Όχι 1.98
+stoiximan Να σκοράρουν και οι 2 ομάδες ή Over 2.5 Ναι 1.60, winmasters Να Σκοράρουν Και Οι Δύο Ομάδες ή Over 2.5 Ναι 1.65
+stoiximan Να σκοράρουν και οι 2 ομάδες ή Over 2.5 Όχι (2-0, 1-0, 0-0, 0-1 ή 0-2) 2.27, winmasters Να Σκοράρουν Και Οι Δύο Ομάδες ή Over 2.5 Όχι (2-0, 1-0, 0-0, 0-1 ή 0-2) 2.62
+stoiximan Διπλή ευκαιρία 1X 1.70, winmasters Διπλή Ευκαιρία Λάτσιο ή Ισοπαλία 1.37
+stoiximan Διπλή ευκαιρία X2 1.34, winmasters Διπλή Ευκαιρία Λιόν ή Ισοπαλία 1.42
+stoiximan Διπλή ευκαιρία 12 1.32, winmasters Διπλή Ευκαιρία Τότεναμ ή Ισοπαλία 1.24
+stoiximan Draw No Bet Μπόντο Γκλιμτ 2.35, winmasters Ημίχρονο Ή Τελικό Μπόντο Γκλιμτ 2.45
+stoiximan Γκολ Over/Under (extra) Over0.5 1.08, winmasters Γκολ Over/Under 0.5 Over 0.5 1.07
+stoiximan Γκολ Over/Under (extra) Under0.5 8.25, winmasters Γκολ Over/Under 1 Under 1 8.25
+stoiximan Γκολ Over/Under (extra) Over1.5 1.36, winmasters Γκολ Over/Under 1.5 Over 1.5 1.36
+stoiximan Γκολ Over/Under (extra) Under1.5 3.20, winmasters Γκολ Over/Under 1.75 Under 1.75 3.20
+stoiximan Γκολ Over/Under (extra) Over3.5 3.55, winmasters Γκολ Over/Under 3.5 Over 3.5 3.50
+stoiximan Γκολ Over/Under (extra) Under3.5 1.30, winmasters Γκολ Over/Under 3.5 Under 3.5 1.30
+stoiximan Γκολ Over/Under (extra) Over4.5 6.70, winmasters Γκολ Over/Under 4.5 Over 4.5 6.10
+stoiximan Γκολ Over/Under (extra) Under4.5 1.11, winmasters Γκολ Over/Under 4.5 Under 4.5 1.11
+stoiximan Γκολ Over/Under (extra) Over5.5 11.75, winmasters Γκολ Over/Under 5.5 Over 5.5 13.50
+stoiximan Γκολ Over/Under (extra) Under5.5 1.04, winmasters Γκολ Over/Under 5.5 Under 5.5 1.04
+stoiximan Γκολ Over/Under (extra) Over6.5 16.50, winmasters Γκολ Over/Under 2.5 Over 2.5 1.90
+stoiximan Γκολ Over/Under (extra) Under6.5 1.01, winmasters Γκολ Over/Under 6.5 Under 6.5 1.01
+stoiximan 1ο Ημίχρονο - Αποτέλεσμα Μπόντο Γκλιμτ 3.80, winmasters Τελικό Αποτέλεσμα Μπόντο Γκλιμτ 3.40
+stoiximan 1ο Ημίχρονο - Αποτέλεσμα Ισοπαλία 2.15, winmasters Τελικό Αποτέλεσμα Ισοπαλία 3.45
+stoiximan 1ο Ημίχρονο - Αποτέλεσμα Λάτσιο 2.80, winmasters Ημίχρονο Ή Τελικό Λάτσιο 1.76
+stoiximan 1ο Ημίχρονο - Γκολ Over/Under Over0.5 1.40, winmasters Γκολ Over/Under 0.5 Over 0.5 1.07
+stoiximan 1ο Ημίχρονο - Γκολ Over/Under Under0.5 2.87, winmasters Γκολ Over/Under 5 Under 5 1.08
+stoiximan 1ο Ημίχρονο - Γκολ Over/Under Over1.5 2.70, winmasters Γκολ Over/Under 3.5 Over 3.5 2.77
+stoiximan 1ο Ημίχρονο - Γκολ Over/Under Under1.5 1.45, winmasters Γκολ Over/Under 3 Under 3 1.45
+stoiximan 1ο Ημίχρονο - Γκολ Over/Under Over2.5 6.20, winmasters Γκολ Over/Under 4.75 Over 4.75 6.20
+stoiximan 1ο Ημίχρονο - Γκολ Over/Under Under2.5 1.11, winmasters Γκολ Over/Under 4.5 Under 4.5 1.11
+stoiximan 1ο Ημίχρονο - Γκολ Over/Under Over3.5 12.00, winmasters Γκολ Over/Under 5.5 Over 5.5 12.00
+stoiximan 1ο Ημίχρονο - Γκολ Over/Under Under3.5 1.02, winmasters Γκολ Over/Under 5.5 Under 5.5 1.02
+stoiximan Τελικό Αποτέλεσμα / Να σκοράρουν και οι 2 ομάδες Μπόντο Γκλιμτ / Ναι 6.20, winmasters Τελικό Αποτέλεσμα, 1ο Ημίχρονο Μπόντο Γκλιμτ 3.85
+stoiximan Τελικό Αποτέλεσμα / Να σκοράρουν και οι 2 ομάδες Μπόντο Γκλιμτ / Όχι 5.80, winmasters Αποτέλεσμα Και Να Σκοράρουν Και Οι Δύο Ομάδες (6πλής Επιλογής) 2 Και Όχι 5.00
+stoiximan Τελικό Αποτέλεσμα / Να σκοράρουν και οι 2 ομάδες Ισοπαλία / Ναι 4.25, winmasters Αποτέλεσμα Και Να Σκοράρουν Και Οι Δύο Ομάδες (6πλής Επιλογής) Ισοπαλία Και Ναι 4.65
+stoiximan Τελικό Αποτέλεσμα / Να σκοράρουν και οι 2 ομάδες Ισοπαλία / Όχι 8.25, winmasters Αποτέλεσμα Και Να Σκοράρουν Και Οι Δύο Ομάδες (6πλής Επιλογής) Ισοπαλία Και Όχι 8.75
+stoiximan Τελικό Αποτέλεσμα / Να σκοράρουν και οι 2 ομάδες Λάτσιο / Ναι 4.50, winmasters Αποτέλεσμα Και Να Σκοράρουν Και Οι Δύο Ομάδες (6πλής Επιλογής) 2 Και Ναι 5.50
+stoiximan Τελικό Αποτέλεσμα / Να σκοράρουν και οι 2 ομάδες Λάτσιο / Όχι 3.55, winmasters Αποτέλεσμα Και Να Σκοράρουν Και Οι Δύο Ομάδες (6πλής Επιλογής) 2 Και Όχι 3.50
+stoiximan Τελικό Αποτέλεσμα ή Γκολ Over/Under 2.5 1 ή Over 2.5 1.50, winmasters Αποτέλεσμα και Over/Under 2.5 Over None 13.50
+stoiximan Τελικό Αποτέλεσμα ή Γκολ Over/Under 2.5 1 ή Under 2.5 1.32, winmasters Αποτέλεσμα και Over/Under 4.5 Under None 2.52
+stoiximan Τελικό Αποτέλεσμα ή Γκολ Over/Under 2.5 X ή Over 2.5 1.34, winmasters Αποτέλεσμα και Over/Under 2.5 Over None 6.30
+stoiximan Τελικό Αποτέλεσμα ή Γκολ Over/Under 2.5 X ή Under 2.5 1.47, winmasters Αποτέλεσμα και Over/Under 5.5 Under None 2.14
+stoiximan Τελικό Αποτέλεσμα ή Γκολ Over/Under 2.5 2 ή Over 2.5 1.38, winmasters Αποτέλεσμα και Over/Under 2.5 Over None 4.85
+stoiximan Τελικό Αποτέλεσμα ή Γκολ Over/Under 2.5 2 ή Under 2.5 1.21, winmasters Αποτέλεσμα και Over/Under 2.5 Under None 5.10
+stoiximan Τελικό Αποτέλεσμα ή Να σκοράρουν και οι 2 ομάδες 1 ή Nαι (GG) 1.36, winmasters Αποτέλεσμα Και Να Σκοράρουν Και Οι Δύο Ομάδες (6πλής Επιλογής) 2 Και Ναι 4.35
+stoiximan Τελικό Αποτέλεσμα ή Να σκοράρουν και οι 2 ομάδες 1 ή Όχι (NG) 1.45, winmasters Αποτέλεσμα Και Να Σκοράρουν Και Οι Δύο Ομάδες (6πλής Επιλογής) 1 Και Όχι 5.40
+stoiximan Τελικό Αποτέλεσμα ή Να σκοράρουν και οι 2 ομάδες X ή Nαι (GG) 1.45, winmasters Αποτέλεσμα Και Να Σκοράρουν Και Οι Δύο Ομάδες (6πλής Επιλογής) 2 Και Ναι 4.15
+stoiximan Τελικό Αποτέλεσμα ή Να σκοράρουν και οι 2 ομάδες X ή Όχι (NG) 1.35, winmasters Αποτέλεσμα Και Να Σκοράρουν Και Οι Δύο Ομάδες (6πλής Επιλογής) 1 Και Όχι 3.95
+stoiximan Τελικό Αποτέλεσμα ή Να σκοράρουν και οι 2 ομάδες 2 ή Nαι (GG) 1.22, winmasters Αποτέλεσμα Και Να Σκοράρουν Και Οι Δύο Ομάδες (6πλής Επιλογής) 2 Και Ναι 7.10
+stoiximan Τελικό Αποτέλεσμα ή Να σκοράρουν και οι 2 ομάδες 2 ή Όχι (NG) 1.36, winmasters Αποτέλεσμα Και Να Σκοράρουν Και Οι Δύο Ομάδες (6πλής Επιλογής) 2 Και Όχι 7.70
+stoiximan Nα σκοράρουν και οι 2 ομάδες και Συνολικά Γκολ (2.5) Ναι και Over2.5 2.35, winmasters Να Σκοράρουν Και Οι Δύο Ομάδες και Over/Under 2.5 Ναι και Over 2.5 2.35
+stoiximan Nα σκοράρουν και οι 2 ομάδες και Συνολικά Γκολ (2.5) Όχι και Over2.5 10.75, winmasters Να Σκοράρουν Και Οι Δύο Ομάδες και Over/Under 2.5 Όχι και Over 2.5 10.00
+stoiximan Nα σκοράρουν και οι 2 ομάδες και Συνολικά Γκολ (2.5) Ναι και Under2.5 6.50, winmasters Να Σκοράρουν Και Οι Δύο Ομάδες και Over/Under 2.5 Ναι και Under 2.5 6.50
+stoiximan Nα σκοράρουν και οι 2 ομάδες και Συνολικά Γκολ (2.5) Όχι και Under2.5 2.27, winmasters Να Σκοράρουν Και Οι Δύο Ομάδες και Over/Under 2.5 Όχι και Under 2.5 2.25
+stoiximan Nα σκοράρουν και οι 2 ομάδες και Συνολικά Γκολ (3.5) Ναι και Over3.5 3.75, winmasters Να Σκοράρουν Και Οι Δύο Ομάδες και Over/Under 3.5 Ναι και Over 3.5 3.75
+stoiximan Nα σκοράρουν και οι 2 ομάδες και Συνολικά Γκολ (3.5) Όχι και Over3.5 32.00, winmasters Να Σκοράρουν Και Οι Δύο Ομάδες και Over/Under 3.5 Όχι και Over 3.5 29.00
+stoiximan Nα σκοράρουν και οι 2 ομάδες και Συνολικά Γκολ (3.5) Ναι και Under3.5 2.95, winmasters Να Σκοράρουν Και Οι Δύο Ομάδες και Over/Under 3.5 Ναι και Under 3.5 3.25
+stoiximan Nα σκοράρουν και οι 2 ομάδες και Συνολικά Γκολ (3.5) Όχι και Under3.5 2.02, winmasters Να Σκοράρουν Και Οι Δύο Ομάδες και Over/Under 3.5 Όχι και Under 3.5 2.25
+stoiximan Nα σκοράρουν και οι 2 ομάδες και Συνολικά Γκολ (4.5) Ναι και Over4.5 7.10, winmasters Να Σκοράρουν Και Οι Δύο Ομάδες και Over/Under 4.5 Ναι και Over 4.5 7.00
+stoiximan Nα σκοράρουν και οι 2 ομάδες και Συνολικά Γκολ (4.5) Όχι και Over4.5 100.00, winmasters Να Σκοράρουν Και Οι Δύο Ομάδες και Over/Under 4.5 Όχι και Over 4.5 41.00
+stoiximan Nα σκοράρουν και οι 2 ομάδες και Συνολικά Γκολ (4.5) Ναι και Under4.5 2.15, winmasters Να Σκοράρουν Και Οι Δύο Ομάδες και Over/Under 4.5 Ναι και Under 4.5 2.15
+stoiximan Nα σκοράρουν και οι 2 ομάδες και Συνολικά Γκολ (4.5) Όχι και Under4.5 1.95, winmasters Να Σκοράρουν Και Οι Δύο Ομάδες και Over/Under 4.5 Όχι και Under 4.5 1.95
+stoiximan Nα σκοράρουν και οι 2 ομάδες και Συνολικά Γκολ (5.5) Ναι και Over5.5 15.00, winmasters Να Σκοράρουν Και Οι Δύο Ομάδες και Over/Under 5.5 Ναι και Over 5.5 12.00
+stoiximan Nα σκοράρουν και οι 2 ομάδες και Συνολικά Γκολ (5.5) Όχι και Over5.5 350.00, winmasters Να Σκοράρουν Και Οι Δύο Ομάδες και Over/Under 5.5 Όχι και Over 5.5 90.00
+stoiximan Nα σκοράρουν και οι 2 ομάδες και Συνολικά Γκολ (5.5) Ναι και Under5.5 1.88, winmasters Να Σκοράρουν Και Οι Δύο Ομάδες και Over/Under 5.5 Ναι και Under 5.5 1.88
+stoiximan Nα σκοράρουν και οι 2 ομάδες και Συνολικά Γκολ (5.5) Όχι και Under5.5 1.90, winmasters Να Σκοράρουν Και Οι Δύο Ομάδες και Over/Under 5.5 Όχι και Under 5.5 1.98
+stoiximan Διπλή ευκαιρία / Να σκοράρουν και οι 2 ομάδες 12 και Ναι 2.85, winmasters Να Σκοράρουν Και Οι Δύο Ομάδες Ναι 1.78
+stoiximan Διπλή ευκαιρία / Να σκοράρουν και οι 2 ομάδες 12 και Όχι 2.40, winmasters Να Σκοράρουν Και Οι Δύο Ομάδες Όχι 2.10
+stoiximan Διπλή ευκαιρία / Να σκοράρουν και οι 2 ομάδες 1X και Ναι 2.75, winmasters Να Σκοράρουν Και Οι Δύο Ομάδες Ναι 1.73
+stoiximan Διπλή ευκαιρία / Να σκοράρουν και οι 2 ομάδες 1X και Όχι 3.90, winmasters Να Σκοράρουν Και Οι Δύο Ομάδες Όχι 2.04
+stoiximan Διπλή ευκαιρία / Να σκοράρουν και οι 2 ομάδες X2 και Ναι 2.37, winmasters Να Σκοράρουν Και Οι Δύο Ομάδες Ναι 1.70
+stoiximan Διπλή ευκαιρία / Να σκοράρουν και οι 2 ομάδες X2 και Όχι 2.77, winmasters Να Σκοράρουν Και Οι Δύο Ομάδες Όχι 2.16
+stoiximan Ημίχρονο/Τελικό 1/1 5.50, winmasters Ημίχρονο/Τελικό Ισοπαλία / Λιόν 5.80
+stoiximan Ημίχρονο/Τελικό 1/X 13.50, winmasters Ημίχρονο/Τελικό Λιόν / Ισοπαλία 14.50
+stoiximan Ημίχρονο/Τελικό 1/2 30.00, winmasters Ημίχρονο/Τελικό Λιόν / Λιόν 3.85
+stoiximan Ημίχρονο/Τελικό X/1 7.60, winmasters Ημίχρονο Ή Τελικό Λιόν 1.91
+stoiximan Ημίχρονο/Τελικό X/X 4.75, winmasters Ημίχρονο/Τελικό Τότεναμ / Τότεναμ 2.75
+stoiximan Ημίχρονο/Τελικό X/2 5.50, winmasters Ημίχρονο/Τελικό Ισοπαλία / Ισοπαλία 5.50
+stoiximan Ημίχρονο/Τελικό 2/1 45.00, winmasters Ημίχρονο/Τελικό Ισοπαλία / Τότεναμ 5.00
+stoiximan Ημίχρονο/Τελικό 2/X 15.00, winmasters Ημίχρονο/Τελικό Τότεναμ / Ισοπαλία 15.00
+stoiximan Ημίχρονο/Τελικό 2/2 3.40, winmasters Ημίχρονο/Τελικό Λάτσιο / Λάτσιο 3.50
+stoiximan Ακριβές Σκορ 1 - 0 9.75, winmasters Ακριβές Σκορ 1:2 9.75
+stoiximan Ακριβές Σκορ 2 - 0 19.00, winmasters Ακριβές Σκορ 2:0 15.00
+stoiximan Ακριβές Σκορ 2 - 1 12.00, winmasters Ακριβές Σκορ 3:1 12.00
+stoiximan Ακριβές Σκορ 3 - 0 50.00, winmasters Ακριβές Σκορ 4:0 50.00
+stoiximan Ακριβές Σκορ 3 - 1 32.00, winmasters Ακριβές Σκορ 3:1 25.00
+stoiximan Ακριβές Σκορ 3 - 2 40.00, winmasters Ακριβές Σκορ 4:2 40.00
+stoiximan Ακριβές Σκορ 4 - 0 175.00, winmasters Ακριβές Σκορ 8:0 175.00
+stoiximan Ακριβές Σκορ 4 - 1 110.00, winmasters Ακριβές Σκορ 4:1 70.00
+stoiximan Ακριβές Σκορ 4 - 2 120.00, winmasters Ακριβές Σκορ 4:2 80.00
+stoiximan Ακριβές Σκορ 4 - 3 250.00, winmasters Ακριβές Σκορ 4:3 125.00
+stoiximan Ακριβές Σκορ 5 - 0 700.00, winmasters Ακριβές Σκορ 5:0 100.00
+stoiximan Ακριβές Σκορ 5 - 1 450.00, winmasters Ακριβές Σκορ 5:4 150.00
+stoiximan Ακριβές Σκορ 5 - 2 600.00, winmasters Ακριβές Σκορ 5:5 200.00
+stoiximan Ακριβές Σκορ 5 - 3 1000.00, winmasters Ακριβές Σκορ 5:3 150.00
+stoiximan Ακριβές Σκορ 0 - 0 8.25, winmasters Ακριβές Σκορ 0:0 8.75
+stoiximan Ακριβές Σκορ 1 - 1 6.50, winmasters Ακριβές Σκορ 1:1 6.90
+stoiximan Ακριβές Σκορ 2 - 2 15.00, winmasters Ακριβές Σκορ 3:2 25.00
+stoiximan Ακριβές Σκορ 3 - 3 75.00, winmasters Ακριβές Σκορ 3:3 50.00
+stoiximan Ακριβές Σκορ 4 - 4 600.00, winmasters Ακριβές Σκορ 4:1 60.00
+stoiximan Ακριβές Σκορ 0 - 1 7.00, winmasters Ακριβές Σκορ 6:0 175.00
+stoiximan Ακριβές Σκορ 0 - 2 10.75, winmasters Ακριβές Σκορ 0:2 10.50
+stoiximan Ακριβές Σκορ 1 - 2 9.50, winmasters Ακριβές Σκορ 1:0 9.50
+stoiximan Ακριβές Σκορ 0 - 3 23.00, winmasters Ακριβές Σκορ 3:0 33.00
+stoiximan Ακριβές Σκορ 1 - 3 20.00, winmasters Ακριβές Σκορ 1:3 32.00
+stoiximan Ακριβές Σκορ 2 - 3 32.00, winmasters Ακριβές Σκορ 3:2 33.00
+stoiximan Ακριβές Σκορ 0 - 4 65.00, winmasters Ακριβές Σκορ 4:2 65.00
+stoiximan Ακριβές Σκορ 1 - 4 55.00, winmasters Ακριβές Σκορ 4:1 45.00
+stoiximan Ακριβές Σκορ 2 - 4 90.00, winmasters Ακριβές Σκορ 2:4 80.00
+stoiximan Ακριβές Σκορ 3 - 4 200.00, winmasters Ακριβές Σκορ 6:3 200.00
+stoiximan Ακριβές Σκορ 0 - 5 200.00, winmasters Ακριβές Σκορ 5:5 200.00
+stoiximan Ακριβές Σκορ 1 - 5 200.00, winmasters Ακριβές Σκορ 8:2 200.00
+stoiximan Ακριβές Σκορ 2 - 5 300.00, winmasters Ακριβές Σκορ 2:5 100.00
+stoiximan Ακριβές Σκορ 3 - 5 800.00, winmasters Ακριβές Σκορ 5:2 80.00
+stoiximan Ακριβές Σκορ 0 - 6 900.00, winmasters Ακριβές Σκορ 6:1 100.00
+stoiximan Ακριβές Σκορ 1 - 6 800.00, winmasters Ακριβές Σκορ 5:1 60.00
+stoiximan Μπόντο Γκλιμτ - Γκολ Over/Under Over0.5 1.44, winmasters Γκολ Over/Under 1.75 Over 1.75 1.44
+stoiximan Μπόντο Γκλιμτ - Γκολ Over/Under Under0.5 2.67, winmasters Γκολ Over/Under 2 Under 2 2.57
+stoiximan Μπόντο Γκλιμτ - Γκολ Over/Under Over1.5 2.90, winmasters Γκολ Over/Under 3.25 Over 3.25 2.90
+stoiximan Μπόντο Γκλιμτ - Γκολ Over/Under Under1.5 1.38, winmasters Γκολ Over/Under 5.5 Under 5.5 1.03
+stoiximan Μπόντο Γκλιμτ - Γκολ Over/Under Over2.5 6.60, winmasters Γκολ Over/Under 3.5 Over 3.5 3.60
+stoiximan Μπόντο Γκλιμτ - Γκολ Over/Under Under2.5 1.09, winmasters Γκολ Over/Under 2.5 Under 2.5 1.95
+stoiximan Μπόντο Γκλιμτ - Γκολ Over/Under Over3.5 11.50, winmasters Γκολ Over/Under 1 Over 1 1.09
+stoiximan Μπόντο Γκλιμτ - Γκολ Over/Under Under3.5 1.01, winmasters Γκολ Over/Under 3 Under 3 1.71
+stoiximan Λάτσιο - Γκολ Over/Under Over0.5 1.26, winmasters Γκολ Over/Under 0.5 Over 0.5 1.06
+stoiximan Λάτσιο - Γκολ Over/Under Under0.5 3.65, winmasters Γκολ Over/Under 1.5 Under 1.5 3.65
+stoiximan Λάτσιο - Γκολ Over/Under Over1.5 2.20, winmasters Γκολ Over/Under 3 Over 3 2.20
+stoiximan Λάτσιο - Γκολ Over/Under Under1.5 1.62, winmasters Γκολ Over/Under 2.75 Under 2.75 1.62
+stoiximan Λάτσιο - Γκολ Over/Under Over2.5 4.70, winmasters Γκολ Over/Under 4.25 Over 4.25 4.70
+stoiximan Λάτσιο - Γκολ Over/Under Under2.5 1.17, winmasters Γκολ Over/Under 4 Under 4 1.17
+stoiximan Λάτσιο - Γκολ Over/Under Over3.5 9.25, winmasters Γκολ Over/Under 5 Over 5 8.25
+stoiximan Λάτσιο - Γκολ Over/Under Under3.5 1.04, winmasters Γκολ Over/Under 3.5 Under 3.5 1.47
+stoiximan Λάτσιο - Γκολ Over/Under Over4.5 13.00, winmasters Γκολ Over/Under 5.5 Over 5.5 15.00
+stoiximan Λάτσιο - Γκολ Over/Under Under4.5 1.008, winmasters Γκολ Over/Under 4.5 Under 4.5 1.18
+stoiximan Τελικό Αποτέλεσμα 1 1.75, winmasters Τελικό Αποτέλεσμα Τότεναμ 1.79
+stoiximan Τελικό Αποτέλεσμα X 3.90, winmasters Τελικό Αποτέλεσμα Ρέιντζερς 3.20
+stoiximan Τελικό Αποτέλεσμα 2 4.55, winmasters Τελικό Αποτέλεσμα Ισοπαλία 4.00
+stoiximan Πρόκριση Τότεναμ 1.60, winmasters Πρόκριση, Αγώνας Τότεναμ 1.71
+stoiximan Πρόκριση Άιντραχτ Φρανκφούρτης 2.35, winmasters Πρόκριση, Αγώνας Άιντραχτ Φρανκφούρτης 2.20
+stoiximan Γκολ Over/Under 2.5 Over2.5 1.72, winmasters Γκολ Over/Under 2.5 Over 2.5 1.74
+stoiximan Γκολ Over/Under 2.5 Under2.5 2.15, winmasters Γκολ Over/Under 2.5 Under 2.5 2.15
+stoiximan Να σκοράρουν και οι 2 ομάδες Ναι (GG) 1.65, winmasters Να Σκοράρουν Και Οι Δύο Ομάδες ή Over 2.5 Ναι 1.64
+stoiximan Να σκοράρουν και οι 2 ομάδες Όχι (NG) 2.15, winmasters Να Σκοράρουν Και Οι Δύο Ομάδες ή Over 2.5 Ναι 1.56
+stoiximan Να σκοράρουν και οι 2 ομάδες ή Over 2.5 Ναι 1.42, winmasters Να Σκοράρουν Και Οι Δύο Ομάδες ή Over 2.5 Ναι 1.46
+stoiximan Να σκοράρουν και οι 2 ομάδες ή Over 2.5 Όχι (2-0, 1-0, 0-0, 0-1 ή 0-2) 2.72, winmasters Να Σκοράρουν Και Οι Δύο Ομάδες ή Over 2.5 Όχι (2-0, 1-0, 0-0, 0-1 ή 0-2) 2.21
+stoiximan Draw No Bet Άιντραχτ Φρανκφούρτης 3.25, winmasters Ισοπαλία Όχι Στοίχημα Άιντραχτ Φρανκφούρτης 3.25
+stoiximan Γκολ Over/Under (extra) Over0.5 1.05, winmasters Γκολ Over/Under 0.5 Over 0.5 1.05
+stoiximan Γκολ Over/Under (extra) Under0.5 10.50, winmasters Γκολ Over/Under 0.5 Under 0.5 11.50
+stoiximan Γκολ Over/Under (extra) Over1.5 1.24, winmasters Γκολ Over/Under 1.5 Over 1.5 1.24
+stoiximan Γκολ Over/Under (extra) Under1.5 4.10, winmasters Γκολ Over/Under 1.5 Under 1.5 4.15
+stoiximan Γκολ Over/Under (extra) Over3.5 2.72, winmasters Γκολ Over/Under 3 Over 3 2.92
+stoiximan Γκολ Over/Under (extra) Under3.5 1.47, winmasters Γκολ Over/Under 3 Under 3 1.54
+stoiximan Γκολ Over/Under (extra) Over4.5 4.80, winmasters Γκολ Over/Under 4 Over 4 4.30
+stoiximan Γκολ Over/Under (extra) Under4.5 1.19, winmasters Γκολ Over/Under 4.5 Under 4.5 1.14
+stoiximan Γκολ Over/Under (extra) Over5.5 8.50, winmasters Γκολ Over/Under 6.5 Over 6.5 28.00
+stoiximan Γκολ Over/Under (extra) Under5.5 1.07, winmasters Γκολ Over/Under 5.5 Under 5.5 1.06
+stoiximan Γκολ Over/Under (extra) Over6.5 13.50, winmasters Γκολ Over/Under 1.5 Over 1.5 1.30
+stoiximan Γκολ Over/Under (extra) Under6.5 1.02, winmasters Γκολ Over/Under 6.5 Under 6.5 1.005
+stoiximan Γκολ Over/Under (extra) Over7.5 17.50, winmasters Γκολ Over/Under 4.5 Over 4.5 7.20
+stoiximan Γκολ Over/Under (extra) Under7.5 1.007, winmasters Γκολ Over/Under 0.5 Under 0.5 10.00
+stoiximan 1ο Ημίχρονο - Αποτέλεσμα Τότεναμ 2.25, winmasters Ημίχρονο Ή Τελικό Τότεναμ 1.48
+stoiximan 1ο Ημίχρονο - Αποτέλεσμα Ισοπαλία 2.30, winmasters Τελικό Αποτέλεσμα Ισοπαλία 3.35
+stoiximan 1ο Ημίχρονο - Αποτέλεσμα Άιντραχτ Φρανκφούρτης 4.70, winmasters Τελικό Αποτέλεσμα Άιντραχτ Φρανκφούρτης 4.45
+stoiximan 1ο Ημίχρονο - Γκολ Over/Under Over0.5 1.35, winmasters Γκολ Over/Under 1.5 Over 1.5 1.34
+stoiximan 1ο Ημίχρονο - Γκολ Over/Under Under0.5 3.15, winmasters Γκολ Over/Under 1.5 Under 1.5 3.35
+stoiximan 1ο Ημίχρονο - Γκολ Over/Under Over1.5 2.50, winmasters Γκολ Over/Under 2.5 Over 2.5 2.06
+stoiximan 1ο Ημίχρονο - Γκολ Over/Under Under1.5 1.52, winmasters Γκολ Over/Under 3.5 Under 3.5 1.32
+stoiximan 1ο Ημίχρονο - Γκολ Over/Under Over2.5 5.50, winmasters Γκολ Over/Under 4.5 Over 4.5 5.10
+stoiximan 1ο Ημίχρονο - Γκολ Over/Under Under2.5 1.14, winmasters Γκολ Over/Under 4 Under 4 1.14
+stoiximan 1ο Ημίχρονο - Γκολ Over/Under Over3.5 11.00, winmasters Γκολ Over/Under 5.5 Over 5.5 10.00
+stoiximan 1ο Ημίχρονο - Γκολ Over/Under Under3.5 1.03, winmasters Γκολ Over/Under 3.5 Under 3.5 1.36
+stoiximan 1ο Ημίχρονο - Γκολ Over/Under Over4.5 15.50, winmasters Γκολ Over/Under 4.25 Over 4.25 5.80
+stoiximan 1ο Ημίχρονο - Γκολ Over/Under Under4.5 1.006, winmasters Γκολ Over/Under 2.5 Under 2.5 1.80
+stoiximan Τελικό Αποτέλεσμα / Να σκοράρουν και οι 2 ομάδες Τότεναμ / Ναι 3.15, winmasters Τελικό Αποτέλεσμα, 1ο Ημίχρονο Τότεναμ 2.35
+stoiximan Τελικό Αποτέλεσμα / Να σκοράρουν και οι 2 ομάδες Τότεναμ / Όχι 3.15, winmasters Αποτέλεσμα Και Να Σκοράρουν Και Οι Δύο Ομάδες (6πλής Επιλογής) 1 Και Όχι 3.10
+stoiximan Τελικό Αποτέλεσμα / Να σκοράρουν και οι 2 ομάδες Ισοπαλία / Ναι 4.55, winmasters Αποτέλεσμα Και Να Σκοράρουν Και Οι Δύο Ομάδες (6πλής Επιλογής) Ισοπαλία Και Ναι 4.50
+stoiximan Τελικό Αποτέλεσμα / Να σκοράρουν και οι 2 ομάδες Ισοπαλία / Όχι 10.50, winmasters Αποτέλεσμα Και Να Σκοράρουν Και Οι Δύο Ομάδες (6πλής Επιλογής) Ισοπαλία Και Όχι 11.50
+stoiximan Τελικό Αποτέλεσμα / Να σκοράρουν και οι 2 ομάδες Άιντραχτ Φρανκφούρτης / Ναι 7.50, winmasters Τελικό Αποτέλεσμα, 1ο Ημίχρονο Άιντραχτ Φρανκφούρτης 4.70
+stoiximan Τελικό Αποτέλεσμα ή Γκολ Over/Under 2.5 1 ή Over 2.5 1.25, winmasters Αποτέλεσμα και Over/Under 2.5 Over None 2.55
+stoiximan Τελικό Αποτέλεσμα ή Γκολ Over/Under 2.5 1 ή Under 2.5 1.17, winmasters Αποτέλεσμα και Over/Under 5.5 Under None 1.79
+stoiximan Τελικό Αποτέλεσμα ή Γκολ Over/Under 2.5 X ή Over 2.5 1.27, winmasters Αποτέλεσμα και Over/Under 2.5 Over None 4.70
+stoiximan Τελικό Αποτέλεσμα ή Γκολ Over/Under 2.5 X ή Under 2.5 1.65, winmasters Αποτέλεσμα και Over/Under 2.5 Under None 4.65
+stoiximan Τελικό Αποτέλεσμα ή Γκολ Over/Under 2.5 2 ή Over 2.5 1.40, winmasters Αποτέλεσμα και Over/Under 2.5 Over None 5.40
+stoiximan Τελικό Αποτέλεσμα ή Γκολ Over/Under 2.5 2 ή Under 2.5 1.57, winmasters Αποτέλεσμα και Over/Under 3.5 Under None 2.55
+stoiximan Τελικό Αποτέλεσμα ή Να σκοράρουν και οι 2 ομάδες 1 ή Nαι (GG) 1.13, winmasters Αποτέλεσμα Και Να Σκοράρουν Και Οι Δύο Ομάδες (6πλής Επιλογής) 2 Και Όχι 3.70
+stoiximan Τελικό Αποτέλεσμα ή Να σκοράρουν και οι 2 ομάδες 1 ή Όχι (NG) 1.30, winmasters Αποτέλεσμα Και Να Σκοράρουν Και Οι Δύο Ομάδες (6πλής Επιλογής) 1 Και Όχι 5.50
+stoiximan Τελικό Αποτέλεσμα ή Να σκοράρουν και οι 2 ομάδες 2 ή Όχι (NG) 1.60, winmasters Αποτέλεσμα Και Να Σκοράρουν Και Οι Δύο Ομάδες (6πλής Επιλογής) 1 Και Ναι 4.60
+stoiximan Nα σκοράρουν και οι 2 ομάδες και Συνολικά Γκολ (2.5) Ναι και Over2.5 2.02, winmasters Να Σκοράρουν Και Οι Δύο Ομάδες και Over/Under 2.5 Ναι και Over 2.5 2.30
+stoiximan Nα σκοράρουν και οι 2 ομάδες και Συνολικά Γκολ (2.5) Όχι και Over2.5 7.50, winmasters Να Σκοράρουν Και Οι Δύο Ομάδες και Over/Under 2.5 Όχι και Over 2.5 7.50
+stoiximan Nα σκοράρουν και οι 2 ομάδες και Συνολικά Γκολ (2.5) Ναι και Under2.5 7.80, winmasters Να Σκοράρουν Και Οι Δύο Ομάδες και Over/Under 2.5 Ναι και Under 2.5 7.00
+stoiximan Nα σκοράρουν και οι 2 ομάδες και Συνολικά Γκολ (2.5) Όχι και Under2.5 2.72, winmasters Να Σκοράρουν Και Οι Δύο Ομάδες και Over/Under 2.5 Όχι και Under 2.5 2.25
+stoiximan Nα σκοράρουν και οι 2 ομάδες και Συνολικά Γκολ (3.5) Ναι και Over3.5 2.95, winmasters Να Σκοράρουν Και Οι Δύο Ομάδες και Over/Under 3.5 Ναι και Over 3.5 3.60
+stoiximan Nα σκοράρουν και οι 2 ομάδες και Συνολικά Γκολ (3.5) Όχι και Over3.5 17.50, winmasters Να Σκοράρουν Και Οι Δύο Ομάδες και Over/Under 3.5 Όχι και Over 3.5 17.50
+stoiximan Nα σκοράρουν και οι 2 ομάδες και Συνολικά Γκολ (3.5) Ναι και Under3.5 3.25, winmasters Να Σκοράρουν Και Οι Δύο Ομάδες και Over/Under 3.5 Ναι και Under 3.5 3.05
+stoiximan Nα σκοράρουν και οι 2 ομάδες και Συνολικά Γκολ (3.5) Όχι και Under3.5 2.32, winmasters Να Σκοράρουν Και Οι Δύο Ομάδες και Over/Under 3.5 Όχι και Under 3.5 2.11
+stoiximan Nα σκοράρουν και οι 2 ομάδες και Συνολικά Γκολ (4.5) Ναι και Over4.5 5.10, winmasters Να Σκοράρουν Και Οι Δύο Ομάδες και Over/Under 4.5 Ναι και Over 4.5 6.10
+stoiximan Nα σκοράρουν και οι 2 ομάδες και Συνολικά Γκολ (4.5) Όχι και Over4.5 45.00, winmasters Να Σκοράρουν Και Οι Δύο Ομάδες και Over/Under 4.5 Όχι και Over 4.5 46.00
+stoiximan Nα σκοράρουν και οι 2 ομάδες και Συνολικά Γκολ (4.5) Ναι και Under4.5 2.22, winmasters Να Σκοράρουν Και Οι Δύο Ομάδες και Over/Under 4.5 Ναι και Under 4.5 2.25
+stoiximan Nα σκοράρουν και οι 2 ομάδες και Συνολικά Γκολ (4.5) Όχι και Under4.5 2.18, winmasters Να Σκοράρουν Και Οι Δύο Ομάδες και Over/Under 4.5 Όχι και Under 4.5 2.10
+stoiximan Nα σκοράρουν και οι 2 ομάδες και Συνολικά Γκολ (5.5) Ναι και Over5.5 9.50, winmasters Να Σκοράρουν Και Οι Δύο Ομάδες και Over/Under 5.5 Ναι και Over 5.5 9.50
+stoiximan Nα σκοράρουν και οι 2 ομάδες και Συνολικά Γκολ (5.5) Όχι και Over5.5 120.00, winmasters Να Σκοράρουν Και Οι Δύο Ομάδες και Over/Under 5.5 Όχι και Over 5.5 80.00
+stoiximan Nα σκοράρουν και οι 2 ομάδες και Συνολικά Γκολ (5.5) Ναι και Under5.5 1.85, winmasters Να Σκοράρουν Και Οι Δύο Ομάδες και Over/Under 5.5 Ναι και Under 5.5 1.85
+stoiximan Nα σκοράρουν και οι 2 ομάδες και Συνολικά Γκολ (5.5) Όχι και Under5.5 2.10, winmasters Να Σκοράρουν Και Οι Δύο Ομάδες και Over/Under 5.5 Όχι και Under 5.5 2.05
+stoiximan Ημίχρονο/Τελικό 1/1 2.62, winmasters Ημίχρονο Ή Τελικό Ισοπαλία 1.69
+stoiximan Ημίχρονο/Τελικό 1/X 14.50, winmasters Ημίχρονο/Τελικό Λάτσιο / Ισοπαλία 14.50
+stoiximan Ημίχρονο/Τελικό 1/2 45.00, winmasters Ημίχρονο/Τελικό Ισοπαλία / Λάτσιο 5.60
+stoiximan Ημίχρονο/Τελικό X/1 4.60, winmasters Ημίχρονο Ή Τελικό Ισοπαλία 1.68
+stoiximan Ημίχρονο/Τελικό X/X 5.90, winmasters Ημίχρονο/Τελικό Ισοπαλία / Ισοπαλία 5.20
+stoiximan Ημίχρονο/Τελικό X/2 10.00, winmasters Ημίχρονο Ή Τελικό Ισοπαλία 1.81
+stoiximan Ημίχρονο/Τελικό 2/1 23.00, winmasters Ημίχρονο/Τελικό Μπόντο Γκλιμτ / Λάτσιο 27.00
+stoiximan Ημίχρονο/Τελικό 2/X 16.00, winmasters Ημίχρονο Ή Τελικό Ισοπαλία 1.64
+stoiximan Ημίχρονο/Τελικό 2/2 7.50, winmasters Ημίχρονο/Τελικό Ισοπαλία / Ρέιντζερς 7.00
+stoiximan Ακριβές Σκορ 1 - 0 8.00, winmasters Ακριβές Σκορ 4:0 80.00
+stoiximan Ακριβές Σκορ 2 - 0 9.75, winmasters Ακριβές Σκορ 0:2 9.75
+stoiximan Ακριβές Σκορ 2 - 1 8.50, winmasters Ακριβές Σκορ 2:1 8.75
+stoiximan Ακριβές Σκορ 3 - 0 15.00, winmasters Ακριβές Σκορ 3:0 13.00
+stoiximan Ακριβές Σκορ 3 - 1 13.50, winmasters Ακριβές Σκορ 3:2 19.50
+stoiximan Ακριβές Σκορ 3 - 2 23.00, winmasters Ακριβές Σκορ 3:2 28.00
+stoiximan Ακριβές Σκορ 4 - 0 32.00, winmasters Ακριβές Σκορ 4:0 25.00
+stoiximan Ακριβές Σκορ 4 - 1 28.00, winmasters Ακριβές Σκορ 4:1 25.00
+stoiximan Ακριβές Σκορ 4 - 2 50.00, winmasters Ακριβές Σκορ 4:2 75.00
+stoiximan Ακριβές Σκορ 4 - 3 120.00, winmasters Ακριβές Σκορ 4:3 100.00
+stoiximan Ακριβές Σκορ 5 - 0 80.00, winmasters Ακριβές Σκορ 0:4 80.00
+stoiximan Ακριβές Σκορ 5 - 1 70.00, winmasters Ακριβές Σκορ 5:4 175.00
+stoiximan Ακριβές Σκορ 5 - 2 120.00, winmasters Ακριβές Σκορ 5:2 125.00
+stoiximan Ακριβές Σκορ 5 - 3 300.00, winmasters Ακριβές Σκορ 0:3 30.00
+stoiximan Ακριβές Σκορ 5 - 4 1000.00, winmasters Ακριβές Σκορ 5:4 150.00
+stoiximan Ακριβές Σκορ 6 - 0 200.00, winmasters Ακριβές Σκορ 6:0 100.00
+stoiximan Ακριβές Σκορ 6 - 1 200.00, winmasters Ακριβές Σκορ 4:6 200.00
+stoiximan Ακριβές Σκορ 6 - 2 350.00, winmasters Ακριβές Σκορ 6:2 150.00
+stoiximan Ακριβές Σκορ 6 - 3 900.00, winmasters Ακριβές Σκορ 4:3 100.00
+stoiximan Ακριβές Σκορ 7 - 0 800.00, winmasters Ακριβές Σκορ 7:2 200.00
+stoiximan Ακριβές Σκορ 7 - 1 700.00, winmasters Ακριβές Σκορ 7:3 175.00
+stoiximan Ακριβές Σκορ 0 - 0 10.50, winmasters Ακριβές Σκορ 2:0 10.50
+stoiximan Ακριβές Σκορ 1 - 1 7.80, winmasters Ακριβές Σκορ 8:1 175.00
+stoiximan Ακριβές Σκορ 2 - 2 15.00, winmasters Ακριβές Σκορ 2:3 25.00
+stoiximan Ακριβές Σκορ 3 - 3 60.00, winmasters Ακριβές Σκορ 3:3 50.00
+stoiximan Ακριβές Σκορ 4 - 4 450.00, winmasters Ακριβές Σκορ 4:4 150.00
+stoiximan Ακριβές Σκορ 0 - 1 13.00, winmasters Ακριβές Σκορ 3:1 18.00
+stoiximan Ακριβές Σκορ 0 - 2 29.00, winmasters Ακριβές Σκορ 3:0 22.00
+stoiximan Ακριβές Σκορ 1 - 2 15.00, winmasters Ακριβές Σκορ 2:0 15.00
+stoiximan Ακριβές Σκορ 0 - 3 80.00, winmasters Ακριβές Σκορ 4:3 80.00
+stoiximan Ακριβές Σκορ 1 - 3 45.00, winmasters Ακριβές Σκορ 3:3 45.00
+stoiximan Ακριβές Σκορ 2 - 3 45.00, winmasters Ακριβές Σκορ 3:4 95.00
+stoiximan Ακριβές Σκορ 0 - 4 300.00, winmasters Ακριβές Σκορ 0:4 100.00
+stoiximan Ακριβές Σκορ 1 - 4 150.00, winmasters Ακριβές Σκορ 6:1 150.00
+stoiximan Ακριβές Σκορ 2 - 4 175.00, winmasters Ακριβές Σκορ 6:4 175.00
+stoiximan Ακριβές Σκορ 3 - 4 250.00, winmasters Ακριβές Σκορ 3:3 40.00
+stoiximan Ακριβές Σκορ 1 - 5 700.00, winmasters Ακριβές Σκορ 5:1 100.00
+stoiximan Ακριβές Σκορ 2 - 5 800.00, winmasters Ακριβές Σκορ 2:4 80.00
+stoiximan Ακριβές Σκορ 3 - 5 1250.00, winmasters Ακριβές Σκορ 3:5 150.00
+stoiximan Επόμενο Γκολ (Γκολ 1) Άιντραχτ Φρανκφούρτης 2.72, winmasters Ημίχρονο Ή Τελικό Άιντραχτ Φρανκφούρτης 2.92
+stoiximan Τότεναμ - Γκολ Over/Under Over0.5 1.15, winmasters Γκολ Over/Under 2 Over 2 1.56
+stoiximan Τότεναμ - Γκολ Over/Under Under0.5 5.00, winmasters Γκολ Over/Under 0.5 Under 0.5 9.00
+stoiximan Τότεναμ - Γκολ Over/Under Over1.5 1.70, winmasters Γκολ Over/Under 1 Over 1 1.08
+stoiximan Τότεναμ - Γκολ Over/Under Under1.5 2.07, winmasters Γκολ Over/Under 1.75 Under 1.75 2.97
+stoiximan Τότεναμ - Γκολ Over/Under Over2.5 3.00, winmasters Γκολ Over/Under 4.5 Over 4.5 7.00
+stoiximan Τότεναμ - Γκολ Over/Under Under2.5 1.35, winmasters Γκολ Over/Under 3.75 Under 3.75 1.35
+stoiximan Τότεναμ - Γκολ Over/Under Over3.5 5.80, winmasters Γκολ Over/Under 4 Over 4 5.30
+stoiximan Τότεναμ - Γκολ Over/Under Under3.5 1.11, winmasters Γκολ Over/Under 4.25 Under 4.25 1.11
+stoiximan Τότεναμ - Γκολ Over/Under Over4.5 10.00, winmasters Γκολ Over/Under 7.5 Over 7.5 50.00
+stoiximan Τότεναμ - Γκολ Over/Under Under4.5 1.03, winmasters Γκολ Over/Under 4 Under 4 1.23
+stoiximan Τότεναμ - Γκολ Over/Under Over5.5 13.50, winmasters Γκολ Over/Under 3 Over 3 2.85
+stoiximan Τότεναμ - Γκολ Over/Under Under5.5 1.007, winmasters Γκολ Over/Under 0.5 Under 0.5 9.00
+stoiximan Άιντραχτ Φρανκφούρτης - Γκολ Over/Under Under0.5 2.65, winmasters Γκολ Over/Under 2.25 Under 2.25 2.55
+stoiximan Άιντραχτ Φρανκφούρτης - Γκολ Over/Under Over1.5 3.05, winmasters Γκολ Over/Under 3.5 Over 3.5 3.20
+stoiximan Άιντραχτ Φρανκφούρτης - Γκολ Over/Under Under1.5 1.35, winmasters Γκολ Over/Under 3.25 Under 3.25 1.35
+stoiximan Άιντραχτ Φρανκφούρτης - Γκολ Over/Under Over2.5 7.10, winmasters Γκολ Over/Under 6.5 Over 6.5 27.00
+stoiximan Άιντραχτ Φρανκφούρτης - Γκολ Over/Under Under2.5 1.08, winmasters Γκολ Over/Under 2.25 Under 2.25 2.08
+stoiximan Άιντραχτ Φρανκφούρτης - Γκολ Over/Under Over3.5 12.00, winmasters Γκολ Over/Under 6.5 Over 6.5 22.00
+stoiximan Άιντραχτ Φρανκφούρτης - Γκολ Over/Under Under3.5 1.01, winmasters Γκολ Over/Under 3.75 Under 3.75 1.21
+stoiximan Τελικό Αποτέλεσμα 1 2.40, winmasters Τελικό Αποτέλεσμα, 1ο Ημίχρονο Λάτσιο 2.90
+stoiximan Τελικό Αποτέλεσμα X 3.25, winmasters Τελικό Αποτέλεσμα Αθλέτικ Μπιλμπάο 2.27
+stoiximan Τελικό Αποτέλεσμα 2 3.05, winmasters Τελικό Αποτέλεσμα, 1ο Ημίχρονο Λιόν 3.10
+stoiximan Πρόκριση Λιόν 2.40, winmasters Πρόκριση, Αγώνας Λιόν 2.43
+stoiximan Πρόκριση Μάντσεστερ Γιουνάιτεντ 1.57, winmasters Πρόκριση, Αγώνας Μάντσεστερ Γιουνάιτεντ 1.59
+stoiximan Γκολ Over/Under 2.5 Over2.5 2.00, winmasters Γκολ Over/Under 2.75 Over 2.75 2.30
+stoiximan Γκολ Over/Under 2.5 Under2.5 1.82, winmasters Γκολ Over/Under 2.75 Under 2.75 1.93
+stoiximan Να σκοράρουν και οι 2 ομάδες ή Over 2.5 Ναι 1.55, winmasters Να Σκοράρουν Και Οι Δύο Ομάδες και Over/Under 2.5 Ναι και Over 2.5 2.15
+stoiximan Να σκοράρουν και οι 2 ομάδες ή Over 2.5 Όχι (2-0, 1-0, 0-0, 0-1 ή 0-2) 2.35, winmasters Να Σκοράρουν Και Οι Δύο Ομάδες ή Over 2.5 Όχι (2-0, 1-0, 0-0, 0-1 ή 0-2) 2.36
+stoiximan Draw No Bet Μάντσεστερ Γιουνάιτεντ 2.07, winmasters Ημίχρονο Ή Τελικό Μάντσεστερ Γιουνάιτεντ 2.26
+stoiximan Γκολ Over/Under (extra) Over0.5 1.08, winmasters Γκολ Over/Under 1 Over 1 1.07
+stoiximan Γκολ Over/Under (extra) Under0.5 8.25, winmasters Γκολ Over/Under 1.5 Under 1.5 3.25
+stoiximan Γκολ Over/Under (extra) Over1.5 1.34, winmasters Γκολ Over/Under 2 Over 2 1.34
+stoiximan Γκολ Over/Under (extra) Under1.5 3.30, winmasters Γκολ Over/Under 3 Under 3 1.43
+stoiximan Γκολ Over/Under (extra) Over3.5 3.45, winmasters Γκολ Over/Under 3.75 Over 3.75 3.95
+stoiximan Γκολ Over/Under (extra) Under3.5 1.32, winmasters Γκολ Over/Under 3.75 Under 3.75 1.27
+stoiximan Γκολ Over/Under (extra) Over4.5 6.40, winmasters Γκολ Over/Under 4.25 Over 4.25 6.40
+stoiximan Γκολ Over/Under (extra) Under4.5 1.12, winmasters Γκολ Over/Under 4 Under 4 1.13
+stoiximan Γκολ Over/Under (extra) Over5.5 11.25, winmasters Γκολ Over/Under 1 Over 1 1.05
+stoiximan Γκολ Over/Under (extra) Under5.5 1.04, winmasters Γκολ Over/Under 1 Under 1 7.80
+stoiximan Γκολ Over/Under (extra) Over6.5 16.50, winmasters Γκολ Over/Under 2 Over 2 1.53
+stoiximan Γκολ Over/Under (extra) Under6.5 1.01, winmasters Γκολ Over/Under 4.75 Under 4.75 1.13
+stoiximan 1ο Ημίχρονο - Αποτέλεσμα Μάντσεστερ Γιουνάιτεντ 3.60, winmasters Τελικό Αποτέλεσμα Μάντσεστερ Γιουνάιτεντ 3.05
+stoiximan 1ο Ημίχρονο - Γκολ Over/Under Over0.5 1.45, winmasters Γκολ Over/Under 2 Over 2 1.46
+stoiximan 1ο Ημίχρονο - Γκολ Over/Under Under0.5 2.72, winmasters Γκολ Over/Under 2.25 Under 2.25 2.24
+stoiximan 1ο Ημίχρονο - Γκολ Over/Under Over1.5 2.87, winmasters Γκολ Over/Under 3.25 Over 3.25 2.47
+stoiximan 1ο Ημίχρονο - Γκολ Over/Under Under1.5 1.40, winmasters Γκολ Over/Under 3.25 Under 3.25 1.43
+stoiximan 1ο Ημίχρονο - Γκολ Over/Under Over2.5 6.70, winmasters Γκολ Over/Under 4 Over 4 6.30
+stoiximan 1ο Ημίχρονο - Γκολ Over/Under Under2.5 1.10, winmasters Γκολ Over/Under 2 Under 2 2.50
+stoiximan 1ο Ημίχρονο - Γκολ Over/Under Over3.5 12.50, winmasters Γκολ Over/Under 3.75 Over 3.75 4.60
+stoiximan 1ο Ημίχρονο - Γκολ Over/Under Under3.5 1.02, winmasters Γκολ Over/Under 3.75 Under 3.75 1.23
+stoiximan Τελικό Αποτέλεσμα / Να σκοράρουν και οι 2 ομάδες Λιόν / Ναι 4.60, winmasters Αποτέλεσμα Και Να Σκοράρουν Και Οι Δύο Ομάδες (6πλής Επιλογής) 1 Και Ναι 6.00
+stoiximan Τελικό Αποτέλεσμα / Να σκοράρουν και οι 2 ομάδες Ισοπαλία / Ναι 4.15, winmasters Αποτέλεσμα Και Να Σκοράρουν Και Οι Δύο Ομάδες (6πλής Επιλογής) Ισοπαλία Και Ναι 4.30
+stoiximan Τελικό Αποτέλεσμα / Να σκοράρουν και οι 2 ομάδες Ισοπαλία / Όχι 8.25, winmasters Αποτέλεσμα Και Να Σκοράρουν Και Οι Δύο Ομάδες (6πλής Επιλογής) Ισοπαλία Και Όχι 8.75
+stoiximan Τελικό Αποτέλεσμα / Να σκοράρουν και οι 2 ομάδες Μάντσεστερ Γιουνάιτεντ / Ναι 5.60, winmasters Τελικό Αποτέλεσμα, 1ο Ημίχρονο Μάντσεστερ Γιουνάιτεντ 3.70
+stoiximan Τελικό Αποτέλεσμα / Να σκοράρουν και οι 2 ομάδες Μάντσεστερ Γιουνάιτεντ / Όχι 5.20, winmasters Να Σκοράρει και Στα 2 Ημίχρονα Μάντσεστερ Γιουνάιτεντ 4.30
+stoiximan Τελικό Αποτέλεσμα ή Γκολ Over/Under 2.5 1 ή Over 2.5 1.40, winmasters Αποτέλεσμα και Over/Under 2.5 Over None 13.00
+stoiximan Τελικό Αποτέλεσμα ή Γκολ Over/Under 2.5 1 ή Under 2.5 1.24, winmasters Αποτέλεσμα και Over/Under 2.5 Under None 5.40
+stoiximan Τελικό Αποτέλεσμα ή Γκολ Over/Under 2.5 X ή Over 2.5 1.32, winmasters Αποτέλεσμα και Over/Under 2.5 Over None 12.00
+stoiximan Τελικό Αποτέλεσμα ή Γκολ Over/Under 2.5 X ή Under 2.5 1.47, winmasters Αποτέλεσμα και Over/Under 2.5 Under None 4.40
+stoiximan Τελικό Αποτέλεσμα ή Γκολ Over/Under 2.5 2 ή Over 2.5 1.45, winmasters Αποτέλεσμα και Over/Under 2.5 Over None 3.65
+stoiximan Τελικό Αποτέλεσμα ή Γκολ Over/Under 2.5 2 ή Under 2.5 1.31, winmasters Αποτέλεσμα και Over/Under 2.5 Under None 4.35
+stoiximan Τελικό Αποτέλεσμα ή Να σκοράρουν και οι 2 ομάδες 1 ή Όχι (NG) 1.40, winmasters Αποτέλεσμα Και Να Σκοράρουν Και Οι Δύο Ομάδες (6πλής Επιλογής) 1 Και Ναι 5.40
+stoiximan Nα σκοράρουν και οι 2 ομάδες και Συνολικά Γκολ (2.5) Ναι και Over2.5 2.25, winmasters Να Σκοράρουν Και Οι Δύο Ομάδες και Over/Under 2.5 Ναι και Over 2.5 2.05
+stoiximan Nα σκοράρουν και οι 2 ομάδες και Συνολικά Γκολ (2.5) Όχι και Over2.5 11.00, winmasters Να Σκοράρουν Και Οι Δύο Ομάδες και Over/Under 2.5 Όχι και Over 2.5 10.00
+stoiximan Nα σκοράρουν και οι 2 ομάδες και Συνολικά Γκολ (2.5) Ναι και Under2.5 6.40, winmasters Να Σκοράρουν Και Οι Δύο Ομάδες και Over/Under 2.5 Ναι και Under 2.5 6.30
+stoiximan Nα σκοράρουν και οι 2 ομάδες και Συνολικά Γκολ (2.5) Όχι και Under2.5 2.32, winmasters Να Σκοράρουν Και Οι Δύο Ομάδες και Over/Under 2.5 Όχι και Under 2.5 2.65
+stoiximan Nα σκοράρουν και οι 2 ομάδες και Συνολικά Γκολ (3.5) Ναι και Over3.5 3.60, winmasters Να Σκοράρουν Και Οι Δύο Ομάδες και Over/Under 3.5 Ναι και Over 3.5 3.40
+stoiximan Nα σκοράρουν και οι 2 ομάδες και Συνολικά Γκολ (3.5) Όχι και Over3.5 32.00, winmasters Να Σκοράρουν Και Οι Δύο Ομάδες και Over/Under 3.5 Όχι και Over 3.5 28.00
+stoiximan Nα σκοράρουν και οι 2 ομάδες και Συνολικά Γκολ (3.5) Ναι και Under3.5 2.92, winmasters Να Σκοράρουν Και Οι Δύο Ομάδες και Over/Under 4.5 Ναι και Under 4.5 2.23
+stoiximan Nα σκοράρουν και οι 2 ομάδες και Συνολικά Γκολ (3.5) Όχι και Under3.5 2.10, winmasters Να Σκοράρουν Και Οι Δύο Ομάδες και Over/Under 3.5 Όχι και Under 3.5 2.00
+stoiximan Nα σκοράρουν και οι 2 ομάδες και Συνολικά Γκολ (4.5) Ναι και Over4.5 6.70, winmasters Να Σκοράρουν Και Οι Δύο Ομάδες και Over/Under 4.5 Ναι και Over 4.5 6.70
+stoiximan Nα σκοράρουν και οι 2 ομάδες και Συνολικά Γκολ (4.5) Όχι και Over4.5 110.00, winmasters Να Σκοράρουν Και Οι Δύο Ομάδες και Over/Under 4.5 Όχι και Over 4.5 46.00
+stoiximan Nα σκοράρουν και οι 2 ομάδες και Συνολικά Γκολ (4.5) Ναι και Under4.5 2.12, winmasters Να Σκοράρουν Και Οι Δύο Ομάδες και Over/Under 4.5 Ναι και Under 4.5 2.20
+stoiximan Nα σκοράρουν και οι 2 ομάδες και Συνολικά Γκολ (4.5) Όχι και Under4.5 2.00, winmasters Να Σκοράρουν Και Οι Δύο Ομάδες και Over/Under 4.5 Όχι και Under 4.5 2.02
+stoiximan Nα σκοράρουν και οι 2 ομάδες και Συνολικά Γκολ (5.5) Ναι και Over5.5 14.00, winmasters Να Σκοράρουν Και Οι Δύο Ομάδες και Over/Under 5.5 Ναι και Over 5.5 13.50
+stoiximan Nα σκοράρουν και οι 2 ομάδες και Συνολικά Γκολ (5.5) Όχι και Over5.5 400.00, winmasters Να Σκοράρουν Και Οι Δύο Ομάδες και Over/Under 5.5 Όχι και Over 5.5 80.00
+stoiximan Nα σκοράρουν και οι 2 ομάδες και Συνολικά Γκολ (5.5) Ναι και Under5.5 1.83, winmasters Να Σκοράρουν Και Οι Δύο Ομάδες και Over/Under 5.5 Ναι και Under 5.5 1.83
+stoiximan Nα σκοράρουν και οι 2 ομάδες και Συνολικά Γκολ (5.5) Όχι και Under5.5 1.95, winmasters Να Σκοράρουν Και Οι Δύο Ομάδες και Over/Under 5.5 Όχι και Under 5.5 1.93
+stoiximan Ημίχρονο/Τελικό 1/1 3.90, winmasters Ημίχρονο/Τελικό Λάτσιο / Μπόντο Γκλιμτ 33.00
+stoiximan Ημίχρονο/Τελικό 1/X 14.00, winmasters Ημίχρονο/Τελικό Ρέιντζερς / Ισοπαλία 14.50
+stoiximan Ημίχρονο/Τελικό 1/2 35.00, winmasters Ημίχρονο/Τελικό Ισοπαλία / Ισοπαλία 5.20
+stoiximan Ημίχρονο/Τελικό X/1 5.60, winmasters Ημίχρονο Ή Τελικό Ρέιντζερς 2.34
+stoiximan Ημίχρονο/Τελικό X/X 4.75, winmasters Ημίχρονο/Τελικό Ρέιντζερς / Ρέιντζερς 4.80
+stoiximan Ημίχρονο/Τελικό X/2 6.70, winmasters Ημίχρονο/Τελικό Ισοπαλία / Ισοπαλία 6.30
+stoiximan Ημίχρονο/Τελικό 2/1 30.00, winmasters Ημίχρονο/Τελικό Αθλέτικ Μπιλμπάο / Ρέιντζερς 30.00
+stoiximan Ημίχρονο/Τελικό 2/X 14.00, winmasters Ημίχρονο/Τελικό Αθλέτικ Μπιλμπάο / Ισοπαλία 14.00
+stoiximan Ακριβές Σκορ 1 - 0 7.80, winmasters Ακριβές Σκορ 1:0 7.90
+stoiximan Ακριβές Σκορ 2 - 0 12.50, winmasters Ακριβές Σκορ 2:2 12.50
+stoiximan Ακριβές Σκορ 2 - 1 9.75, winmasters Ακριβές Σκορ 1:2 8.75
+stoiximan Ακριβές Σκορ 3 - 0 27.00, winmasters Ακριβές Σκορ 3:1 22.00
+stoiximan Ακριβές Σκορ 3 - 1 21.00, winmasters Ακριβές Σκορ 5:3 125.00
+stoiximan Ακριβές Σκορ 3 - 2 32.00, winmasters Ακριβές Σκορ 2:3 22.00
+stoiximan Ακριβές Σκορ 4 - 0 75.00, winmasters Ακριβές Σκορ 4:0 95.00
+stoiximan Ακριβές Σκορ 4 - 1 60.00, winmasters Ακριβές Σκορ 2:4 60.00
+stoiximan Ακριβές Σκορ 4 - 2 90.00, winmasters Ακριβές Σκορ 2:1 10.00
+stoiximan Ακριβές Σκορ 4 - 3 200.00, winmasters Ακριβές Σκορ 3:6 200.00
+stoiximan Ακριβές Σκορ 5 - 0 250.00, winmasters Ακριβές Σκορ 5:0 125.00
+stoiximan Ακριβές Σκορ 5 - 1 200.00, winmasters Ακριβές Σκορ 0:5 100.00
+stoiximan Ακριβές Σκορ 5 - 2 300.00, winmasters Ακριβές Σκορ 0:5 100.00
+stoiximan Ακριβές Σκορ 5 - 3 700.00, winmasters Ακριβές Σκορ 5:3 175.00
+stoiximan Ακριβές Σκορ 6 - 0 1000.00, winmasters Ακριβές Σκορ 6:0 125.00
+stoiximan Ακριβές Σκορ 6 - 1 700.00, winmasters Ακριβές Σκορ 6:3 175.00
+stoiximan Ακριβές Σκορ 0 - 0 8.25, winmasters Ακριβές Σκορ 2:0 8.50
+stoiximan Ακριβές Σκορ 1 - 1 6.40, winmasters Ακριβές Σκορ 1:1 6.40
+stoiximan Ακριβές Σκορ 2 - 2 14.50, winmasters Ακριβές Σκορ 2:2 12.50
+stoiximan Ακριβές Σκορ 3 - 3 70.00, winmasters Ακριβές Σκορ 3:0 33.00
+stoiximan Ακριβές Σκορ 4 - 4 600.00, winmasters Ακριβές Σκορ 1:4 60.00
+stoiximan Ακριβές Σκορ 0 - 1 9.00, winmasters Ακριβές Σκορ 0:3 19.00
+stoiximan Ακριβές Σκορ 0 - 2 16.50, winmasters Ακριβές Σκορ 0:2 13.50
+stoiximan Ακριβές Σκορ 1 - 2 11.25, winmasters Ακριβές Σκορ 1:2 8.25
+stoiximan Ακριβές Σκορ 0 - 3 40.00, winmasters Ακριβές Σκορ 0:3 50.00
+stoiximan Ακριβές Σκορ 1 - 3 28.00, winmasters Ακριβές Σκορ 2:3 28.00
+stoiximan Ακριβές Σκορ 2 - 3 37.00, winmasters Ακριβές Σκορ 2:3 33.00
+stoiximan Ακριβές Σκορ 0 - 4 150.00, winmasters Ακριβές Σκορ 4:5 150.00
+stoiximan Ακριβές Σκορ 1 - 4 90.00, winmasters Ακριβές Σκορ 1:4 40.00
+stoiximan Ακριβές Σκορ 2 - 4 120.00, winmasters Ακριβές Σκορ 7:2 125.00
+stoiximan Ακριβές Σκορ 3 - 4 250.00, winmasters Ακριβές Σκορ 5:3 150.00
+stoiximan Ακριβές Σκορ 0 - 5 500.00, winmasters Ακριβές Σκορ 5:0 55.00
+stoiximan Ακριβές Σκορ 1 - 5 350.00, winmasters Ακριβές Σκορ 1:5 95.00
+stoiximan Ακριβές Σκορ 2 - 5 500.00, winmasters Ακριβές Σκορ 2:5 150.00
+stoiximan Ακριβές Σκορ 3 - 5 900.00, winmasters Ακριβές Σκορ 3:6 150.00
+stoiximan Επόμενο Γκολ (Γκολ 1) Μάντσεστερ Γιουνάιτεντ 2.18, winmasters Ημίχρονο/Τελικό Λιόν / Μάντσεστερ Γιουνάιτεντ 32.00
+stoiximan Λιόν - Γκολ Over/Under Over0.5 1.28, winmasters Γκολ Over/Under 2.25 Over 2.25 1.81
+stoiximan Λιόν - Γκολ Over/Under Under0.5 3.45, winmasters Γκολ Over/Under 2 Under 2 3.35
+stoiximan Λιόν - Γκολ Over/Under Over1.5 2.27, winmasters Γκολ Over/Under 2.75 Over 2.75 2.37
+stoiximan Λιόν - Γκολ Over/Under Under1.5 1.60, winmasters Γκολ Over/Under 2.75 Under 2.75 1.65
+stoiximan Λιόν - Γκολ Over/Under Over2.5 4.85, winmasters Γκολ Over/Under 3 Over 3 2.55
+stoiximan Λιόν - Γκολ Over/Under Under2.5 1.16, winmasters Γκολ Over/Under 4.25 Under 4.25 1.21
+stoiximan Λιόν - Γκολ Over/Under Over3.5 9.50, winmasters Γκολ Over/Under 3.75 Over 3.75 4.35
+stoiximan Λιόν - Γκολ Over/Under Under3.5 1.04, winmasters Γκολ Over/Under 3.25 Under 3.25 1.57
+stoiximan Λιόν - Γκολ Over/Under Over4.5 13.50, winmasters Γκολ Over/Under 4.25 Over 4.25 7.00
+stoiximan Λιόν - Γκολ Over/Under Under4.5 1.007, winmasters Γκολ Over/Under 4.25 Under 4.25 1.15
+stoiximan Μάντσεστερ Γιουνάιτεντ - Γκολ Over/Under Under0.5 2.95, winmasters Γκολ Over/Under 2.25 Under 2.25 2.05
+stoiximan Μάντσεστερ Γιουνάιτεντ - Γκολ Over/Under Under1.5 1.44, winmasters Γκολ Over/Under 2.75 Under 2.75 1.74
+stoiximan Μάντσεστερ Γιουνάιτεντ - Γκολ Over/Under Over2.5 6.00, winmasters Γκολ Over/Under 4 Over 4 6.00
+stoiximan Μάντσεστερ Γιουνάιτεντ - Γκολ Over/Under Under2.5 1.11, winmasters Γκολ Over/Under 4.25 Under 4.25 1.13
+stoiximan Μάντσεστερ Γιουνάιτεντ - Γκολ Over/Under Over3.5 11.00, winmasters Χάντικαπ 3:0 Μάντσεστερ Γιουνάιτεντ (-3) 41.00
+stoiximan Μάντσεστερ Γιουνάιτεντ - Γκολ Over/Under Under3.5 1.02, winmasters Γκολ Over/Under 3.25 Under 3.25 1.37
+stoiximan Τελικό Αποτέλεσμα 1 3.05, winmasters Τελικό Αποτέλεσμα, 1ο Ημίχρονο Ρέιντζερς 3.75
+stoiximan Τελικό Αποτέλεσμα X 3.60, winmasters Τελικό Αποτέλεσμα, 1ο Ημίχρονο Ισοπαλία 2.20
+stoiximan Τελικό Αποτέλεσμα 2 2.25, winmasters Τελικό Αποτέλεσμα, 1ο Ημίχρονο Ισοπαλία 2.35
+stoiximan Πρόκριση Ρέιντζερς 3.60, winmasters Πρόκριση, Αγώνας Ρέιντζερς 3.45
+stoiximan Πρόκριση Αθλέτικ Μπιλμπάο 1.29, winmasters Πρόκριση, Αγώνας Αθλέτικ Μπιλμπάο 1.33
+stoiximan Γκολ Over/Under 2.5 Over2.5 1.90, winmasters Γκολ Over/Under 2.75 Over 2.75 1.91
+stoiximan Γκολ Over/Under 2.5 Under2.5 1.91, winmasters Γκολ Over/Under 2.75 Over 2.75 2.15
+stoiximan Να σκοράρουν και οι 2 ομάδες ή Over 2.5 Ναι 1.52, winmasters Να Σκοράρουν Και Οι Δύο Ομάδες και Over/Under 2.5 Ναι και Under 2.5 6.20
+stoiximan Να σκοράρουν και οι 2 ομάδες ή Over 2.5 Όχι (2-0, 1-0, 0-0, 0-1 ή 0-2) 2.42, winmasters Να Σκοράρουν Και Οι Δύο Ομάδες ή Over 2.5 Όχι (2-0, 1-0, 0-0, 0-1 ή 0-2) 2.19
+stoiximan Draw No Bet Αθλέτικ Μπιλμπάο 1.62, winmasters Χάντικαπ 0:2 Αθλέτικ Μπιλμπάο (+2) 1.12
+stoiximan Γκολ Over/Under (extra) Over0.5 1.06, winmasters Γκολ Over/Under 2.25 Over 2.25 1.68
+stoiximan Γκολ Over/Under (extra) Under0.5 9.25, winmasters Γκολ Over/Under 1 Under 1 9.25
+stoiximan Γκολ Over/Under (extra) Over1.5 1.30, winmasters Γκολ Over/Under 1.75 Over 1.75 1.36
+stoiximan Γκολ Over/Under (extra) Under1.5 3.55, winmasters Γκολ Over/Under 1.75 Under 1.75 3.75
+stoiximan Γκολ Over/Under (extra) Over3.5 3.20, winmasters Γκολ Over/Under 3.75 Over 3.75 3.30
+stoiximan Γκολ Over/Under (extra) Under3.5 1.36, winmasters Γκολ Over/Under 1 Under 1 10.50
+stoiximan Γκολ Over/Under (extra) Over4.5 5.90, winmasters Γκολ Over/Under 3.25 Over 3.25 3.30
+stoiximan Γκολ Over/Under (extra) Under4.5 1.14, winmasters Γκολ Over/Under 1.25 Over 1.25 1.14
+stoiximan Γκολ Over/Under (extra) Over5.5 10.50, winmasters Γκολ Over/Under 7.5 Over 7.5 40.00
+stoiximan Γκολ Over/Under (extra) Under5.5 1.05, winmasters Γκολ Over/Under 2 Under 2 2.80
+stoiximan Γκολ Over/Under (extra) Over6.5 15.50, winmasters Γκολ Over/Under 2.25 Over 2.25 1.54
+stoiximan Γκολ Over/Under (extra) Under6.5 1.01, winmasters Γκολ Over/Under 6.5 Under 6.5 N/A
+stoiximan 1ο Ημίχρονο - Αποτέλεσμα Ισοπαλία 2.12, winmasters Τελικό Αποτέλεσμα, 1ο Ημίχρονο Ισοπαλία 2.12
+stoiximan 1ο Ημίχρονο - Αποτέλεσμα Αθλέτικ Μπιλμπάο 2.90, winmasters Ημίχρονο Ή Τελικό Αθλέτικ Μπιλμπάο 1.78
+stoiximan 1ο Ημίχρονο - Γκολ Over/Under Over0.5 1.44, winmasters Γκολ Over/Under 1.75 Over 1.75 1.41
+stoiximan 1ο Ημίχρονο - Γκολ Over/Under Under0.5 2.75, winmasters Γκολ Over/Under 1.75 Under 1.75 2.90
+stoiximan 1ο Ημίχρονο - Γκολ Over/Under Over1.5 2.92, winmasters Γκολ Over/Under 1.75 Over 1.75 1.29
+stoiximan 1ο Ημίχρονο - Γκολ Over/Under Under1.5 1.39, winmasters Γκολ Over/Under 1.25 Under 1.25 5.90
+stoiximan 1ο Ημίχρονο - Γκολ Over/Under Over2.5 6.80, winmasters Γκολ Over/Under 2.25 Over 2.25 1.78
+stoiximan 1ο Ημίχρονο - Γκολ Over/Under Under2.5 1.09, winmasters Γκολ Over/Under 1.25 Under 1.25 5.00
+stoiximan 1ο Ημίχρονο - Γκολ Over/Under Over3.5 12.50, winmasters Γκολ Over/Under 3.25 Over 3.25 3.15
+stoiximan 1ο Ημίχρονο - Γκολ Over/Under Under3.5 1.02, winmasters Γκολ Over/Under, 1ο Ημίχρονο 3.5 Under 3.5 1.02
+stoiximan Τελικό Αποτέλεσμα / Να σκοράρουν και οι 2 ομάδες Ρέιντζερς / Ναι 5.50, winmasters Αποτέλεσμα Και Να Σκοράρουν Και Οι Δύο Ομάδες (6πλής Επιλογής) 1 Και Ναι 3.20
+stoiximan Τελικό Αποτέλεσμα / Να σκοράρουν και οι 2 ομάδες Ισοπαλία / Ναι 4.40, winmasters Αποτέλεσμα Και Να Σκοράρουν Και Οι Δύο Ομάδες (6πλής Επιλογής) Ισοπαλία Και Ναι 4.30
+stoiximan Τελικό Αποτέλεσμα / Να σκοράρουν και οι 2 ομάδες Ισοπαλία / Όχι 9.25, winmasters Αποτέλεσμα Και Να Σκοράρουν Και Οι Δύο Ομάδες (6πλής Επιλογής) Ισοπαλία Και Όχι 9.75
+stoiximan Τελικό Αποτέλεσμα / Να σκοράρουν και οι 2 ομάδες Αθλέτικ Μπιλμπάο / Ναι 4.25, winmasters Τελικό Αποτέλεσμα, 1ο Ημίχρονο Αθλέτικ Μπιλμπάο 2.90
+stoiximan Τελικό Αποτέλεσμα ή Γκολ Over/Under 2.5 1 ή Over 2.5 1.42, winmasters Αποτέλεσμα και Over/Under 2.5 Over None 12.00
+stoiximan Τελικό Αποτέλεσμα ή Γκολ Over/Under 2.5 1 ή Under 2.5 1.35, winmasters Αποτέλεσμα και Over/Under 5.5 Under None 3.35
+stoiximan Τελικό Αποτέλεσμα ή Γκολ Over/Under 2.5 X ή Over 2.5 1.32, winmasters Αποτέλεσμα και Over/Under 4.5 Over None 7.20
+stoiximan Τελικό Αποτέλεσμα ή Γκολ Over/Under 2.5 X ή Under 2.5 1.55, winmasters Αποτέλεσμα και Over/Under 1.5 Under None 10.50
+stoiximan Τελικό Αποτέλεσμα ή Γκολ Over/Under 2.5 2 ή Over 2.5 1.35, winmasters Αποτέλεσμα και Over/Under 3.5 Over None 4.35
+stoiximan Τελικό Αποτέλεσμα ή Γκολ Over/Under 2.5 2 ή Under 2.5 1.24, winmasters Αποτέλεσμα και Over/Under 5.5 Under None 3.45
+stoiximan Nα σκοράρουν και οι 2 ομάδες και Συνολικά Γκολ (2.5) Ναι και Over2.5 2.18, winmasters Να Σκοράρουν Και Οι Δύο Ομάδες και Over/Under 4.5 Ναι και Over 4.5 5.20
+stoiximan Nα σκοράρουν και οι 2 ομάδες και Συνολικά Γκολ (2.5) Όχι και Over2.5 9.50, winmasters Να Σκοράρουν Και Οι Δύο Ομάδες και Over/Under 2.5 Όχι και Over 2.5 9.50
+stoiximan Nα σκοράρουν και οι 2 ομάδες και Συνολικά Γκολ (2.5) Ναι και Under2.5 7.10, winmasters Να Σκοράρουν Και Οι Δύο Ομάδες και Over/Under 3.5 Ναι και Under 3.5 3.10
+stoiximan Nα σκοράρουν και οι 2 ομάδες και Συνολικά Γκολ (2.5) Όχι και Under2.5 2.42, winmasters Να Σκοράρουν Και Οι Δύο Ομάδες και Over/Under 2.5 Όχι και Under 2.5 2.40
+stoiximan Nα σκοράρουν και οι 2 ομάδες και Συνολικά Γκολ (3.5) Ναι και Over3.5 3.40, winmasters Να Σκοράρουν Και Οι Δύο Ομάδες και Over/Under 3.5 Ναι και Over 3.5 3.00
+stoiximan Nα σκοράρουν και οι 2 ομάδες και Συνολικά Γκολ (3.5) Όχι και Over3.5 26.00, winmasters Να Σκοράρουν Και Οι Δύο Ομάδες και Over/Under 3.5 Όχι και Over 3.5 26.00
+stoiximan Nα σκοράρουν και οι 2 ομάδες και Συνολικά Γκολ (3.5) Ναι και Under3.5 3.05, winmasters Να Σκοράρουν Και Οι Δύο Ομάδες και Over/Under 3.5 Ναι και Under 3.5 3.00
+stoiximan Nα σκοράρουν και οι 2 ομάδες και Συνολικά Γκολ (3.5) Όχι και Under3.5 2.15, winmasters Να Σκοράρουν Και Οι Δύο Ομάδες και Over/Under 3.5 Όχι και Under 3.5 1.97
+stoiximan Nα σκοράρουν και οι 2 ομάδες και Συνολικά Γκολ (4.5) Ναι και Over4.5 6.20, winmasters Να Σκοράρουν Και Οι Δύο Ομάδες και Over/Under 5.5 Ναι και Over 5.5 13.50
+stoiximan Nα σκοράρουν και οι 2 ομάδες και Συνολικά Γκολ (4.5) Όχι και Over4.5 80.00, winmasters Να Σκοράρουν Και Οι Δύο Ομάδες και Over/Under 4.5 Όχι και Over 4.5 29.00
+stoiximan Nα σκοράρουν και οι 2 ομάδες και Συνολικά Γκολ (4.5) Ναι και Under4.5 2.15, winmasters Να Σκοράρουν Και Οι Δύο Ομάδες και Over/Under 5.5 Ναι και Under 5.5 1.90
+stoiximan Nα σκοράρουν και οι 2 ομάδες και Συνολικά Γκολ (4.5) Όχι και Under4.5 2.02, winmasters Να Σκοράρουν Και Οι Δύο Ομάδες και Over/Under 4.5 Όχι και Under 4.5 1.90
+stoiximan Nα σκοράρουν και οι 2 ομάδες και Συνολικά Γκολ (5.5) Ναι και Over5.5 12.50, winmasters Να Σκοράρουν Και Οι Δύο Ομάδες και Over/Under 5.5 Όχι και Over 5.5 55.00
+stoiximan Nα σκοράρουν και οι 2 ομάδες και Συνολικά Γκολ (5.5) Όχι και Over5.5 300.00, winmasters Να Σκοράρουν Και Οι Δύο Ομάδες και Over/Under 5.5 Όχι και Under 5.5 1.88
+stoiximan Ημίχρονο/Τελικό 1/2 27.00, winmasters Ημίχρονο/Τελικό Ρέιντζερς / Αθλέτικ Μπιλμπάο 27.00
+stoiximan Ημίχρονο/Τελικό 2/X 15.00, winmasters Ημίχρονο/Τελικό Μπόντο Γκλιμτ / Ισοπαλία 15.00
+stoiximan Ακριβές Σκορ 1 - 0 9.50, winmasters Ακριβές Σκορ 1:0 9.25
+stoiximan Ακριβές Σκορ 2 - 0 17.00, winmasters Ακριβές Σκορ 5:0 175.00
+stoiximan Ακριβές Σκορ 2 - 1 11.50, winmasters Ακριβές Σκορ 2:1 10.50
+stoiximan Ακριβές Σκορ 3 - 0 40.00, winmasters Ακριβές Σκορ 1:4 40.00
+stoiximan Ακριβές Σκορ 3 - 1 27.00, winmasters Ακριβές Σκορ 6:3 175.00
+stoiximan Ακριβές Σκορ 3 - 2 35.00, winmasters Ακριβές Σκορ 2:4 55.00
+stoiximan Ακριβές Σκορ 4 - 0 120.00, winmasters Ακριβές Σκορ 9:0 125.00
+stoiximan Ακριβές Σκορ 4 - 1 80.00, winmasters Ακριβές Σκορ 4:5 150.00
+stoiximan Ακριβές Σκορ 4 - 2 110.00, winmasters Ακριβές Σκορ 4:5 150.00
+stoiximan Ακριβές Σκορ 4 - 3 200.00, winmasters Ακριβές Σκορ 3:4 100.00
+stoiximan Ακριβές Σκορ 5 - 0 450.00, winmasters Ακριβές Σκορ 0:4 45.00
+stoiximan Ακριβές Σκορ 5 - 1 300.00, winmasters Ακριβές Σκορ 3:5 150.00
+stoiximan Ακριβές Σκορ 5 - 2 400.00, winmasters Ακριβές Σκορ 5:2 125.00
+stoiximan Ακριβές Σκορ 5 - 3 800.00, winmasters Ακριβές Σκορ 3:4 100.00
+stoiximan Ακριβές Σκορ 0 - 0 9.25, winmasters Ακριβές Σκορ 0:0 9.75
+stoiximan Ακριβές Σκορ 1 - 1 7.10, winmasters Ακριβές Σκορ 0:1 7.10
+stoiximan Ακριβές Σκορ 2 - 2 15.00, winmasters Ακριβές Σκορ 2:2 13.00
+stoiximan Ακριβές Σκορ 3 - 3 70.00, winmasters Ακριβές Σκορ 6:3 175.00
+stoiximan Ακριβές Σκορ 4 - 4 500.00, winmasters Ακριβές Σκορ 4:4 150.00
+stoiximan Ακριβές Σκορ 0 - 1 7.90, winmasters Ακριβές Σκορ 0:1 7.90
+stoiximan Ακριβές Σκορ 0 - 2 11.50, winmasters Ακριβές Σκορ 0:0 11.50
+stoiximan Ακριβές Σκορ 1 - 2 9.50, winmasters Ακριβές Σκορ 1:2 12.50
+stoiximan Ακριβές Σκορ 0 - 3 23.00, winmasters Ακριβές Σκορ 1:3 22.00
+stoiximan Ακριβές Σκορ 1 - 3 18.50, winmasters Ακριβές Σκορ 0:3 18.50
+stoiximan Ακριβές Σκορ 2 - 3 30.00, winmasters Ακριβές Σκορ 3:4 100.00
+stoiximan Ακριβές Σκορ 0 - 4 60.00, winmasters Ακριβές Σκορ 0:4 45.00
+stoiximan Ακριβές Σκορ 1 - 4 50.00, winmasters Ακριβές Σκορ 1:4 85.00
+stoiximan Ακριβές Σκορ 2 - 4 75.00, winmasters Ακριβές Σκορ 5:4 175.00
+stoiximan Ακριβές Σκορ 3 - 4 175.00, winmasters Ακριβές Σκορ 4:5 175.00
+stoiximan Ακριβές Σκορ 0 - 5 175.00, winmasters Ακριβές Σκορ 3:5 175.00
+stoiximan Ακριβές Σκορ 1 - 5 150.00, winmasters Ακριβές Σκορ 1:6 150.00
+stoiximan Ακριβές Σκορ 2 - 5 250.00, winmasters Ακριβές Σκορ 2:5 125.00
+stoiximan Ακριβές Σκορ 3 - 5 600.00, winmasters Ακριβές Σκορ 1:3 16.00
+stoiximan Ακριβές Σκορ 0 - 6 700.00, winmasters Ακριβές Σκορ 0:6 175.00
+stoiximan Ακριβές Σκορ 1 - 6 600.00, winmasters Ακριβές Σκορ 1:3 16.00
+stoiximan Ακριβές Σκορ 2 - 6 800.00, winmasters Ακριβές Σκορ 2:6 150.00
+stoiximan Ρέιντζερς - Γκολ Over/Under Over0.5 1.37, winmasters Γκολ Over/Under 1.25 Over 1.25 1.22
+stoiximan Ρέιντζερς - Γκολ Over/Under Under0.5 2.95, winmasters Γκολ Over/Under 1.25 Under 1.25 4.55
+stoiximan Ρέιντζερς - Γκολ Over/Under Over1.5 2.62, winmasters Γκολ Over/Under 1.25 Over 1.25 1.21
+stoiximan Ρέιντζερς - Γκολ Over/Under Under1.5 1.45, winmasters Γκολ Over/Under 1.25 Under 1.25 4.45
+stoiximan Ρέιντζερς - Γκολ Over/Under Over2.5 5.80, winmasters Γκολ Over/Under 6.5 Over 6.5 20.00
+stoiximan Ρέιντζερς - Γκολ Over/Under Under2.5 1.12, winmasters Γκολ Over/Under 7.5 Under 7.5 N/A
+stoiximan Ρέιντζερς - Γκολ Over/Under Over3.5 10.50, winmasters Γκολ Over/Under 1.25 Over 1.25 1.19
+stoiximan Ρέιντζερς - Γκολ Over/Under Under3.5 1.02, winmasters Γκολ Over/Under 7.5 Under 7.5 N/A
+stoiximan Draw No Bet Λάτσιο 1.55
+stoiximan Τελικό Αποτέλεσμα & Συνολικά Γκολ (1.5) 1 και Over1.5 4.35
+stoiximan Τελικό Αποτέλεσμα & Συνολικά Γκολ (1.5) 1 και Under1.5 9.75
+stoiximan Τελικό Αποτέλεσμα & Συνολικά Γκολ (1.5) 2 και Over1.5 2.80
+stoiximan Τελικό Αποτέλεσμα & Συνολικά Γκολ (1.5) 2 και Under1.5 7.00
+stoiximan Τελικό Αποτέλεσμα & Συνολικά Γκολ (1.5) X και Over1.5 4.25
+stoiximan Τελικό Αποτέλεσμα & Συνολικά Γκολ (1.5) X και Under1.5 8.25
+stoiximan Τελικό Αποτέλεσμα & Συνολικά Γκολ (2.5) 1 και Over2.5 5.40
+stoiximan Τελικό Αποτέλεσμα & Συνολικά Γκολ (2.5) 1 και Under2.5 6.60
+stoiximan Τελικό Αποτέλεσμα & Συνολικά Γκολ (2.5) 2 και Over2.5 3.60
+stoiximan Τελικό Αποτέλεσμα & Συνολικά Γκολ (2.5) 2 και Under2.5 4.40
+stoiximan Τελικό Αποτέλεσμα & Συνολικά Γκολ (2.5) X και Over2.5 11.75
+stoiximan Τελικό Αποτέλεσμα & Συνολικά Γκολ (2.5) X και Under2.5 3.90
+stoiximan Τελικό Αποτέλεσμα & Συνολικά Γκολ (3.5) 1 και Over3.5 11.00
+stoiximan Τελικό Αποτέλεσμα & Συνολικά Γκολ (3.5) 1 και Under3.5 4.10
+stoiximan Τελικό Αποτέλεσμα & Συνολικά Γκολ (3.5) 2 και Over3.5 7.00
+stoiximan Τελικό Αποτέλεσμα & Συνολικά Γκολ (3.5) 2 και Under3.5 2.77
+stoiximan Τελικό Αποτέλεσμα & Συνολικά Γκολ (3.5) X και Over3.5 11.50
+stoiximan Τελικό Αποτέλεσμα & Συνολικά Γκολ (3.5) X και Under3.5 3.90
+stoiximan Τελικό Αποτέλεσμα & Συνολικά Γκολ (4.5) 1 και Over4.5 17.50
+stoiximan Τελικό Αποτέλεσμα & Συνολικά Γκολ (4.5) 1 και Under4.5 3.55
+stoiximan Τελικό Αποτέλεσμα & Συνολικά Γκολ (4.5) 2 και Over4.5 11.75
+stoiximan Τελικό Αποτέλεσμα & Συνολικά Γκολ (4.5) 2 και Under4.5 2.40
+stoiximan Τελικό Αποτέλεσμα & Συνολικά Γκολ (4.5) X και Over4.5 55.00
+stoiximan Τελικό Αποτέλεσμα & Συνολικά Γκολ (4.5) X και Under4.5 3.15
+stoiximan Τελικό Αποτέλεσμα & Συνολικά Γκολ (5.5) 1 και Over5.5 45.00
+stoiximan Τελικό Αποτέλεσμα & Συνολικά Γκολ (5.5) 1 και Under5.5 3.20
+stoiximan Τελικό Αποτέλεσμα & Συνολικά Γκολ (5.5) 2 και Over5.5 29.00
+stoiximan Τελικό Αποτέλεσμα & Συνολικά Γκολ (5.5) 2 και Under5.5 2.15
+stoiximan Τελικό Αποτέλεσμα & Συνολικά Γκολ (5.5) X και Over5.5 50.00
+stoiximan Τελικό Αποτέλεσμα & Συνολικά Γκολ (5.5) X και Under5.5 3.15
+stoiximan Διπλή ευκαιρία & Συνολικά Γκολ (1.5) 12 και Over1.5 1.83
+stoiximan Διπλή ευκαιρία & Συνολικά Γκολ (1.5) 12 και Under1.5 4.45
+stoiximan Διπλή ευκαιρία & Συνολικά Γκολ (1.5) 1X και Over1.5 2.32
+stoiximan Διπλή ευκαιρία & Συνολικά Γκολ (1.5) 1X και Under1.5 5.20
+stoiximan Διπλή ευκαιρία & Συνολικά Γκολ (1.5) X2 και Over1.5 1.82
+stoiximan Διπλή ευκαιρία & Συνολικά Γκολ (1.5) X2 και Under1.5 4.35
+stoiximan Διπλή ευκαιρία & Συνολικά Γκολ (2.5) 12 και Over2.5 2.37
+stoiximan Διπλή ευκαιρία & Συνολικά Γκολ (2.5) 12 και Under2.5 2.87
+stoiximan Διπλή ευκαιρία & Συνολικά Γκολ (2.5) 1X και Over2.5 4.05
+stoiximan Διπλή ευκαιρία & Συνολικά Γκολ (2.5) 1X και Under2.5 2.67
+stoiximan Διπλή ευκαιρία & Συνολικά Γκολ (2.5) X2 και Over2.5 3.00
+stoiximan Διπλή ευκαιρία & Συνολικά Γκολ (2.5) X2 και Under2.5 2.25
+stoiximan Διπλή ευκαιρία & Συνολικά Γκολ (3.5) 12 και Over3.5 4.75
+stoiximan Διπλή ευκαιρία & Συνολικά Γκολ (3.5) 12 και Under3.5 1.78
+stoiximan Διπλή ευκαιρία & Συνολικά Γκολ (3.5) 1X και Over3.5 6.30
+stoiximan Διπλή ευκαιρία & Συνολικά Γκολ (3.5) 1X και Under3.5 2.18
+stoiximan Διπλή ευκαιρία & Συνολικά Γκολ (3.5) X2 και Over3.5 4.80
+stoiximan Διπλή ευκαιρία & Συνολικά Γκολ (3.5) X2 και Under3.5 1.75
+stoiximan Διπλή ευκαιρία & Συνολικά Γκολ (4.5) 12 και Over4.5 7.70
+stoiximan Διπλή ευκαιρία & Συνολικά Γκολ (4.5) 12 και Under4.5 1.55
+stoiximan Διπλή ευκαιρία & Συνολικά Γκολ (4.5) 1X και Over4.5 14.50
+stoiximan Διπλή ευκαιρία & Συνολικά Γκολ (4.5) 1X και Under4.5 1.82
+stoiximan Διπλή ευκαιρία & Συνολικά Γκολ (4.5) X2 και Over4.5 10.50
+stoiximan Διπλή ευκαιρία & Συνολικά Γκολ (4.5) X2 και Under4.5 1.47
+stoiximan Διπλή ευκαιρία & Συνολικά Γκολ (5.5) 12 και Over5.5 19.00
+stoiximan Διπλή ευκαιρία & Συνολικά Γκολ (5.5) 12 και Under5.5 1.40
+stoiximan Διπλή ευκαιρία & Συνολικά Γκολ (5.5) 1X και Over5.5 26.00
+stoiximan Διπλή ευκαιρία & Συνολικά Γκολ (5.5) 1X και Under5.5 1.70
+stoiximan Διπλή ευκαιρία & Συνολικά Γκολ (5.5) X2 και Over5.5 20.00
+stoiximan Διπλή ευκαιρία & Συνολικά Γκολ (5.5) X2 και Under5.5 1.38
+stoiximan Επόμενο Γκολ (Γκολ 1) Μπόντο Γκλιμτ 2.25
+stoiximan Επόμενο Γκολ (Γκολ 1) Κανένα γκολ 8.25
+stoiximan Επόμενο Γκολ (Γκολ 1) Λάτσιο 1.87
+stoiximan Διπλή ευκαιρία 1X 1.22
+stoiximan Διπλή ευκαιρία X2 2.15
+stoiximan Διπλή ευκαιρία 12 1.25
+stoiximan Draw No Bet Τότεναμ 1.31
+stoiximan Τελικό Αποτέλεσμα & Συνολικά Γκολ (1.5) 1 και Over1.5 2.00
+stoiximan Τελικό Αποτέλεσμα & Συνολικά Γκολ (1.5) 1 και Under1.5 8.00
+stoiximan Τελικό Αποτέλεσμα & Συνολικά Γκολ (1.5) 2 και Over1.5 5.60
+stoiximan Τελικό Αποτέλεσμα & Συνολικά Γκολ (1.5) 2 και Under1.5 13.00
+stoiximan Τελικό Αποτέλεσμα & Συνολικά Γκολ (1.5) X και Over1.5 4.55
+stoiximan Τελικό Αποτέλεσμα & Συνολικά Γκολ (1.5) X και Under1.5 10.50
+stoiximan Τελικό Αποτέλεσμα & Συνολικά Γκολ (2.5) 1 και Over2.5 2.42
+stoiximan Τελικό Αποτέλεσμα & Συνολικά Γκολ (2.5) 1 και Under2.5 4.50
+stoiximan Τελικό Αποτέλεσμα & Συνολικά Γκολ (2.5) 2 και Over2.5 6.80
+stoiximan Τελικό Αποτέλεσμα & Συνολικά Γκολ (2.5) 2 και Under2.5 9.25
+stoiximan Τελικό Αποτέλεσμα & Συνολικά Γκολ (2.5) X και Over2.5 11.00
+stoiximan Τελικό Αποτέλεσμα & Συνολικά Γκολ (2.5) X και Under2.5 5.00
+stoiximan Τελικό Αποτέλεσμα & Συνολικά Γκολ (3.5) 1 και Over3.5 3.95
+stoiximan Τελικό Αποτέλεσμα & Συνολικά Γκολ (3.5) 1 και Under3.5 2.62
+stoiximan Τελικό Αποτέλεσμα & Συνολικά Γκολ (3.5) 2 και Over3.5 14.00
+stoiximan Τελικό Αποτέλεσμα & Συνολικά Γκολ (3.5) 2 και Under3.5 5.60
+stoiximan Τελικό Αποτέλεσμα & Συνολικά Γκολ (3.5) X και Over3.5 11.00
+stoiximan Τελικό Αποτέλεσμα & Συνολικά Γκολ (3.5) X και Under3.5 5.00
+stoiximan Τελικό Αποτέλεσμα & Συνολικά Γκολ (4.5) 1 και Over4.5 6.20
+stoiximan Τελικό Αποτέλεσμα & Συνολικά Γκολ (4.5) 1 και Under4.5 2.10
+stoiximan Τελικό Αποτέλεσμα & Συνολικά Γκολ (4.5) 2 και Over4.5 20.00
+stoiximan Τελικό Αποτέλεσμα & Συνολικά Γκολ (4.5) 2 και Under4.5 4.85
+stoiximan Τελικό Αποτέλεσμα & Συνολικά Γκολ (4.5) X και Over4.5 45.00
+stoiximan Τελικό Αποτέλεσμα & Συνολικά Γκολ (4.5) X και Under4.5 3.75
+stoiximan Τελικό Αποτέλεσμα & Συνολικά Γκολ (5.5) 1 και Over5.5 13.00
+stoiximan Τελικό Αποτέλεσμα & Συνολικά Γκολ (5.5) 1 και Under5.5 1.82
+stoiximan Τελικό Αποτέλεσμα & Συνολικά Γκολ (5.5) 2 και Over5.5 55.00
+stoiximan Τελικό Αποτέλεσμα & Συνολικά Γκολ (5.5) 2 και Under5.5 4.25
+stoiximan Τελικό Αποτέλεσμα & Συνολικά Γκολ (5.5) X και Over5.5 40.00
+stoiximan Τελικό Αποτέλεσμα & Συνολικά Γκολ (5.5) X και Under5.5 3.75
+stoiximan Τελικό Αποτέλεσμα / Να σκοράρουν και οι 2 ομάδες Άιντραχτ Φρανκφούρτης / Όχι 8.25
+stoiximan Τελικό Αποτέλεσμα ή Να σκοράρουν και οι 2 ομάδες X ή Nαι (GG) 1.44
+stoiximan Τελικό Αποτέλεσμα ή Να σκοράρουν και οι 2 ομάδες X ή Όχι (NG) 1.45
+stoiximan Τελικό Αποτέλεσμα ή Να σκοράρουν και οι 2 ομάδες 2 ή Nαι (GG) 1.37
+stoiximan Διπλή ευκαιρία / Να σκοράρουν και οι 2 ομάδες 12 και Ναι 2.42
+stoiximan Διπλή ευκαιρία / Να σκοράρουν και οι 2 ομάδες 12 και Όχι 2.45
+stoiximan Διπλή ευκαιρία / Να σκοράρουν και οι 2 ομάδες 1X και Ναι 2.05
+stoiximan Διπλή ευκαιρία / Να σκοράρουν και οι 2 ομάδες 1X και Όχι 2.72
+stoiximan Διπλή ευκαιρία / Να σκοράρουν και οι 2 ομάδες X2 και Ναι 3.15
+stoiximan Διπλή ευκαιρία / Να σκοράρουν και οι 2 ομάδες X2 και Όχι 5.70
+stoiximan Διπλή ευκαιρία & Συνολικά Γκολ (1.5) 12 και Over1.5 1.57
+stoiximan Διπλή ευκαιρία & Συνολικά Γκολ (1.5) 12 και Under1.5 5.50
+stoiximan Διπλή ευκαιρία & Συνολικά Γκολ (1.5) 1X και Over1.5 1.50
+stoiximan Διπλή ευκαιρία & Συνολικά Γκολ (1.5) 1X και Under1.5 5.50
+stoiximan Διπλή ευκαιρία & Συνολικά Γκολ (1.5) X2 και Over1.5 2.75
+stoiximan Διπλή ευκαιρία & Συνολικά Γκολ (1.5) X2 και Under1.5 7.30
+stoiximan Διπλή ευκαιρία & Συνολικά Γκολ (2.5) 12 και Over2.5 1.93
+stoiximan Διπλή ευκαιρία & Συνολικά Γκολ (2.5) 12 και Under2.5 3.35
+stoiximan Διπλή ευκαιρία & Συνολικά Γκολ (2.5) 1X και Over2.5 2.12
+stoiximan Διπλή ευκαιρία & Συνολικά Γκολ (2.5) 1X και Under2.5 2.60
+stoiximan Διπλή ευκαιρία & Συνολικά Γκολ (2.5) X2 και Over2.5 4.65
+stoiximan Διπλή ευκαιρία & Συνολικά Γκολ (2.5) X2 και Under2.5 3.55
+stoiximan Διπλή ευκαιρία & Συνολικά Γκολ (3.5) 12 και Over3.5 3.35
+stoiximan Διπλή ευκαιρία & Συνολικά Γκολ (3.5) 12 και Under3.5 1.93
+stoiximan Διπλή ευκαιρία & Συνολικά Γκολ (3.5) 1X και Over3.5 3.15
+stoiximan Διπλή ευκαιρία & Συνολικά Γκολ (3.5) 1X και Under3.5 1.85
+stoiximan Διπλή ευκαιρία & Συνολικά Γκολ (3.5) X2 και Over3.5 6.80
+stoiximan Διπλή ευκαιρία & Συνολικά Γκολ (3.5) X2 και Under3.5 2.87
+stoiximan Διπλή ευκαιρία & Συνολικά Γκολ (4.5) 12 και Over4.5 5.20
+stoiximan Διπλή ευκαιρία & Συνολικά Γκολ (4.5) 12 και Under4.5 1.60
+stoiximan Διπλή ευκαιρία & Συνολικά Γκολ (4.5) 1X και Over4.5 5.80
+stoiximan Διπλή ευκαιρία & Συνολικά Γκολ (4.5) 1X και Under4.5 1.47
+stoiximan Διπλή ευκαιρία & Συνολικά Γκολ (4.5) X2 και Over4.5 15.50
+stoiximan Διπλή ευκαιρία & Συνολικά Γκολ (4.5) X2 και Under4.5 2.32
+stoiximan Διπλή ευκαιρία & Συνολικά Γκολ (5.5) 12 και Over5.5 11.25
+stoiximan Διπλή ευκαιρία & Συνολικά Γκολ (5.5) 12 και Under5.5 1.37
+stoiximan Διπλή ευκαιρία & Συνολικά Γκολ (5.5) 1X και Over5.5 10.75
+stoiximan Διπλή ευκαιρία & Συνολικά Γκολ (5.5) 1X και Under5.5 1.32
+stoiximan Διπλή ευκαιρία & Συνολικά Γκολ (5.5) X2 και Over5.5 26.00
+stoiximan Διπλή ευκαιρία & Συνολικά Γκολ (5.5) X2 και Under5.5 2.15
+stoiximan Επόμενο Γκολ (Γκολ 1) Τότεναμ 1.55
+stoiximan Επόμενο Γκολ (Γκολ 1) Κανένα γκολ 10.50
+stoiximan Άιντραχτ Φρανκφούρτης - Γκολ Over/Under Over0.5 1.44
+stoiximan Να σκοράρουν και οι 2 ομάδες Ναι (GG) 1.75
+stoiximan Να σκοράρουν και οι 2 ομάδες Όχι (NG) 2.02
+stoiximan Διπλή ευκαιρία 1X 1.40
+stoiximan Διπλή ευκαιρία X2 1.60
+stoiximan Διπλή ευκαιρία 12 1.32
+stoiximan Draw No Bet Λιόν 1.70
+stoiximan 1ο Ημίχρονο - Αποτέλεσμα Λιόν 3.00
+stoiximan 1ο Ημίχρονο - Αποτέλεσμα Ισοπαλία 2.07
+stoiximan Τελικό Αποτέλεσμα & Συνολικά Γκολ (1.5) 1 και Over1.5 3.00
+stoiximan Τελικό Αποτέλεσμα & Συνολικά Γκολ (1.5) 1 και Under1.5 7.80
+stoiximan Τελικό Αποτέλεσμα & Συνολικά Γκολ (1.5) 2 και Over1.5 3.85
+stoiximan Τελικό Αποτέλεσμα & Συνολικά Γκολ (1.5) 2 και Under1.5 9.00
+stoiximan Τελικό Αποτέλεσμα & Συνολικά Γκολ (1.5) X και Over1.5 4.15
+stoiximan Τελικό Αποτέλεσμα & Συνολικά Γκολ (1.5) X και Under1.5 8.25
+stoiximan Τελικό Αποτέλεσμα & Συνολικά Γκολ (2.5) 1 και Over2.5 3.80
+stoiximan Τελικό Αποτέλεσμα & Συνολικά Γκολ (2.5) 1 και Under2.5 5.00
+stoiximan Τελικό Αποτέλεσμα & Συνολικά Γκολ (2.5) 2 και Over2.5 4.90
+stoiximan Τελικό Αποτέλεσμα & Συνολικά Γκολ (2.5) 2 και Under2.5 6.00
+stoiximan Τελικό Αποτέλεσμα & Συνολικά Γκολ (2.5) X και Over2.5 11.00
+stoiximan Τελικό Αποτέλεσμα & Συνολικά Γκολ (2.5) X και Under2.5 3.95
+stoiximan Τελικό Αποτέλεσμα & Συνολικά Γκολ (3.5) 1 και Over3.5 7.30
+stoiximan Τελικό Αποτέλεσμα & Συνολικά Γκολ (3.5) 1 και Under3.5 3.05
+stoiximan Τελικό Αποτέλεσμα & Συνολικά Γκολ (3.5) 2 και Over3.5 9.75
+stoiximan Τελικό Αποτέλεσμα & Συνολικά Γκολ (3.5) 2 και Under3.5 3.75
+stoiximan Τελικό Αποτέλεσμα & Συνολικά Γκολ (3.5) X και Over3.5 11.00
+stoiximan Τελικό Αποτέλεσμα & Συνολικά Γκολ (3.5) X και Under3.5 3.95
+stoiximan Τελικό Αποτέλεσμα & Συνολικά Γκολ (4.5) 1 και Over4.5 11.75
+stoiximan Τελικό Αποτέλεσμα & Συνολικά Γκολ (4.5) 1 και Under4.5 2.62
+stoiximan Τελικό Αποτέλεσμα & Συνολικά Γκολ (4.5) 2 και Over4.5 15.50
+stoiximan Τελικό Αποτέλεσμα & Συνολικά Γκολ (4.5) 2 και Under4.5 3.25
+stoiximan Τελικό Αποτέλεσμα & Συνολικά Γκολ (4.5) X και Over4.5 50.00
+stoiximan Τελικό Αποτέλεσμα & Συνολικά Γκολ (4.5) X και Under4.5 3.10
+stoiximan Τελικό Αποτέλεσμα & Συνολικά Γκολ (5.5) 1 και Over5.5 29.00
+stoiximan Τελικό Αποτέλεσμα & Συνολικά Γκολ (5.5) 1 και Under5.5 2.35
+stoiximan Τελικό Αποτέλεσμα & Συνολικά Γκολ (5.5) 2 και Over5.5 40.00
+stoiximan Τελικό Αποτέλεσμα & Συνολικά Γκολ (5.5) 2 και Under5.5 2.90
+stoiximan Τελικό Αποτέλεσμα & Συνολικά Γκολ (5.5) X και Over5.5 45.00
+stoiximan Τελικό Αποτέλεσμα & Συνολικά Γκολ (5.5) X και Under5.5 3.10
+stoiximan Τελικό Αποτέλεσμα / Να σκοράρουν και οι 2 ομάδες Λιόν / Όχι 4.05
+stoiximan Τελικό Αποτέλεσμα ή Να σκοράρουν και οι 2 ομάδες 1 ή Nαι (GG) 1.24
+stoiximan Τελικό Αποτέλεσμα ή Να σκοράρουν και οι 2 ομάδες X ή Nαι (GG) 1.44
+stoiximan Τελικό Αποτέλεσμα ή Να σκοράρουν και οι 2 ομάδες X ή Όχι (NG) 1.36
+stoiximan Τελικό Αποτέλεσμα ή Να σκοράρουν και οι 2 ομάδες 2 ή Nαι (GG) 1.31
+stoiximan Τελικό Αποτέλεσμα ή Να σκοράρουν και οι 2 ομάδες 2 ή Όχι (NG) 1.47
+stoiximan Διπλή ευκαιρία / Να σκοράρουν και οι 2 ομάδες 12 και Ναι 2.75
+stoiximan Διπλή ευκαιρία / Να σκοράρουν και οι 2 ομάδες 12 και Όχι 2.47
+stoiximan Διπλή ευκαιρία / Να σκοράρουν και οι 2 ομάδες 1X και Ναι 2.37
+stoiximan Διπλή ευκαιρία / Να σκοράρουν και οι 2 ομάδες 1X και Όχι 3.10
+stoiximan Διπλή ευκαιρία / Να σκοράρουν και οι 2 ομάδες X2 και Ναι 2.60
+stoiximan Διπλή ευκαιρία / Να σκοράρουν και οι 2 ομάδες X2 και Όχι 3.70
+stoiximan Διπλή ευκαιρία & Συνολικά Γκολ (1.5) 12 και Over1.5 1.82
+stoiximan Διπλή ευκαιρία & Συνολικά Γκολ (1.5) 12 και Under1.5 4.60
+stoiximan Διπλή ευκαιρία & Συνολικά Γκολ (1.5) 1X και Over1.5 1.87
+stoiximan Διπλή ευκαιρία & Συνολικά Γκολ (1.5) 1X και Under1.5 4.70
+stoiximan Διπλή ευκαιρία & Συνολικά Γκολ (1.5) X2 και Over1.5 2.18
+stoiximan Διπλή ευκαιρία & Συνολικά Γκολ (1.5) X2 και Under1.5 5.10
+stoiximan Διπλή ευκαιρία & Συνολικά Γκολ (2.5) 12 και Over2.5 2.32
+stoiximan Διπλή ευκαιρία & Συνολικά Γκολ (2.5) 12 και Under2.5 3.00
+stoiximan Διπλή ευκαιρία & Συνολικά Γκολ (2.5) 1X και Over2.5 3.05
+stoiximan Διπλή ευκαιρία & Συνολικά Γκολ (2.5) 1X και Under2.5 2.40
+stoiximan Διπλή ευκαιρία & Συνολικά Γκολ (2.5) X2 και Over2.5 3.65
+stoiximan Διπλή ευκαιρία & Συνολικά Γκολ (2.5) X2 και Under2.5 2.60
+stoiximan Διπλή ευκαιρία & Συνολικά Γκολ (3.5) 12 και Over3.5 4.60
+stoiximan Διπλή ευκαιρία & Συνολικά Γκολ (3.5) 12 και Under3.5 1.82
+stoiximan Διπλή ευκαιρία & Συνολικά Γκολ (3.5) 1X και Over3.5 4.80
+stoiximan Διπλή ευκαιρία & Συνολικά Γκολ (3.5) 1X και Under3.5 1.87
+stoiximan Διπλή ευκαιρία & Συνολικά Γκολ (3.5) X2 και Over3.5 5.70
+stoiximan Διπλή ευκαιρία & Συνολικά Γκολ (3.5) X2 και Under3.5 2.07
+stoiximan Διπλή ευκαιρία & Συνολικά Γκολ (4.5) 12 και Over4.5 7.40
+stoiximan Διπλή ευκαιρία & Συνολικά Γκολ (4.5) 12 και Under4.5 1.57
+stoiximan Διπλή ευκαιρία & Συνολικά Γκολ (4.5) 1X και Over4.5 10.25
+stoiximan Διπλή ευκαιρία & Συνολικά Γκολ (4.5) 1X και Under4.5 1.55
+stoiximan Διπλή ευκαιρία & Συνολικά Γκολ (4.5) X2 και Over4.5 13.00
+stoiximan Διπλή ευκαιρία & Συνολικά Γκολ (4.5) X2 και Under4.5 1.72
+stoiximan Διπλή ευκαιρία & Συνολικά Γκολ (5.5) 12 και Over5.5 18.00
+stoiximan Διπλή ευκαιρία & Συνολικά Γκολ (5.5) 12 και Under5.5 1.40
+stoiximan Διπλή ευκαιρία & Συνολικά Γκολ (5.5) 1X και Over5.5 19.00
+stoiximan Διπλή ευκαιρία & Συνολικά Γκολ (5.5) 1X και Under5.5 1.44
+stoiximan Διπλή ευκαιρία & Συνολικά Γκολ (5.5) X2 και Over5.5 23.00
+stoiximan Διπλή ευκαιρία & Συνολικά Γκολ (5.5) X2 και Under5.5 1.65
+stoiximan Ημίχρονο/Τελικό 2/2 5.10
+stoiximan Επόμενο Γκολ (Γκολ 1) Λιόν 1.90
+stoiximan Επόμενο Γκολ (Γκολ 1) Κανένα γκολ 8.25
+stoiximan Μάντσεστερ Γιουνάιτεντ - Γκολ Over/Under Over0.5 1.37
+stoiximan Μάντσεστερ Γιουνάιτεντ - Γκολ Over/Under Over1.5 2.67
+stoiximan Να σκοράρουν και οι 2 ομάδες Ναι (GG) 1.72
+stoiximan Να σκοράρουν και οι 2 ομάδες Όχι (NG) 2.05
+stoiximan Διπλή ευκαιρία 1X 1.70
+stoiximan Διπλή ευκαιρία X2 1.40
+stoiximan Διπλή ευκαιρία 12 1.28
+stoiximan Draw No Bet Ρέιντζερς 2.20
+stoiximan 1ο Ημίχρονο - Αποτέλεσμα Ρέιντζερς 3.65
+stoiximan Τελικό Αποτέλεσμα & Συνολικά Γκολ (1.5) 1 και Over1.5 3.80
+stoiximan Τελικό Αποτέλεσμα & Συνολικά Γκολ (1.5) 1 και Under1.5 9.50
+stoiximan Τελικό Αποτέλεσμα & Συνολικά Γκολ (1.5) 2 και Over1.5 2.72
+stoiximan Τελικό Αποτέλεσμα & Συνολικά Γκολ (1.5) 2 και Under1.5 7.90
+stoiximan Τελικό Αποτέλεσμα & Συνολικά Γκολ (1.5) X και Over1.5 4.40
+stoiximan Τελικό Αποτέλεσμα & Συνολικά Γκολ (1.5) X και Under1.5 9.25
+stoiximan Τελικό Αποτέλεσμα & Συνολικά Γκολ (2.5) 1 και Over2.5 4.75
+stoiximan Τελικό Αποτέλεσμα & Συνολικά Γκολ (2.5) 1 και Under2.5 6.30
+stoiximan Τελικό Αποτέλεσμα & Συνολικά Γκολ (2.5) 2 και Over2.5 3.40
+stoiximan Τελικό Αποτέλεσμα & Συνολικά Γκολ (2.5) 2 και Under2.5 4.90
+stoiximan Τελικό Αποτέλεσμα & Συνολικά Γκολ (2.5) X και Over2.5 11.25
+stoiximan Τελικό Αποτέλεσμα & Συνολικά Γκολ (2.5) X και Under2.5 4.45
+stoiximan Τελικό Αποτέλεσμα & Συνολικά Γκολ (3.5) 1 και Over3.5 9.25
+stoiximan Τελικό Αποτέλεσμα & Συνολικά Γκολ (3.5) 1 και Under3.5 3.85
+stoiximan Τελικό Αποτέλεσμα & Συνολικά Γκολ (3.5) 2 και Over3.5 6.30
+stoiximan Τελικό Αποτέλεσμα & Συνολικά Γκολ (3.5) 2 και Under3.5 2.95
+stoiximan Τελικό Αποτέλεσμα & Συνολικά Γκολ (3.5) X και Over3.5 11.25
+stoiximan Τελικό Αποτέλεσμα & Συνολικά Γκολ (3.5) X και Under3.5 4.45
+stoiximan Τελικό Αποτέλεσμα & Συνολικά Γκολ (4.5) 1 και Over4.5 14.50
+stoiximan Τελικό Αποτέλεσμα & Συνολικά Γκολ (4.5) 1 και Under4.5 3.30
+stoiximan Τελικό Αποτέλεσμα & Συνολικά Γκολ (4.5) 2 και Over4.5 10.25
+stoiximan Τελικό Αποτέλεσμα & Συνολικά Γκολ (4.5) 2 και Under4.5 2.50
+stoiximan Τελικό Αποτέλεσμα & Συνολικά Γκολ (4.5) X και Over4.5 50.00
+stoiximan Τελικό Αποτέλεσμα & Συνολικά Γκολ (4.5) X και Under4.5 3.45
+stoiximan Τελικό Αποτέλεσμα & Συνολικά Γκολ (5.5) 1 και Over5.5 37.00
+stoiximan Τελικό Αποτέλεσμα & Συνολικά Γκολ (5.5) 1 και Under5.5 2.92
+stoiximan Τελικό Αποτέλεσμα & Συνολικά Γκολ (5.5) 2 και Over5.5 24.00
+stoiximan Τελικό Αποτέλεσμα & Συνολικά Γκολ (5.5) 2 και Under5.5 2.22
+stoiximan Τελικό Αποτέλεσμα & Συνολικά Γκολ (5.5) X και Over5.5 45.00
+stoiximan Τελικό Αποτέλεσμα & Συνολικά Γκολ (5.5) X και Under5.5 3.45
+stoiximan Τελικό Αποτέλεσμα / Να σκοράρουν και οι 2 ομάδες Ρέιντζερς / Όχι 5.30
+stoiximan Τελικό Αποτέλεσμα / Να σκοράρουν και οι 2 ομάδες Αθλέτικ Μπιλμπάο / Όχι 3.80
+stoiximan Τελικό Αποτέλεσμα ή Να σκοράρουν και οι 2 ομάδες 1 ή Nαι (GG) 1.31
+stoiximan Τελικό Αποτέλεσμα ή Να σκοράρουν και οι 2 ομάδες 1 ή Όχι (NG) 1.47
+stoiximan Τελικό Αποτέλεσμα ή Να σκοράρουν και οι 2 ομάδες X ή Nαι (GG) 1.45
+stoiximan Τελικό Αποτέλεσμα ή Να σκοράρουν και οι 2 ομάδες X ή Όχι (NG) 1.39
+stoiximan Τελικό Αποτέλεσμα ή Να σκοράρουν και οι 2 ομάδες 2 ή Nαι (GG) 1.22
+stoiximan Τελικό Αποτέλεσμα ή Να σκοράρουν και οι 2 ομάδες 2 ή Όχι (NG) 1.38
+stoiximan Nα σκοράρουν και οι 2 ομάδες και Συνολικά Γκολ (5.5) Ναι και Under5.5 1.85
+stoiximan Nα σκοράρουν και οι 2 ομάδες και Συνολικά Γκολ (5.5) Όχι και Under5.5 1.98
+stoiximan Διπλή ευκαιρία / Να σκοράρουν και οι 2 ομάδες 12 και Ναι 2.62
+stoiximan Διπλή ευκαιρία / Να σκοράρουν και οι 2 ομάδες 12 και Όχι 2.42
+stoiximan Διπλή ευκαιρία / Να σκοράρουν και οι 2 ομάδες 1X και Ναι 2.70
+stoiximan Διπλή ευκαιρία / Να σκοράρουν και οι 2 ομάδες 1X και Όχι 3.90
+stoiximan Διπλή ευκαιρία / Να σκοράρουν και οι 2 ομάδες X2 και Ναι 2.37
+stoiximan Διπλή ευκαιρία / Να σκοράρουν και οι 2 ομάδες X2 και Όχι 3.10
+stoiximan Διπλή ευκαιρία & Συνολικά Γκολ (1.5) 12 και Over1.5 1.70
+stoiximan Διπλή ευκαιρία & Συνολικά Γκολ (1.5) 12 και Under1.5 4.75
+stoiximan Διπλή ευκαιρία & Συνολικά Γκολ (1.5) 1X και Over1.5 2.22
+stoiximan Διπλή ευκαιρία & Συνολικά Γκολ (1.5) 1X και Under1.5 5.70
+stoiximan Διπλή ευκαιρία & Συνολικά Γκολ (1.5) X2 και Over1.5 1.82
+stoiximan Διπλή ευκαιρία & Συνολικά Γκολ (1.5) X2 και Under1.5 5.10
+stoiximan Διπλή ευκαιρία & Συνολικά Γκολ (2.5) 12 και Over2.5 2.15
+stoiximan Διπλή ευκαιρία & Συνολικά Γκολ (2.5) 12 και Under2.5 3.00
+stoiximan Διπλή ευκαιρία & Συνολικά Γκολ (2.5) 1X και Over2.5 3.65
+stoiximan Διπλή ευκαιρία & Συνολικά Γκολ (2.5) 1X και Under2.5 2.85
+stoiximan Διπλή ευκαιρία & Συνολικά Γκολ (2.5) X2 και Over2.5 2.82
+stoiximan Διπλή ευκαιρία & Συνολικά Γκολ (2.5) X2 και Under2.5 2.52
+stoiximan Διπλή ευκαιρία & Συνολικά Γκολ (3.5) 12 και Over3.5 4.10
+stoiximan Διπλή ευκαιρία & Συνολικά Γκολ (3.5) 12 και Under3.5 1.80
+stoiximan Διπλή ευκαιρία & Συνολικά Γκολ (3.5) 1X και Over3.5 5.60
+stoiximan Διπλή ευκαιρία & Συνολικά Γκολ (3.5) 1X και Under3.5 2.25
+stoiximan Διπλή ευκαιρία & Συνολικά Γκολ (3.5) X2 και Over3.5 4.40
+stoiximan Διπλή ευκαιρία & Συνολικά Γκολ (3.5) X2 και Under3.5 1.91
+stoiximan Διπλή ευκαιρία & Συνολικά Γκολ (4.5) 12 και Over4.5 6.60
+stoiximan Διπλή ευκαιρία & Συνολικά Γκολ (4.5) 12 και Under4.5 1.55
+stoiximan Διπλή ευκαιρία & Συνολικά Γκολ (4.5) 1X και Over4.5 12.50
+stoiximan Διπλή ευκαιρία & Συνολικά Γκολ (4.5) 1X και Under4.5 1.83
+stoiximan Διπλή ευκαιρία & Συνολικά Γκολ (4.5) X2 και Over4.5 9.00
+stoiximan Διπλή ευκαιρία & Συνολικά Γκολ (4.5) X2 και Under4.5 1.57
+stoiximan Διπλή ευκαιρία & Συνολικά Γκολ (5.5) 12 και Over5.5 15.50
+stoiximan Διπλή ευκαιρία & Συνολικά Γκολ (5.5) 12 και Under5.5 1.37
+stoiximan Διπλή ευκαιρία & Συνολικά Γκολ (5.5) 1X και Over5.5 23.00
+stoiximan Διπλή ευκαιρία & Συνολικά Γκολ (5.5) 1X και Under5.5 1.70
+stoiximan Διπλή ευκαιρία & Συνολικά Γκολ (5.5) X2 και Over5.5 17.00
+stoiximan Διπλή ευκαιρία & Συνολικά Γκολ (5.5) X2 και Under5.5 1.45
+stoiximan Ημίχρονο/Τελικό 1/1 5.10
+stoiximan Ημίχρονο/Τελικό 1/X 14.50
+stoiximan Ημίχρονο/Τελικό X/1 6.70
+stoiximan Ημίχρονο/Τελικό X/X 5.30
+stoiximan Ημίχρονο/Τελικό X/2 5.30
+stoiximan Ημίχρονο/Τελικό 2/1 35.00
+stoiximan Ημίχρονο/Τελικό 2/2 3.60
+stoiximan Επόμενο Γκολ (Γκολ 1) Ρέιντζερς 2.18
+stoiximan Επόμενο Γκολ (Γκολ 1) Κανένα γκολ 9.25
+stoiximan Επόμενο Γκολ (Γκολ 1) Αθλέτικ Μπιλμπάο 1.83
+stoiximan Αθλέτικ Μπιλμπάο - Γκολ Over/Under Over0.5 1.25
+stoiximan Αθλέτικ Μπιλμπάο - Γκολ Over/Under Under0.5 3.70
+stoiximan Αθλέτικ Μπιλμπάο - Γκολ Over/Under Over1.5 2.15
+stoiximan Αθλέτικ Μπιλμπάο - Γκολ Over/Under Under1.5 1.65
+stoiximan Αθλέτικ Μπιλμπάο - Γκολ Over/Under Over2.5 4.35
+stoiximan Αθλέτικ Μπιλμπάο - Γκολ Over/Under Under2.5 1.19
+stoiximan Αθλέτικ Μπιλμπάο - Γκολ Over/Under Over3.5 8.50
+stoiximan Αθλέτικ Μπιλμπάο - Γκολ Over/Under Under3.5 1.05
+stoiximan Αθλέτικ Μπιλμπάο - Γκολ Over/Under Over4.5 12.50
+stoiximan Αθλέτικ Μπιλμπάο - Γκολ Over/Under Under4.5 1.01
+winmasters Διπλή Ευκαιρία Μπόντο Γκλιμτ ή Ισοπαλία 1.72
+winmasters Διπλή Ευκαιρία Μπόντο Γκλιμτ ή Λάτσιο 1.34
+winmasters Τελικό Αποτέλεσμα, 1ο Ημίχρονο Ισοπαλία 2.17
+winmasters Γκολ Over/Under, 1ο Ημίχρονο 0.5 Over 0.5 1.45
+winmasters Γκολ Over/Under, 1ο Ημίχρονο 0.5 Under 0.5 2.85
+winmasters Γκολ Over/Under, 1ο Ημίχρονο 0.75 Over 0.75 1.62
+winmasters Γκολ Over/Under, 1ο Ημίχρονο 0.75 Under 0.75 2.35
+winmasters Γκολ Over/Under, 1ο Ημίχρονο 1 Over 1 2.02
+winmasters Γκολ Over/Under, 1ο Ημίχρονο 1 Under 1 1.83
+winmasters Γκολ Over/Under, 1ο Ημίχρονο 1.25 Over 1.25 2.55
+winmasters Γκολ Over/Under, 1ο Ημίχρονο 1.25 Under 1.25 1.54
+winmasters Γκολ Over/Under, 1ο Ημίχρονο 1.5 Over 1.5 3.00
+winmasters Γκολ Over/Under, 1ο Ημίχρονο 1.5 Under 1.5 1.41
+winmasters Γκολ Over/Under, 1ο Ημίχρονο 1.75 Over 1.75 4.05
+winmasters Γκολ Over/Under, 1ο Ημίχρονο 1.75 Under 1.75 1.25
+winmasters Γκολ Over/Under, 1ο Ημίχρονο 2 Over 2 6.80
+winmasters Γκολ Over/Under, 1ο Ημίχρονο 2 Under 2 1.11
+winmasters Γκολ Over/Under, 1ο Ημίχρονο 2.5 Over 2.5 7.70
+winmasters Γκολ Over/Under, 1ο Ημίχρονο 2.5 Under 2.5 1.10
+winmasters Γκολ Over/Under, 1ο Ημίχρονο 3.5 Over 3.5 20.00
+winmasters Γκολ Over/Under, 1ο Ημίχρονο 3.5 Under 3.5 1.009
+winmasters Γκολ Over/Under, 1ο Ημίχρονο 4.5 Over 4.5 49.00
+winmasters Γκολ Over/Under, 1ο Ημίχρονο 4.5 Under 4.5 N/A
+winmasters Χάντικαπ 0:3 Μπόντο Γκλιμτ (-3) 49.00
+winmasters Χάντικαπ 0:3 Ισοπαλία (Λάτσιο +3) 22.00
+winmasters Χάντικαπ 0:3 Option 3 N/A
+winmasters Χάντικαπ 0:2 Μπόντο Γκλιμτ (-2) 18.00
+winmasters Χάντικαπ 0:2 Ισοπαλία (Λάτσιο +2) 9.25
+winmasters Χάντικαπ 0:2 Λάτσιο (+2) 1.09
+winmasters Χάντικαπ 0:1 Μπόντο Γκλιμτ (-1) 7.00
+winmasters Χάντικαπ 0:1 Ισοπαλία (Λάτσιο +1) 4.80
+winmasters Χάντικαπ 0:1 Λάτσιο (+1) 1.38
+winmasters Χάντικαπ 1:0 Μπόντο Γκλιμτ (+1) 1.71
+winmasters Χάντικαπ 1:0 Ισοπαλία (Λάτσιο -1) 3.90
+winmasters Χάντικαπ 1:0 Λάτσιο (-1) 4.25
+winmasters Χάντικαπ 2:0 Μπόντο Γκλιμτ (+2) 1.22
+winmasters Χάντικαπ 2:0 Ισοπαλία (Λάτσιο -2) 6.30
+winmasters Χάντικαπ 2:0 Λάτσιο (-2) 9.75
+winmasters Χάντικαπ 3:0 Μπόντο Γκλιμτ (+3) 1.04
+winmasters Χάντικαπ 3:0 Ισοπαλία (Λάτσιο -3) 12.50
+winmasters Χάντικαπ 3:0 Λάτσιο (-3) 24.00
+winmasters Ασιατικό Χάντικαπ -2 17.00
+winmasters Ασιατικό Χάντικαπ +2 1.02
+winmasters Ασιατικό Χάντικαπ -1.75 9.50
+winmasters Ασιατικό Χάντικαπ +1.75 1.07
+winmasters Ασιατικό Χάντικαπ -1.5 7.40
+winmasters Ασιατικό Χάντικαπ +1.5 1.10
+winmasters Ασιατικό Χάντικαπ -1.25 6.70
+winmasters Ασιατικό Χάντικαπ +1.25 1.12
+winmasters Ασιατικό Χάντικαπ -1 6.40
+winmasters Ασιατικό Χάντικαπ +1 1.13
+winmasters Ασιατικό Χάντικαπ -0.75 4.05
+winmasters Ασιατικό Χάντικαπ +0.75 1.25
+winmasters Ασιατικό Χάντικαπ -0.5 3.20
+winmasters Ασιατικό Χάντικαπ +0.5 1.36
+winmasters Ασιατικό Χάντικαπ -0.25 2.90
+winmasters Ασιατικό Χάντικαπ +0.25 1.43
+winmasters Ασιατικό Χάντικαπ 0 2.40
+winmasters Ασιατικό Χάντικαπ 0 1.60
+winmasters Ασιατικό Χάντικαπ +0.25 1.97
+winmasters Ασιατικό Χάντικαπ -0.25 1.87
+winmasters Ασιατικό Χάντικαπ +0.5 1.73
+winmasters Ασιατικό Χάντικαπ -0.5 2.17
+winmasters Ασιατικό Χάντικαπ +0.75 1.53
+winmasters Ασιατικό Χάντικαπ -0.75 2.57
+winmasters Ασιατικό Χάντικαπ +1 1.34
+winmasters Ασιατικό Χάντικαπ -1 3.35
+winmasters Ασιατικό Χάντικαπ +1.25 1.27
+winmasters Ασιατικό Χάντικαπ -1.25 3.85
+winmasters Ασιατικό Χάντικαπ +1.5 1.23
+winmasters Ασιατικό Χάντικαπ -1.5 4.30
+winmasters Ασιατικό Χάντικαπ +1.75 1.15
+winmasters Ασιατικό Χάντικαπ -1.75 5.70
+winmasters Ασιατικό Χάντικαπ +2 1.08
+winmasters Ασιατικό Χάντικαπ -2 8.75
+winmasters Ασιατικό Χάντικαπ +2.5 1.06
+winmasters Ασιατικό Χάντικαπ -2.5 9.75
+winmasters Ασιατικό Χάντικαπ, 1ο Ημίχρονο -2 50.00
+winmasters Ασιατικό Χάντικαπ, 1ο Ημίχρονο Λάτσιο N/A
+winmasters Ασιατικό Χάντικαπ, 1ο Ημίχρονο -1.75 21.00
+winmasters Ασιατικό Χάντικαπ, 1ο Ημίχρονο +1.75 1.008
+winmasters Ασιατικό Χάντικαπ, 1ο Ημίχρονο -1.5 14.00
+winmasters Ασιατικό Χάντικαπ, 1ο Ημίχρονο +1.5 1.03
+winmasters Ασιατικό Χάντικαπ, 1ο Ημίχρονο -1.25 12.50
+winmasters Ασιατικό Χάντικαπ, 1ο Ημίχρονο +1.25 1.04
+winmasters Ασιατικό Χάντικαπ, 1ο Ημίχρονο -1 11.50
+winmasters Ασιατικό Χάντικαπ, 1ο Ημίχρονο +1 1.04
+winmasters Ασιατικό Χάντικαπ, 1ο Ημίχρονο -0.75 5.30
+winmasters Ασιατικό Χάντικαπ, 1ο Ημίχρονο +0.75 1.17
+winmasters Ασιατικό Χάντικαπ, 1ο Ημίχρονο -0.5 3.80
+winmasters Ασιατικό Χάντικαπ, 1ο Ημίχρονο +0.5 1.28
+winmasters Ασιατικό Χάντικαπ, 1ο Ημίχρονο -0.25 3.15
+winmasters Ασιατικό Χάντικαπ, 1ο Ημίχρονο +0.25 1.38
+winmasters Ασιατικό Χάντικαπ, 1ο Ημίχρονο 0 2.33
+winmasters Ασιατικό Χάντικαπ, 1ο Ημίχρονο 0 1.63
+winmasters Ασιατικό Χάντικαπ, 1ο Ημίχρονο +0.25 1.68
+winmasters Ασιατικό Χάντικαπ, 1ο Ημίχρονο -0.25 2.25
+winmasters Ασιατικό Χάντικαπ, 1ο Ημίχρονο +0.5 1.46
+winmasters Ασιατικό Χάντικαπ, 1ο Ημίχρονο -0.5 2.77
+winmasters Ασιατικό Χάντικαπ, 1ο Ημίχρονο +0.75 1.28
+winmasters Ασιατικό Χάντικαπ, 1ο Ημίχρονο -0.75 3.85
+winmasters Ασιατικό Χάντικαπ, 1ο Ημίχρονο +1 1.13
+winmasters Ασιατικό Χάντικαπ, 1ο Ημίχρονο -1 6.40
+winmasters Ασιατικό Χάντικαπ, 1ο Ημίχρονο +1.25 1.09
+winmasters Ασιατικό Χάντικαπ, 1ο Ημίχρονο -1.25 8.00
+winmasters Ασιατικό Χάντικαπ, 1ο Ημίχρονο +1.5 1.09
+winmasters Ασιατικό Χάντικαπ, 1ο Ημίχρονο -1.5 8.00
+winmasters Ασιατικό Χάντικαπ, 1ο Ημίχρονο +1.75 1.03
+winmasters Ασιατικό Χάντικαπ, 1ο Ημίχρονο -1.75 13.00
+winmasters Ασιατικό Χάντικαπ, 1ο Ημίχρονο Μπόντο Γκλιμτ N/A
+winmasters Ασιατικό Χάντικαπ, 1ο Ημίχρονο -2 31.00
+winmasters Ισοπαλία Όχι Στοίχημα Μπόντο Γκλιμτ 2.36
+winmasters Ισοπαλία Όχι Στοίχημα Λάτσιο 1.59
+winmasters Γηπεδούχος Όχι Στοίχημα Λάτσιο 1.55
+winmasters Γηπεδούχος Όχι Στοίχημα Ισοπαλία 2.44
+winmasters Φιλοξενούμενος Όχι Στοίχημα Ισοπαλία 1.94
+winmasters Φιλοξενούμενος Όχι Στοίχημα Μπόντο Γκλιμτ 1.86
+winmasters Ημίχρονο/Τελικό Μπόντο Γκλιμτ / Μπόντο Γκλιμτ 5.30
+winmasters Ημίχρονο/Τελικό Ισοπαλία / Μπόντο Γκλιμτ 7.30
+winmasters Να Κερδίσει και τα 2 Ημίχρονα Μπόντο Γκλιμτ 12.50
+winmasters Να Κερδίσει και τα 2 Ημίχρονα Λάτσιο 6.30
+winmasters Γκολ Και Στα 2 Ημίχρονα Ναι 1.80
+winmasters Γκολ Και Στα 2 Ημίχρονα Όχι 1.87
+winmasters Να Σκοράρει και Στα 2 Ημίχρονα Μπόντο Γκλιμτ 4.90
+winmasters Να Σκοράρει και Στα 2 Ημίχρονα Λάτσιο 3.40
+winmasters Να Βρεθεί Πίσω στο Σκορ Και να Κερδίσει Μπόντο Γκλιμτ 13.50
+winmasters Να Βρεθεί Πίσω στο Σκορ Και να Κερδίσει Λάτσιο 10.00
+winmasters Σύνολο Γκολ Ακριβώς 0 9.00
+winmasters Σύνολο Γκολ Ακριβώς 1 4.10
+winmasters Σύνολο Γκολ Ακριβώς 2 3.40
+winmasters Σύνολο Γκολ Ακριβώς 3 4.00
+winmasters Σύνολο Γκολ Ακριβώς 4 6.10
+winmasters Σύνολο Γκολ Ακριβώς 5 11.00
+winmasters Σύνολο Γκολ Ακριβώς 6 23.00
+winmasters Σύνολο Γκολ Ακριβώς 7 48.00
+winmasters Σύνολο Γκολ Εύρος 0-2 1.69
+winmasters Σύνολο Γκολ Εύρος 0-4 1.08
+winmasters Σύνολο Γκολ Εύρος 0-1 3.00
+winmasters Σύνολο Γκολ Εύρος 0-3 1.25
+winmasters Σύνολο Γκολ Εύρος 0-5 1.02
+winmasters Σύνολο Γκολ Εύρος 1-5 1.10
+winmasters Σύνολο Γκολ Εύρος 1-2 1.97
+winmasters Σύνολο Γκολ Εύρος 1-3 1.39
+winmasters Σύνολο Γκολ Εύρος 1-4 1.18
+winmasters Σύνολο Γκολ Εύρος 2-6 1.36
+winmasters Σύνολο Γκολ Εύρος 2-4 1.55
+winmasters Σύνολο Γκολ Εύρος 2-3 1.95
+winmasters Σύνολο Γκολ Εύρος 2-5 1.41
+winmasters Σύνολο Γκολ Εύρος 3-4 2.60
+winmasters Σύνολο Γκολ Εύρος 3-6 2.09
+winmasters Σύνολο Γκολ Εύρος 3-5 2.22
+winmasters Σύνολο Γκολ Εύρος 4-6 3.85
+winmasters Σύνολο Γκολ Εύρος 4-5 4.30
+winmasters Σύνολο Γκολ X ή Περισσότερα 1 1.06
+winmasters Σύνολο Γκολ X ή Περισσότερα 2 1.34
+winmasters Σύνολο Γκολ X ή Περισσότερα 3 2.04
+winmasters Σύνολο Γκολ X ή Περισσότερα 4 3.65
+winmasters Σύνολο Γκολ X ή Περισσότερα 5 7.50
+winmasters Σύνολο Γκολ X ή Περισσότερα 6 17.00
+winmasters Σύνολο Γκολ X ή Περισσότερα 7 38.00
+winmasters Ακριβές Σκορ 5:1 125.00
+winmasters Ακριβές Σκορ 6:1 125.00
+winmasters Ακριβές Σκορ 7:0 125.00
+winmasters Ακριβές Σκορ 7:1 125.00
+winmasters Ακριβές Σκορ 8:0 125.00
+winmasters Ακριβές Σκορ 0:0 9.00
+winmasters Ακριβές Σκορ 1:1 5.90
+winmasters Ακριβές Σκορ 0:6 125.00
+winmasters Ακριβές Σκορ 1:6 125.00
+winmasters Ακριβές Σκορ 2:6 125.00
+winmasters Ακριβές Σκορ 3:6 175.00
+winmasters Ακριβές Σκορ 0:7 125.00
+winmasters Ακριβές Σκορ 1:7 125.00
+winmasters Ακριβές Σκορ 2:7 175.00
+winmasters Ακριβές Σκορ 0:8 125.00
+winmasters Ακριβές Σκορ 0:9 125.00
+winmasters Ακριβές Σκορ 0:10 125.00
+winmasters Αποτέλεσμα και Over/Under 1.5 Over None 4.15
+winmasters Αποτέλεσμα και Over/Under 1.5 Under None 8.75
+winmasters Αποτέλεσμα και Over/Under 1.5 Over None 4.65
+winmasters Αποτέλεσμα και Over/Under 1.5 Under None 9.50
+winmasters Αποτέλεσμα και Over/Under 1.5 Over None 2.75
+winmasters Αποτέλεσμα και Over/Under 1.5 Under None 7.00
+winmasters Αποτέλεσμα και Over/Under 2.5 Under None 5.90
+winmasters Αποτέλεσμα και Over/Under 2.5 Under None 4.10
+winmasters Αποτέλεσμα και Over/Under 2.5 Over None 3.60
+winmasters Αποτέλεσμα και Over/Under 3.5 Over None 11.00
+winmasters Αποτέλεσμα και Over/Under 3.5 Under None 3.75
+winmasters Αποτέλεσμα και Over/Under 3.5 Over None 13.00
+winmasters Αποτέλεσμα και Over/Under 3.5 Under None 4.05
+winmasters Αποτέλεσμα και Over/Under 3.5 Over None 7.10
+winmasters Αποτέλεσμα και Over/Under 3.5 Under None 2.72
+winmasters Αποτέλεσμα και Over/Under 4.5 Over None 19.00
+winmasters Αποτέλεσμα και Over/Under 4.5 Under None 3.30
+winmasters Αποτέλεσμα και Over/Under 4.5 Over None 55.00
+winmasters Αποτέλεσμα και Over/Under 4.5 Under None 3.35
+winmasters Αποτέλεσμα και Over/Under 4.5 Over None 12.50
+winmasters Αποτέλεσμα και Over/Under 4.5 Under None 2.34
+winmasters Αποτέλεσμα και Over/Under 5.5 Over None 50.00
+winmasters Αποτέλεσμα και Over/Under 5.5 Under None 3.05
+winmasters Αποτέλεσμα και Over/Under 5.5 Over None 55.00
+winmasters Αποτέλεσμα και Over/Under 5.5 Over None 32.00
+winmasters Διπλή Ευκαιρία Λιόν ή Μάντσεστερ Γιουνάιτεντ 1.37
+winmasters Διπλή Ευκαιρία Μάντσεστερ Γιουνάιτεντ ή Ισοπαλία 1.60
+winmasters Γκολ Over/Under 6.5 Under 6.5 N/A
+winmasters Γκολ Over/Under, 1ο Ημίχρονο 0.5 Over 0.5 1.45
+winmasters Γκολ Over/Under, 1ο Ημίχρονο 0.5 Under 0.5 2.82
+winmasters Γκολ Over/Under, 1ο Ημίχρονο 0.75 Over 0.75 1.61
+winmasters Γκολ Over/Under, 1ο Ημίχρονο 0.75 Under 0.75 2.37
+winmasters Γκολ Over/Under, 1ο Ημίχρονο 1 Over 1 1.97
+winmasters Γκολ Over/Under, 1ο Ημίχρονο 1 Under 1 1.87
+winmasters Γκολ Over/Under, 1ο Ημίχρονο 1.25 Over 1.25 2.48
+winmasters Γκολ Over/Under, 1ο Ημίχρονο 1.25 Under 1.25 1.57
+winmasters Γκολ Over/Under, 1ο Ημίχρονο 1.5 Over 1.5 3.00
+winmasters Γκολ Over/Under, 1ο Ημίχρονο 1.5 Under 1.5 1.41
+winmasters Γκολ Over/Under, 1ο Ημίχρονο 1.75 Over 1.75 3.95
+winmasters Γκολ Over/Under, 1ο Ημίχρονο 1.75 Under 1.75 1.26
+winmasters Γκολ Over/Under, 1ο Ημίχρονο 2 Over 2 6.50
+winmasters Γκολ Over/Under, 1ο Ημίχρονο 2 Under 2 1.12
+winmasters Γκολ Over/Under, 1ο Ημίχρονο 2.5 Over 2.5 7.70
+winmasters Γκολ Over/Under, 1ο Ημίχρονο 2.5 Under 2.5 1.10
+winmasters Γκολ Over/Under, 1ο Ημίχρονο 3.5 Over 3.5 20.00
+winmasters Γκολ Over/Under, 1ο Ημίχρονο 3.5 Under 3.5 1.009
+winmasters Γκολ Over/Under, 1ο Ημίχρονο 4.5 Over 4.5 49.00
+winmasters Γκολ Over/Under, 1ο Ημίχρονο 4.5 Under 4.5 N/A
+winmasters Χάντικαπ 0:3 Λιόν (-3) 28.00
+winmasters Χάντικαπ 0:3 Ισοπαλία (Μάντσεστερ Γιουνάιτεντ +3) 14.00
+winmasters Χάντικαπ 0:3 Μάντσεστερ Γιουνάιτεντ (+3) 1.03
+winmasters Χάντικαπ 0:2 Λιόν (-2) 11.00
+winmasters Χάντικαπ 0:2 Ισοπαλία (Μάντσεστερ Γιουνάιτεντ +2) 6.80
+winmasters Χάντικαπ 0:2 Μάντσεστερ Γιουνάιτεντ (+2) 1.19
+winmasters Χάντικαπ 0:1 Λιόν (-1) 4.70
+winmasters Χάντικαπ 0:1 Ισοπαλία (Μάντσεστερ Γιουνάιτεντ +1) 4.05
+winmasters Χάντικαπ 0:1 Μάντσεστερ Γιουνάιτεντ (+1) 1.62
+winmasters Χάντικαπ 1:0 Λιόν (+1) 1.44
+winmasters Χάντικαπ 1:0 Ισοπαλία (Μάντσεστερ Γιουνάιτεντ -1) 4.50
+winmasters Χάντικαπ 1:0 Μάντσεστερ Γιουνάιτεντ (-1) 6.20
+winmasters Χάντικαπ 2:0 Λιόν (+2) 1.12
+winmasters Χάντικαπ 2:0 Ισοπαλία (Μάντσεστερ Γιουνάιτεντ -2) 8.25
+winmasters Χάντικαπ 2:0 Μάντσεστερ Γιουνάιτεντ (-2) 15.50
+winmasters Χάντικαπ 3:0 Λιόν (+3) 1.003
+winmasters Χάντικαπ 3:0 Ισοπαλία (Μάντσεστερ Γιουνάιτεντ -3) 19.00
+winmasters Ασιατικό Χάντικαπ -2.5 11.00
+winmasters Ασιατικό Χάντικαπ +2.5 1.05
+winmasters Ασιατικό Χάντικαπ -2 10.00
+winmasters Ασιατικό Χάντικαπ +2 1.06
+winmasters Ασιατικό Χάντικαπ -1.75 6.40
+winmasters Ασιατικό Χάντικαπ +1.75 1.13
+winmasters Ασιατικό Χάντικαπ -1.5 4.85
+winmasters Ασιατικό Χάντικαπ +1.5 1.20
+winmasters Ασιατικό Χάντικαπ -1.25 4.35
+winmasters Ασιατικό Χάντικαπ +1.25 1.23
+winmasters Ασιατικό Χάντικαπ -1 3.90
+winmasters Ασιατικό Χάντικαπ +1 1.27
+winmasters Ασιατικό Χάντικαπ -0.75 2.85
+winmasters Ασιατικό Χάντικαπ +0.75 1.45
+winmasters Ασιατικό Χάντικαπ -0.5 2.39
+winmasters Ασιατικό Χάντικαπ +0.5 1.61
+winmasters Ασιατικό Χάντικαπ -0.25 2.07
+winmasters Ασιατικό Χάντικαπ +0.25 1.79
+winmasters Ασιατικό Χάντικαπ 0 1.75
+winmasters Ασιατικό Χάντικαπ 0 2.13
+winmasters Ασιατικό Χάντικαπ +0.25 1.54
+winmasters Ασιατικό Χάντικαπ -0.25 2.55
+winmasters Ασιατικό Χάντικαπ +0.5 1.42
+winmasters Ασιατικό Χάντικαπ -0.5 2.97
+winmasters Ασιατικό Χάντικαπ +0.75 1.30
+winmasters Ασιατικό Χάντικαπ -0.75 3.65
+winmasters Ασιατικό Χάντικαπ +1 1.16
+winmasters Ασιατικό Χάντικαπ -1 5.50
+winmasters Ασιατικό Χάντικαπ +1.25 1.14
+winmasters Ασιατικό Χάντικαπ -1.25 5.90
+winmasters Ασιατικό Χάντικαπ +1.5 1.13
+winmasters Ασιατικό Χάντικαπ -1.5 6.40
+winmasters Ασιατικό Χάντικαπ +1.75 1.08
+winmasters Ασιατικό Χάντικαπ -1.75 8.25
+winmasters Ασιατικό Χάντικαπ +2 1.03
+winmasters Ασιατικό Χάντικαπ -2 14.00
+winmasters Ασιατικό Χάντικαπ, 1ο Ημίχρονο -2 35.00
+winmasters Ασιατικό Χάντικαπ, 1ο Ημίχρονο Μάντσεστερ Γιουνάιτεντ N/A
+winmasters Ασιατικό Χάντικαπ, 1ο Ημίχρονο -1.75 14.50
+winmasters Ασιατικό Χάντικαπ, 1ο Ημίχρονο +1.75 1.02
+winmasters Ασιατικό Χάντικαπ, 1ο Ημίχρονο -1.5 9.00
+winmasters Ασιατικό Χάντικαπ, 1ο Ημίχρονο +1.5 1.07
+winmasters Ασιατικό Χάντικαπ, 1ο Ημίχρονο -1.25 8.75
+winmasters Ασιατικό Χάντικαπ, 1ο Ημίχρονο +1.25 1.07
+winmasters Ασιατικό Χάντικαπ, 1ο Ημίχρονο -1 7.30
+winmasters Ασιατικό Χάντικαπ, 1ο Ημίχρονο +1 1.10
+winmasters Ασιατικό Χάντικαπ, 1ο Ημίχρονο -0.75 4.15
+winmasters Ασιατικό Χάντικαπ, 1ο Ημίχρονο +0.75 1.24
+winmasters Ασιατικό Χάντικαπ, 1ο Ημίχρονο -0.5 3.05
+winmasters Ασιατικό Χάντικαπ, 1ο Ημίχρονο +0.5 1.40
+winmasters Ασιατικό Χάντικαπ, 1ο Ημίχρονο -0.25 2.43
+winmasters Ασιατικό Χάντικαπ, 1ο Ημίχρονο +0.25 1.59
+winmasters Ασιατικό Χάντικαπ, 1ο Ημίχρονο 0 1.79
+winmasters Ασιατικό Χάντικαπ, 1ο Ημίχρονο 0 2.07
+winmasters Ασιατικό Χάντικαπ, 1ο Ημίχρονο +0.25 1.44
+winmasters Ασιατικό Χάντικαπ, 1ο Ημίχρονο -0.25 2.85
+winmasters Ασιατικό Χάντικαπ, 1ο Ημίχρονο +0.5 1.32
+winmasters Ασιατικό Χάντικαπ, 1ο Ημίχρονο -0.5 3.50
+winmasters Ασιατικό Χάντικαπ, 1ο Ημίχρονο +0.75 1.18
+winmasters Ασιατικό Χάντικαπ, 1ο Ημίχρονο -0.75 5.00
+winmasters Ασιατικό Χάντικαπ, 1ο Ημίχρονο +1 1.06
+winmasters Ασιατικό Χάντικαπ, 1ο Ημίχρονο -1 10.00
+winmasters Ασιατικό Χάντικαπ, 1ο Ημίχρονο +1.25 1.05
+winmasters Ασιατικό Χάντικαπ, 1ο Ημίχρονο -1.25 11.00
+winmasters Ασιατικό Χάντικαπ, 1ο Ημίχρονο +1.5 1.04
+winmasters Ασιατικό Χάντικαπ, 1ο Ημίχρονο -1.5 12.00
+winmasters Ασιατικό Χάντικαπ, 1ο Ημίχρονο +1.75 1.01
+winmasters Ασιατικό Χάντικαπ, 1ο Ημίχρονο -1.75 18.50
+winmasters Ασιατικό Χάντικαπ, 1ο Ημίχρονο Λιόν N/A
+winmasters Ασιατικό Χάντικαπ, 1ο Ημίχρονο -2 46.00
+winmasters Ισοπαλία Όχι Στοίχημα Λιόν 1.72
+winmasters Ισοπαλία Όχι Στοίχημα Μάντσεστερ Γιουνάιτεντ 2.12
+winmasters Γηπεδούχος Όχι Στοίχημα Ισοπαλία 2.02
+winmasters Γηπεδούχος Όχι Στοίχημα Μάντσεστερ Γιουνάιτεντ 1.79
+winmasters Φιλοξενούμενος Όχι Στοίχημα Λιόν 1.63
+winmasters Φιλοξενούμενος Όχι Στοίχημα Ισοπαλία 2.27
+winmasters Ημίχρονο/Τελικό Ισοπαλία / Μάντσεστερ Γιουνάιτεντ 6.80
+winmasters Ημίχρονο/Τελικό Μάντσεστερ Γιουνάιτεντ / Μάντσεστερ Γιουνάιτεντ 4.75
+winmasters Ημίχρονο/Τελικό Μάντσεστερ Γιουνάιτεντ / Ισοπαλία 14.50
+winmasters Ημίχρονο/Τελικό Μάντσεστερ Γιουνάιτεντ / Λιόν 28.00
+winmasters Να Κερδίσει και τα 2 Ημίχρονα Λιόν 7.80
+winmasters Να Κερδίσει και τα 2 Ημίχρονα Μάντσεστερ Γιουνάιτεντ 10.50
+winmasters Γκολ Και Στα 2 Ημίχρονα Ναι 1.79
+winmasters Γκολ Και Στα 2 Ημίχρονα Όχι 1.90
+winmasters Να Σκοράρει και Στα 2 Ημίχρονα Λιόν 3.50
+winmasters Να Βρεθεί Πίσω στο Σκορ Και να Κερδίσει Λιόν 11.00
+winmasters Να Βρεθεί Πίσω στο Σκορ Και να Κερδίσει Μάντσεστερ Γιουνάιτεντ 12.50
+winmasters Σύνολο Γκολ Ακριβώς 0 9.25
+winmasters Σύνολο Γκολ Ακριβώς 1 4.10
+winmasters Σύνολο Γκολ Ακριβώς 2 3.40
+winmasters Σύνολο Γκολ Ακριβώς 3 4.00
+winmasters Σύνολο Γκολ Ακριβώς 4 6.10
+winmasters Σύνολο Γκολ Ακριβώς 5 11.00
+winmasters Σύνολο Γκολ Ακριβώς 6 22.00
+winmasters Σύνολο Γκολ Ακριβώς 7 48.00
+winmasters Σύνολο Γκολ Εύρος 0-2 1.70
+winmasters Σύνολο Γκολ Εύρος 0-4 1.08
+winmasters Σύνολο Γκολ Εύρος 0-1 3.05
+winmasters Σύνολο Γκολ Εύρος 0-5 1.02
+winmasters Σύνολο Γκολ Εύρος 0-3 1.25
+winmasters Σύνολο Γκολ Εύρος 1-3 1.39
+winmasters Σύνολο Γκολ Εύρος 1-5 1.10
+winmasters Σύνολο Γκολ Εύρος 1-4 1.18
+winmasters Σύνολο Γκολ Εύρος 1-2 1.98
+winmasters Σύνολο Γκολ Εύρος 2-5 1.41
+winmasters Σύνολο Γκολ Εύρος 2-3 1.95
+winmasters Σύνολο Γκολ Εύρος 2-4 1.55
+winmasters Σύνολο Γκολ Εύρος 2-6 1.36
+winmasters Σύνολο Γκολ Εύρος 3-6 2.08
+winmasters Σύνολο Γκολ Εύρος 3-4 2.57
+winmasters Σύνολο Γκολ Εύρος 3-5 2.21
+winmasters Σύνολο Γκολ Εύρος 4-5 4.30
+winmasters Σύνολο Γκολ Εύρος 4-6 3.80
+winmasters Σύνολο Γκολ X ή Περισσότερα 1 1.06
+winmasters Σύνολο Γκολ X ή Περισσότερα 2 1.34
+winmasters Σύνολο Γκολ X ή Περισσότερα 3 2.03
+winmasters Σύνολο Γκολ X ή Περισσότερα 4 3.65
+winmasters Σύνολο Γκολ X ή Περισσότερα 5 7.40
+winmasters Σύνολο Γκολ X ή Περισσότερα 6 16.50
+winmasters Σύνολο Γκολ X ή Περισσότερα 7 38.00
+winmasters Ακριβές Σκορ 1:0 7.50
+winmasters Ακριβές Σκορ 6:1 125.00
+winmasters Ακριβές Σκορ 6:2 125.00
+winmasters Ακριβές Σκορ 7:0 125.00
+winmasters Ακριβές Σκορ 7:1 125.00
+winmasters Ακριβές Σκορ 8:0 125.00
+winmasters Ακριβές Σκορ 9:0 125.00
+winmasters Ακριβές Σκορ 10:0 125.00
+winmasters Ακριβές Σκορ 1:1 5.90
+winmasters Ακριβές Σκορ 0:1 8.50
+winmasters Ακριβές Σκορ 0:5 125.00
+winmasters Ακριβές Σκορ 1:5 125.00
+winmasters Ακριβές Σκορ 2:5 125.00
+winmasters Ακριβές Σκορ 0:6 125.00
+winmasters Ακριβές Σκορ 2:6 125.00
+winmasters Ακριβές Σκορ 3:6 175.00
+winmasters Ακριβές Σκορ 0:7 125.00
+winmasters Ακριβές Σκορ 1:7 125.00
+winmasters Ακριβές Σκορ 0:8 125.00
+winmasters Ακριβές Σκορ 0:9 125.00
+winmasters Ακριβές Σκορ 0:10 125.00
+winmasters Αποτέλεσμα και Over/Under 1.5 Over None 2.95
+winmasters Αποτέλεσμα και Over/Under 1.5 Under None 7.30
+winmasters Αποτέλεσμα και Over/Under 1.5 Over None 4.50
+winmasters Αποτέλεσμα και Over/Under 1.5 Under None 9.25
+winmasters Αποτέλεσμα και Over/Under 1.5 Over None 3.70
+winmasters Αποτέλεσμα και Over/Under 1.5 Under None 8.25
+winmasters Αποτέλεσμα και Over/Under 2.5 Over None 3.90
+winmasters Αποτέλεσμα και Over/Under 2.5 Under None 4.10
+winmasters Αποτέλεσμα και Over/Under 3.5 Over None 7.80
+winmasters Αποτέλεσμα και Over/Under 3.5 Under None 2.92
+winmasters Αποτέλεσμα και Over/Under 3.5 Over None 13.00
+winmasters Αποτέλεσμα και Over/Under 3.5 Under None 4.10
+winmasters Αποτέλεσμα και Over/Under 3.5 Over None 10.00
+winmasters Αποτέλεσμα και Over/Under 3.5 Under None 3.45
+winmasters Αποτέλεσμα και Over/Under 4.5 Over None 13.50
+winmasters Αποτέλεσμα και Over/Under 4.5 Under None 2.50
+winmasters Αποτέλεσμα και Over/Under 4.5 Over None 55.00
+winmasters Αποτέλεσμα και Over/Under 4.5 Under None 3.30
+winmasters Αποτέλεσμα και Over/Under 4.5 Over None 17.00
+winmasters Αποτέλεσμα και Over/Under 4.5 Under None 3.00
+winmasters Αποτέλεσμα και Over/Under 5.5 Over None 33.00
+winmasters Αποτέλεσμα και Over/Under 5.5 Under None 2.28
+winmasters Αποτέλεσμα και Over/Under 5.5 Over None 55.00
+winmasters Αποτέλεσμα και Over/Under 5.5 Under None 3.30
+winmasters Αποτέλεσμα και Over/Under 5.5 Over None 44.00
+winmasters Αποτέλεσμα και Over/Under 5.5 Under None 2.75
+winmasters Διπλή Ευκαιρία Ρέιντζερς ή Ισοπαλία 1.69
+winmasters Διπλή Ευκαιρία Ρέιντζερς ή Αθλέτικ Μπιλμπάο 1.33
+winmasters Διπλή Ευκαιρία Αθλέτικ Μπιλμπάο ή Ισοπαλία 1.38
+winmasters Γκολ Over/Under, 1ο Ημίχρονο 0.5 Over 0.5 1.41
+winmasters Γκολ Over/Under, 1ο Ημίχρονο 0.5 Under 0.5 2.97
+winmasters Γκολ Over/Under, 1ο Ημίχρονο 0.75 Over 0.75 1.56
+winmasters Γκολ Over/Under, 1ο Ημίχρονο 0.75 Under 0.75 2.49
+winmasters Γκολ Over/Under, 1ο Ημίχρονο 1 Over 1 1.91
+winmasters Γκολ Over/Under, 1ο Ημίχρονο 1 Under 1 1.93
+winmasters Γκολ Over/Under, 1ο Ημίχρονο 1.25 Over 1.25 2.39
+winmasters Γκολ Over/Under, 1ο Ημίχρονο 1.25 Under 1.25 1.60
+winmasters Γκολ Over/Under, 1ο Ημίχρονο 1.5 Over 1.5 2.85
+winmasters Γκολ Over/Under, 1ο Ημίχρονο 1.5 Under 1.5 1.45
+winmasters Γκολ Over/Under, 1ο Ημίχρονο 1.75 Over 1.75 3.70
+winmasters Γκολ Over/Under, 1ο Ημίχρονο 1.75 Under 1.75 1.29
+winmasters Γκολ Over/Under, 1ο Ημίχρονο 2 Over 2 5.90
+winmasters Γκολ Over/Under, 1ο Ημίχρονο 2 Under 2 1.14
+winmasters Γκολ Over/Under, 1ο Ημίχρονο 2.25 Over 2.25 6.80
+winmasters Γκολ Over/Under, 1ο Ημίχρονο 2.25 Under 2.25 1.11
+winmasters Γκολ Over/Under, 1ο Ημίχρονο 2.5 Over 2.5 7.20
+winmasters Γκολ Over/Under, 1ο Ημίχρονο 2.5 Under 2.5 1.11
+winmasters Γκολ Over/Under, 1ο Ημίχρονο 3.5 Over 3.5 18.00
+winmasters Γκολ Over/Under, 1ο Ημίχρονο 3.5 Under 3.5 1.01
+winmasters Γκολ Over/Under, 1ο Ημίχρονο 4.5 Over 4.5 49.00
+winmasters Γκολ Over/Under, 1ο Ημίχρονο 4.5 Under 4.5 N/A
+winmasters Χάντικαπ 0:3 Ρέιντζερς (-3) 39.00
+winmasters Χάντικαπ 0:3 Ισοπαλία (Ρέιντζερς -3) 18.50
+winmasters Χάντικαπ 0:3 Αθλέτικ Μπιλμπάο (+3) 1.006
+winmasters Χάντικαπ 0:2 Ρέιντζερς (-2) 15.00
+winmasters Χάντικαπ 0:2 Ισοπαλία (Ρέιντζερς -2) 8.25
+winmasters Χάντικαπ 0:1 Ρέιντζερς (-1) 6.00
+winmasters Χάντικαπ 0:1 Ισοπαλία (Ρέιντζερς -1) 4.60
+winmasters Χάντικαπ 0:1 Αθλέτικ Μπιλμπάο (+1) 1.44
+winmasters Χάντικαπ 1:0 Ρέιντζερς (+1) 1.65
+winmasters Χάντικαπ 1:0 Ισοπαλία (Ρέιντζερς +1) 4.05
+winmasters Χάντικαπ 1:0 Αθλέτικ Μπιλμπάο (-1) 4.45
+winmasters Χάντικαπ 2:0 Ρέιντζερς (+2) 1.21
+winmasters Χάντικαπ 2:0 Ισοπαλία (Ρέιντζερς +2) 6.60
+winmasters Χάντικαπ 2:0 Αθλέτικ Μπιλμπάο (-2) 10.00
+winmasters Χάντικαπ 3:0 Ρέιντζερς (+3) 1.04
+winmasters Χάντικαπ 3:0 Ισοπαλία (Ρέιντζερς +3) 13.50
+winmasters Χάντικαπ 3:0 Αθλέτικ Μπιλμπάο (-3) 25.00
+winmasters Ασιατικό Χάντικαπ -2 13.50
+winmasters Ασιατικό Χάντικαπ +2 1.03
+winmasters Ασιατικό Χάντικαπ -1.75 8.00
+winmasters Ασιατικό Χάντικαπ +1.75 1.09
+winmasters Ασιατικό Χάντικαπ -1.5 6.70
+winmasters Ασιατικό Χάντικαπ +1.5 1.12
+winmasters Ασιατικό Χάντικαπ -1.25 6.10
+winmasters Ασιατικό Χάντικαπ +1.25 1.14
+winmasters Ασιατικό Χάντικαπ -1 5.60
+winmasters Ασιατικό Χάντικαπ +1 1.16
+winmasters Ασιατικό Χάντικαπ -0.75 3.90
+winmasters Ασιατικό Χάντικαπ +0.75 1.27
+winmasters Ασιατικό Χάντικαπ -0.5 3.10
+winmasters Ασιατικό Χάντικαπ +0.5 1.39
+winmasters Ασιατικό Χάντικαπ -0.25 2.67
+winmasters Ασιατικό Χάντικαπ +0.25 1.50
+winmasters Ασιατικό Χάντικαπ 0 2.29
+winmasters Ασιατικό Χάντικαπ 0 1.65
+winmasters Ασιατικό Χάντικαπ +0.25 1.90
+winmasters Ασιατικό Χάντικαπ -0.25 1.94
+winmasters Ασιατικό Χάντικαπ +0.5 1.70
+winmasters Ασιατικό Χάντικαπ -0.5 2.20
+winmasters Ασιατικό Χάντικαπ +0.75 1.52
+winmasters Ασιατικό Χάντικαπ -0.75 2.60
+winmasters Ασιατικό Χάντικαπ +1 1.33
+winmasters Ασιατικό Χάντικαπ -1 3.45
+winmasters Ασιατικό Χάντικαπ +1.25 1.28
+winmasters Ασιατικό Χάντικαπ -1.25 3.85
+winmasters Ασιατικό Χάντικαπ +1.5 1.24
+winmasters Ασιατικό Χάντικαπ -1.5 4.25
+winmasters Ασιατικό Χάντικαπ +1.75 1.16
+winmasters Ασιατικό Χάντικαπ -1.75 5.50
+winmasters Ασιατικό Χάντικαπ +2 1.08
+winmasters Ασιατικό Χάντικαπ -2 8.25
+winmasters Ασιατικό Χάντικαπ +2.5 1.07
+winmasters Ασιατικό Χάντικαπ -2.5 9.00
+winmasters Ασιατικό Χάντικαπ, 1ο Ημίχρονο -2 44.00
+winmasters Ασιατικό Χάντικαπ, 1ο Ημίχρονο Αθλέτικ Μπιλμπάο N/A
+winmasters Ασιατικό Χάντικαπ, 1ο Ημίχρονο -1.75 18.00
+winmasters Ασιατικό Χάντικαπ, 1ο Ημίχρονο +1.75 1.01
+winmasters Ασιατικό Χάντικαπ, 1ο Ημίχρονο -1.5 12.00
+winmasters Ασιατικό Χάντικαπ, 1ο Ημίχρονο +1.5 1.04
+winmasters Ασιατικό Χάντικαπ, 1ο Ημίχρονο -1.25 11.00
+winmasters Ασιατικό Χάντικαπ, 1ο Ημίχρονο +1.25 1.05
+winmasters Ασιατικό Χάντικαπ, 1ο Ημίχρονο -1 10.00
+winmasters Ασιατικό Χάντικαπ, 1ο Ημίχρονο +1 1.06
+winmasters Ασιατικό Χάντικαπ, 1ο Ημίχρονο -0.75 4.85
+winmasters Ασιατικό Χάντικαπ, 1ο Ημίχρονο +0.75 1.19
+winmasters Ασιατικό Χάντικαπ, 1ο Ημίχρονο -0.5 3.65
+winmasters Ασιατικό Χάντικαπ, 1ο Ημίχρονο +0.5 1.30
+winmasters Ασιατικό Χάντικαπ, 1ο Ημίχρονο -0.25 2.97
+winmasters Ασιατικό Χάντικαπ, 1ο Ημίχρονο +0.25 1.42
+winmasters Ασιατικό Χάντικαπ, 1ο Ημίχρονο 0 2.20
+winmasters Ασιατικό Χάντικαπ, 1ο Ημίχρονο 0 1.70
+winmasters Ασιατικό Χάντικαπ, 1ο Ημίχρονο +0.25 1.65
+winmasters Ασιατικό Χάντικαπ, 1ο Ημίχρονο -0.25 2.30
+winmasters Ασιατικό Χάντικαπ, 1ο Ημίχρονο +0.5 1.44
+winmasters Ασιατικό Χάντικαπ, 1ο Ημίχρονο -0.5 2.87
+winmasters Ασιατικό Χάντικαπ, 1ο Ημίχρονο +0.75 1.28
+winmasters Ασιατικό Χάντικαπ, 1ο Ημίχρονο -0.75 3.80
+winmasters Ασιατικό Χάντικαπ, 1ο Ημίχρονο +1 1.13
+winmasters Ασιατικό Χάντικαπ, 1ο Ημίχρονο -1 6.30
+winmasters Ασιατικό Χάντικαπ, 1ο Ημίχρονο +1.25 1.09
+winmasters Ασιατικό Χάντικαπ, 1ο Ημίχρονο -1.25 8.00
+winmasters Ασιατικό Χάντικαπ, 1ο Ημίχρονο +1.5 1.09
+winmasters Ασιατικό Χάντικαπ, 1ο Ημίχρονο -1.5 8.00
+winmasters Ασιατικό Χάντικαπ, 1ο Ημίχρονο +1.75 1.03
+winmasters Ασιατικό Χάντικαπ, 1ο Ημίχρονο -1.75 13.50
+winmasters Ασιατικό Χάντικαπ, 1ο Ημίχρονο Ρέιντζερς N/A
+winmasters Ασιατικό Χάντικαπ, 1ο Ημίχρονο -2 31.00
+winmasters Ισοπαλία Όχι Στοίχημα Ρέιντζερς 2.27
+winmasters Ισοπαλία Όχι Στοίχημα Αθλέτικ Μπιλμπάο 1.64
+winmasters Γηπεδούχος Όχι Στοίχημα Ισοπαλία 2.43
+winmasters Γηπεδούχος Όχι Στοίχημα Αθλέτικ Μπιλμπάο 1.56
+winmasters Φιλοξενούμενος Όχι Στοίχημα Ρέιντζερς 1.82
+winmasters Φιλοξενούμενος Όχι Στοίχημα Ισοπαλία 1.99
+winmasters Ημίχρονο/Τελικό Ισοπαλία / Αθλέτικ Μπιλμπάο 5.90
+winmasters Ημίχρονο/Τελικό Αθλέτικ Μπιλμπάο / Αθλέτικ Μπιλμπάο 3.70
+winmasters Να Κερδίσει και τα 2 Ημίχρονα Ρέιντζερς 10.50
+winmasters Να Κερδίσει και τα 2 Ημίχρονα Αθλέτικ Μπιλμπάο 6.30
+winmasters Γκολ Και Στα 2 Ημίχρονα Ναι 1.72
+winmasters Γκολ Και Στα 2 Ημίχρονα Όχι 1.98
+winmasters Να Σκοράρει και Στα 2 Ημίχρονα Ρέιντζερς 4.25
+winmasters Να Σκοράρει και Στα 2 Ημίχρονα Αθλέτικ Μπιλμπάο 3.15
+winmasters Να Βρεθεί Πίσω στο Σκορ Και να Κερδίσει Ρέιντζερς 12.50
+winmasters Να Βρεθεί Πίσω στο Σκορ Και να Κερδίσει Αθλέτικ Μπιλμπάο 9.75
+winmasters Σύνολο Γκολ Ακριβώς 0 10.00
+winmasters Σύνολο Γκολ Ακριβώς 1 4.45
+winmasters Σύνολο Γκολ Ακριβώς 2 3.45
+winmasters Σύνολο Γκολ Ακριβώς 3 3.90
+winmasters Σύνολο Γκολ Ακριβώς 4 5.70
+winmasters Σύνολο Γκολ Ακριβώς 5 10.00
+winmasters Σύνολο Γκολ Ακριβώς 6 20.00
+winmasters Σύνολο Γκολ Ακριβώς 7 41.00
+winmasters Σύνολο Γκολ Εύρος 0-4 1.10
+winmasters Σύνολο Γκολ Εύρος 0-1 3.30
+winmasters Σύνολο Γκολ Εύρος 0-5 1.03
+winmasters Σύνολο Γκολ Εύρος 0-3 1.30
+winmasters Σύνολο Γκολ Εύρος 0-2 1.80
+winmasters Σύνολο Γκολ Εύρος 1-3 1.43
+winmasters Σύνολο Γκολ Εύρος 1-4 1.19
+winmasters Σύνολο Γκολ Εύρος 1-5 1.10
+winmasters Σύνολο Γκολ Εύρος 1-2 2.07
+winmasters Σύνολο Γκολ Εύρος 2-4 1.53
+winmasters Σύνολο Γκολ Εύρος 2-5 1.38
+winmasters Σύνολο Γκολ Εύρος 2-6 1.32
+winmasters Σύνολο Γκολ Εύρος 2-3 1.96
+winmasters Σύνολο Γκολ Εύρος 3-6 1.96
+winmasters Σύνολο Γκολ Εύρος 3-5 2.10
+winmasters Σύνολο Γκολ Εύρος 3-4 2.49
+winmasters Σύνολο Γκολ Εύρος 4-5 3.95
+winmasters Σύνολο Γκολ Εύρος 4-6 3.50
+winmasters Σύνολο Γκολ X ή Περισσότερα 1 1.05
+winmasters Σύνολο Γκολ X ή Περισσότερα 2 1.29
+winmasters Σύνολο Γκολ X ή Περισσότερα 3 1.90
+winmasters Σύνολο Γκολ X ή Περισσότερα 4 3.30
+winmasters Σύνολο Γκολ X ή Περισσότερα 5 6.50
+winmasters Σύνολο Γκολ X ή Περισσότερα 6 14.00
+winmasters Σύνολο Γκολ X ή Περισσότερα 7 32.00
+winmasters Ακριβές Σκορ 5:1 125.00
+winmasters Ακριβές Σκορ 5:2 125.00
+winmasters Ακριβές Σκορ 6:0 125.00
+winmasters Ακριβές Σκορ 6:2 125.00
+winmasters Ακριβές Σκορ 7:0 125.00
+winmasters Ακριβές Σκορ 7:1 125.00
+winmasters Ακριβές Σκορ 8:0 125.00
+winmasters Ακριβές Σκορ 9:0 125.00
+winmasters Ακριβές Σκορ 10:0 125.00
+winmasters Ακριβές Σκορ 4:4 125.00
+winmasters Ακριβές Σκορ 1:5 85.00
+winmasters Ακριβές Σκορ 0:6 125.00
+winmasters Ακριβές Σκορ 1:6 125.00
+winmasters Ακριβές Σκορ 2:6 125.00
+winmasters Ακριβές Σκορ 0:7 125.00
+winmasters Ακριβές Σκορ 1:7 125.00
+winmasters Ακριβές Σκορ 2:7 175.00
+winmasters Ακριβές Σκορ 0:8 125.00
+winmasters Ακριβές Σκορ 0:9 125.00
+winmasters Ακριβές Σκορ 0:10 125.00
+winmasters Αποτέλεσμα και Over/Under 1.5 Over None 3.60
+winmasters Αποτέλεσμα και Over/Under 1.5 Under None 8.75
+winmasters Αποτέλεσμα και Over/Under 1.5 Over None 4.50
+winmasters Αποτέλεσμα και Over/Under 1.5 Over None 2.80
+winmasters Αποτέλεσμα και Over/Under 1.5 Under None 7.80
+winmasters Αποτέλεσμα και Over/Under 2.5 Under None 5.90
+winmasters Αποτέλεσμα και Over/Under 2.5 Under None 4.90
+winmasters Αποτέλεσμα και Over/Under 3.5 Over None 9.25
+winmasters Αποτέλεσμα και Over/Under 3.5 Under None 3.60
+winmasters Αποτέλεσμα και Over/Under 3.5 Over None 12.00
+winmasters Αποτέλεσμα και Over/Under 3.5 Under None 4.35
+winmasters Αποτέλεσμα και Over/Under 3.5 Over None 7.00
+winmasters Αποτέλεσμα και Over/Under 3.5 Under None 2.95
+winmasters Αποτέλεσμα και Over/Under 4.5 Over None 15.00
+winmasters Αποτέλεσμα και Over/Under 4.5 Under None 3.10
+winmasters Αποτέλεσμα και Over/Under 4.5 Over None 50.00
+winmasters Αποτέλεσμα και Over/Under 4.5 Under None 3.45
+winmasters Αποτέλεσμα και Over/Under 4.5 Over None 11.50
+winmasters Αποτέλεσμα και Over/Under 5.5 Over None 37.00
+winmasters Αποτέλεσμα και Over/Under 5.5 Under None 2.80
+winmasters Αποτέλεσμα και Over/Under 5.5 Over None 50.00
+winmasters Αποτέλεσμα και Over/Under 5.5 Over None 28.00
+winmasters Αποτέλεσμα και Over/Under 5.5 Under None 2.25
+winmasters Διπλή Ευκαιρία Τότεναμ ή Άιντραχτ Φρανκφούρτης 1.28
+winmasters Διπλή Ευκαιρία Άιντραχτ Φρανκφούρτης ή Ισοπαλία 2.10
+winmasters Γκολ Over/Under, 1ο Ημίχρονο 0.5 Over 0.5 1.36
+winmasters Γκολ Over/Under, 1ο Ημίχρονο 0.5 Under 0.5 3.25
+winmasters Γκολ Over/Under, 1ο Ημίχρονο 0.75 Over 0.75 1.47
+winmasters Γκολ Over/Under, 1ο Ημίχρονο 0.75 Under 0.75 2.75
+winmasters Γκολ Over/Under, 1ο Ημίχρονο 1 Over 1 1.70
+winmasters Γκολ Over/Under, 1ο Ημίχρονο 1 Under 1 2.21
+winmasters Γκολ Over/Under, 1ο Ημίχρονο 1.25 Over 1.25 2.15
+winmasters Γκολ Over/Under, 1ο Ημίχρονο 1.25 Under 1.25 1.74
+winmasters Γκολ Over/Under, 1ο Ημίχρονο 1.5 Over 1.5 2.52
+winmasters Γκολ Over/Under, 1ο Ημίχρονο 1.5 Under 1.5 1.54
+winmasters Γκολ Over/Under, 1ο Ημίχρονο 1.75 Over 1.75 3.30
+winmasters Γκολ Over/Under, 1ο Ημίχρονο 1.75 Under 1.75 1.35
+winmasters Γκολ Over/Under, 1ο Ημίχρονο 2 Over 2 5.00
+winmasters Γκολ Over/Under, 1ο Ημίχρονο 2 Under 2 1.18
+winmasters Γκολ Over/Under, 1ο Ημίχρονο 2.25 Over 2.25 5.80
+winmasters Γκολ Over/Under, 1ο Ημίχρονο 2.25 Under 2.25 1.15
+winmasters Γκολ Over/Under, 1ο Ημίχρονο 2.5 Over 2.5 5.90
+winmasters Γκολ Over/Under, 1ο Ημίχρονο 2.5 Under 2.5 1.14
+winmasters Γκολ Over/Under, 1ο Ημίχρονο 3.5 Over 3.5 15.50
+winmasters Γκολ Over/Under, 1ο Ημίχρονο 4.5 Over 4.5 40.00
+winmasters Γκολ Over/Under, 1ο Ημίχρονο 4.5 Under 4.5 N/A
+winmasters Χάντικαπ 0:4 Τότεναμ (-4) 23.00
+winmasters Χάντικαπ 0:4 Ισοπαλία (Τότεναμ -4) 15.00
+winmasters Χάντικαπ 0:4 Άιντραχτ Φρανκφούρτης (+4) 1.03
+winmasters Χάντικαπ 0:3 Τότεναμ (-3) 13.00
+winmasters Χάντικαπ 0:3 Ισοπαλία (Τότεναμ -3) 8.75
+winmasters Χάντικαπ 0:3 Άιντραχτ Φρανκφούρτης (+3) 1.13
+winmasters Χάντικαπ 0:2 Τότεναμ (-2) 5.90
+winmasters Χάντικαπ 0:2 Ισοπαλία (Τότεναμ -2) 5.10
+winmasters Χάντικαπ 0:2 Άιντραχτ Φρανκφούρτης (+2) 1.40
+winmasters Χάντικαπ 0:1 Τότεναμ (-1) 3.00
+winmasters Χάντικαπ 0:1 Ισοπαλία (Τότεναμ -1) 3.80
+winmasters Χάντικαπ 0:1 Άιντραχτ Φρανκφούρτης (+1) 2.09
+winmasters Χάντικαπ 1:0 Τότεναμ (+1) 1.25
+winmasters Χάντικαπ 1:0 Ισοπαλία (Τότεναμ +1) 5.90
+winmasters Χάντικαπ 1:0 Άιντραχτ Φρανκφούρτης (-1) 9.00
+winmasters Χάντικαπ 2:0 Τότεναμ (+2) 1.05
+winmasters Χάντικαπ 2:0 Ισοπαλία (Τότεναμ +2) 12.00
+winmasters Χάντικαπ 2:0 Άιντραχτ Φρανκφούρτης (-2) 24.00
+winmasters Χάντικαπ 3:0 Option 1 N/A
+winmasters Χάντικαπ 3:0 Ισοπαλία (Τότεναμ +3) 29.00
+winmasters Χάντικαπ 3:0 Άιντραχτ Φρανκφούρτης (-3) 60.00
+winmasters Ασιατικό Χάντικαπ -3.5 13.00
+winmasters Ασιατικό Χάντικαπ +3.5 1.03
+winmasters Ασιατικό Χάντικαπ -3 10.00
+winmasters Ασιατικό Χάντικαπ +3 1.06
+winmasters Ασιατικό Χάντικαπ -2.5 5.60
+winmasters Ασιατικό Χάντικαπ +2.5 1.16
+winmasters Ασιατικό Χάντικαπ -2.25 5.40
+winmasters Ασιατικό Χάντικαπ +2.25 1.16
+winmasters Ασιατικό Χάντικαπ -2 4.95
+winmasters Ασιατικό Χάντικαπ +2 1.19
+winmasters Ασιατικό Χάντικαπ -1.75 3.60
+winmasters Ασιατικό Χάντικαπ +1.75 1.30
+winmasters Ασιατικό Χάντικαπ -1.5 2.97
+winmasters Ασιατικό Χάντικαπ +1.5 1.41
+winmasters Ασιατικό Χάντικαπ -1.25 2.65
+winmasters Ασιατικό Χάντικαπ +1.25 1.51
+winmasters Ασιατικό Χάντικαπ -1 2.33
+winmasters Ασιατικό Χάντικαπ +1 1.63
+winmasters Ασιατικό Χάντικαπ -0.75 1.97
+winmasters Ασιατικό Χάντικαπ +0.75 1.87
+winmasters Ασιατικό Χάντικαπ -0.5 1.77
+winmasters Ασιατικό Χάντικαπ +0.5 2.11
+winmasters Ασιατικό Χάντικαπ -0.25 1.56
+winmasters Ασιατικό Χάντικαπ +0.25 2.49
+winmasters Ασιατικό Χάντικαπ 0 1.35
+winmasters Ασιατικό Χάντικαπ 0 3.35
+winmasters Ασιατικό Χάντικαπ +0.25 1.30
+winmasters Ασιατικό Χάντικαπ -0.25 3.65
+winmasters Ασιατικό Χάντικαπ +0.5 1.25
+winmasters Ασιατικό Χάντικαπ -0.5 4.15
+winmasters Ασιατικό Χάντικαπ +0.75 1.17
+winmasters Ασιατικό Χάντικαπ -0.75 5.30
+winmasters Ασιατικό Χάντικαπ +1 1.08
+winmasters Ασιατικό Χάντικαπ -1 8.25
+winmasters Ασιατικό Χάντικαπ +1.25 1.08
+winmasters Ασιατικό Χάντικαπ -1.25 8.50
+winmasters Ασιατικό Χάντικαπ +1.5 1.07
+winmasters Ασιατικό Χάντικαπ -1.5 9.00
+winmasters Ασιατικό Χάντικαπ +1.75 1.04
+winmasters Ασιατικό Χάντικαπ -1.75 12.50
+winmasters Ασιατικό Χάντικαπ +2 1.004
+winmasters Ασιατικό Χάντικαπ -2 23.00
+winmasters Ασιατικό Χάντικαπ, 1ο Ημίχρονο -2 18.50
+winmasters Ασιατικό Χάντικαπ, 1ο Ημίχρονο +2 1.01
+winmasters Ασιατικό Χάντικαπ, 1ο Ημίχρονο -1.75 8.75
+winmasters Ασιατικό Χάντικαπ, 1ο Ημίχρονο +1.75 1.07
+winmasters Ασιατικό Χάντικαπ, 1ο Ημίχρονο -1.5 5.80
+winmasters Ασιατικό Χάντικαπ, 1ο Ημίχρονο +1.5 1.15
+winmasters Ασιατικό Χάντικαπ, 1ο Ημίχρονο -1.25 5.40
+winmasters Ασιατικό Χάντικαπ, 1ο Ημίχρονο +1.25 1.16
+winmasters Ασιατικό Χάντικαπ, 1ο Ημίχρονο -1 4.60
+winmasters Ασιατικό Χάντικαπ, 1ο Ημίχρονο +1 1.21
+winmasters Ασιατικό Χάντικαπ, 1ο Ημίχρονο -0.75 2.95
+winmasters Ασιατικό Χάντικαπ, 1ο Ημίχρονο +0.75 1.42
+winmasters Ασιατικό Χάντικαπ, 1ο Ημίχρονο -0.5 2.32
+winmasters Ασιατικό Χάντικαπ, 1ο Ημίχρονο +0.5 1.64
+winmasters Ασιατικό Χάντικαπ, 1ο Ημίχρονο -0.25 1.89
+winmasters Ασιατικό Χάντικαπ, 1ο Ημίχρονο +0.25 1.95
+winmasters Ασιατικό Χάντικαπ, 1ο Ημίχρονο 0 1.44
+winmasters Ασιατικό Χάντικαπ, 1ο Ημίχρονο 0 2.87
+winmasters Ασιατικό Χάντικαπ, 1ο Ημίχρονο +0.25 1.30
+winmasters Ασιατικό Χάντικαπ, 1ο Ημίχρονο -0.25 3.70
+winmasters Ασιατικό Χάντικαπ, 1ο Ημίχρονο +0.5 1.23
+winmasters Ασιατικό Χάντικαπ, 1ο Ημίχρονο -0.5 4.35
+winmasters Ασιατικό Χάντικαπ, 1ο Ημίχρονο +0.75 1.13
+winmasters Ασιατικό Χάντικαπ, 1ο Ημίχρονο -0.75 6.30
+winmasters Ασιατικό Χάντικαπ, 1ο Ημίχρονο +1 1.03
+winmasters Ασιατικό Χάντικαπ, 1ο Ημίχρονο -1 14.00
+winmasters Ασιατικό Χάντικαπ, 1ο Ημίχρονο +1.25 1.02
+winmasters Ασιατικό Χάντικαπ, 1ο Ημίχρονο -1.25 15.00
+winmasters Ασιατικό Χάντικαπ, 1ο Ημίχρονο +1.5 1.02
+winmasters Ασιατικό Χάντικαπ, 1ο Ημίχρονο -1.5 16.00
+winmasters Ασιατικό Χάντικαπ, 1ο Ημίχρονο Τότεναμ N/A
+winmasters Ασιατικό Χάντικαπ, 1ο Ημίχρονο -1.75 24.00
+winmasters Ασιατικό Χάντικαπ, 1ο Ημίχρονο Τότεναμ N/A
+winmasters Ασιατικό Χάντικαπ, 1ο Ημίχρονο -2 60.00
+winmasters Ισοπαλία Όχι Στοίχημα Τότεναμ 1.33
+winmasters Γηπεδούχος Όχι Στοίχημα Άιντραχτ Φρανκφούρτης 2.02
+winmasters Γηπεδούχος Όχι Στοίχημα Ισοπαλία 1.79
+winmasters Φιλοξενούμενος Όχι Στοίχημα Τότεναμ 1.39
+winmasters Φιλοξενούμενος Όχι Στοίχημα Ισοπαλία 2.97
+winmasters Ημίχρονο/Τελικό Τότεναμ / Άιντραχτ Φρανκφούρτης 35.00
+winmasters Ημίχρονο/Τελικό Ισοπαλία / Άιντραχτ Φρανκφούρτης 9.25
+winmasters Ημίχρονο/Τελικό Άιντραχτ Φρανκφούρτης / Άιντραχτ Φρανκφούρτης 6.80
+winmasters Ημίχρονο/Τελικό Άιντραχτ Φρανκφούρτης / Ισοπαλία 15.00
+winmasters Ημίχρονο/Τελικό Άιντραχτ Φρανκφούρτης / Τότεναμ 22.00
+winmasters Να Κερδίσει και τα 2 Ημίχρονα Τότεναμ 4.65
+winmasters Να Κερδίσει και τα 2 Ημίχρονα Άιντραχτ Φρανκφούρτης 16.50
+winmasters Γκολ Και Στα 2 Ημίχρονα Ναι 1.61
+winmasters Γκολ Και Στα 2 Ημίχρονα Όχι 2.15
+winmasters Να Σκοράρει και Στα 2 Ημίχρονα Τότεναμ 2.45
+winmasters Να Σκοράρει και Στα 2 Ημίχρονα Άιντραχτ Φρανκφούρτης 4.90
+winmasters Να Βρεθεί Πίσω στο Σκορ Και να Κερδίσει Τότεναμ 8.25
+winmasters Να Βρεθεί Πίσω στο Σκορ Και να Κερδίσει Άιντραχτ Φρανκφούρτης 15.00
+winmasters Σύνολο Γκολ Ακριβώς 0 12.50
+winmasters Σύνολο Γκολ Ακριβώς 1 5.10
+winmasters Σύνολο Γκολ Ακριβώς 2 3.70
+winmasters Σύνολο Γκολ Ακριβώς 3 3.85
+winmasters Σύνολο Γκολ Ακριβώς 4 5.10
+winmasters Σύνολο Γκολ Ακριβώς 5 8.50
+winmasters Σύνολο Γκολ Ακριβώς 6 15.50
+winmasters Σύνολο Γκολ Ακριβώς 7 31.00
+winmasters Σύνολο Γκολ Εύρος 0-4 1.15
+winmasters Σύνολο Γκολ Εύρος 0-2 2.02
+winmasters Σύνολο Γκολ Εύρος 0-3 1.39
+winmasters Σύνολο Γκολ Εύρος 0-5 1.05
+winmasters Σύνολο Γκολ Εύρος 0-1 3.90
+winmasters Σύνολο Γκολ Εύρος 1-5 1.10
+winmasters Σύνολο Γκολ Εύρος 1-3 1.51
+winmasters Σύνολο Γκολ Εύρος 1-4 1.22
+winmasters Σύνολο Γκολ Εύρος 1-2 2.28
+winmasters Σύνολο Γκολ Εύρος 2-3 2.00
+winmasters Σύνολο Γκολ Εύρος 2-4 1.51
+winmasters Σύνολο Γκολ Εύρος 2-5 1.33
+winmasters Σύνολο Γκολ Εύρος 2-6 1.26
+winmasters Σύνολο Γκολ Εύρος 3-4 2.35
+winmasters Σύνολο Γκολ Εύρος 3-5 1.93
+winmasters Σύνολο Γκολ Εύρος 3-6 1.78
+winmasters Σύνολο Γκολ Εύρος 4-6 3.00
+winmasters Σύνολο Γκολ Εύρος 4-5 3.45
+winmasters Σύνολο Γκολ X ή Περισσότερα 1 1.03
+winmasters Σύνολο Γκολ X ή Περισσότερα 2 1.22
+winmasters Σύνολο Γκολ X ή Περισσότερα 3 1.70
+winmasters Σύνολο Γκολ X ή Περισσότερα 4 2.77
+winmasters Σύνολο Γκολ X ή Περισσότερα 5 5.20
+winmasters Σύνολο Γκολ X ή Περισσότερα 6 10.50
+winmasters Σύνολο Γκολ X ή Περισσότερα 7 23.00
+winmasters Ακριβές Σκορ 2:1 7.60
+winmasters Ακριβές Σκορ 6:2 125.00
+winmasters Ακριβές Σκορ 7:0 125.00
+winmasters Ακριβές Σκορ 7:1 125.00
+winmasters Ακριβές Σκορ 9:0 125.00
+winmasters Ακριβές Σκορ 10:0 125.00
+winmasters Ακριβές Σκορ 2:2 12.50
+winmasters Ακριβές Σκορ 4:4 125.00
+winmasters Ακριβές Σκορ 0:1 12.50
+winmasters Ακριβές Σκορ 0:2 22.00
+winmasters Ακριβές Σκορ 0:5 125.00
+winmasters Ακριβές Σκορ 1:5 125.00
+winmasters Ακριβές Σκορ 3:5 175.00
+winmasters Ακριβές Σκορ 1:6 175.00
+winmasters Ακριβές Σκορ 0:7 125.00
+winmasters Ακριβές Σκορ 1:7 125.00
+winmasters Ακριβές Σκορ 0:8 125.00
+winmasters Ακριβές Σκορ 0:9 125.00
+winmasters Αποτέλεσμα και Over/Under 1.5 Over None 2.00
+winmasters Αποτέλεσμα και Over/Under 1.5 Under None 7.80
+winmasters Αποτέλεσμα και Over/Under 1.5 Over None 4.80
+winmasters Αποτέλεσμα και Over/Under 1.5 Under None 13.00
+winmasters Αποτέλεσμα και Over/Under 1.5 Over None 5.00
+winmasters Αποτέλεσμα και Over/Under 1.5 Under None 12.00
+winmasters Αποτέλεσμα και Over/Under 2.5 Under None 4.40
+winmasters Αποτέλεσμα και Over/Under 2.5 Under None 8.50
+winmasters Αποτέλεσμα και Over/Under 3.5 Over None 11.50
+winmasters Αποτέλεσμα και Over/Under 3.5 Under None 5.10
+winmasters Αποτέλεσμα και Over/Under 3.5 Over None 12.50
+winmasters Αποτέλεσμα και Over/Under 3.5 Under None 5.10
+winmasters Αποτέλεσμα και Over/Under 4.5 Under None 2.04
+winmasters Αποτέλεσμα και Over/Under 4.5 Over None 45.00
+winmasters Αποτέλεσμα και Over/Under 4.5 Under None 3.90
+winmasters Αποτέλεσμα και Over/Under 4.5 Over None 19.00
+winmasters Αποτέλεσμα και Over/Under 4.5 Under None 4.45
+winmasters Αποτέλεσμα και Over/Under 5.5 Over None 16.00
+winmasters Αποτέλεσμα και Over/Under 5.5 Over None 46.00
+winmasters Αποτέλεσμα και Over/Under 5.5 Under None 3.90
+winmasters Αποτέλεσμα και Over/Under 5.5 Over None 47.00
+winmasters Αποτέλεσμα και Over/Under 5.5 Under None 4.00
