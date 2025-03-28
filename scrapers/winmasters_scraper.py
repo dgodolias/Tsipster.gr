@@ -143,7 +143,7 @@ def parser(queue, results):
 
 def main():
     # Load URLs
-    with open('matches/uel/match_urls.json', 'r', encoding='utf-8') as f:
+    with open('matches/winmasters/uel/match_urls.json', 'r', encoding='utf-8') as f:
         match_urls = json.load(f)
     
     # Initialize queue and results list

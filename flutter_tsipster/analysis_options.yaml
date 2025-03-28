@@ -1,0 +1,22 @@
+include: package:flutter_lints/flutter.yaml
+
+linter:
+  rules:
+    - avoid_print
+    - avoid_unnecessary_containers
+    - await_only_futures
+    - camel_case_types
+    - cancel_subscriptions
+    - directives_ordering
+    - prefer_const_constructors
+    - prefer_final_fields
+    - prefer_if_null_operators
+    - prefer_single_quotes
+    - sized_box_for_whitespace
+    - use_full_hex_values_for_flutter_colors
+    - valid_regexps
+
+analyzer:
+  errors:
+    # Don't flag @override as error for implementing interface methods
+    invalid_override_of_non_virtual_member: error

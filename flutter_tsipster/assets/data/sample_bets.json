@@ -1,0 +1,67 @@
+{
+  "matches": [
+    {
+      "id": 1,
+      "name": "Liverpool vs Manchester United",
+      "markets": [
+        {
+          "name": "1X2",
+          "outcomes": [
+            {"name": "1", "odds": 1.90},
+            {"name": "X", "odds": 3.50},
+            {"name": "2", "odds": 4.20}
+          ]
+        },
+        {
+          "name": "Over/Under 2.5",
+          "outcomes": [
+            {"name": "Over", "odds": 1.85},
+            {"name": "Under", "odds": 1.95}
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Barcelona vs Real Madrid",
+      "markets": [
+        {
+          "name": "1X2",
+          "outcomes": [
+            {"name": "1", "odds": 2.10},
+            {"name": "X", "odds": 3.30},
+            {"name": "2", "odds": 3.40}
+          ]
+        },
+        {
+          "name": "Over/Under 2.5",
+          "outcomes": [
+            {"name": "Over", "odds": 1.75},
+            {"name": "Under", "odds": 2.05}
+          ]
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Bayern Munich vs Dortmund",
+      "markets": [
+        {
+          "name": "1X2",
+          "outcomes": [
+            {"name": "1", "odds": 1.60},
+            {"name": "X", "odds": 3.80},
+            {"name": "2", "odds": 5.50}
+          ]
+        },
+        {
+          "name": "Over/Under 2.5",
+          "outcomes": [
+            {"name": "Over", "odds": 1.55},
+            {"name": "Under", "odds": 2.45}
+          ]
+        }
+      ]
+    }
+  ]
+}
