@@ -1,6 +1,6 @@
 {
-    "name": "tsipster",
-    "short_name": "tsipster",
+    "name": "Tsipster",
+    "short_name": "Tsipster",
     "start_url": ".",
     "display": "standalone",
     "background_color": "#0175C2",

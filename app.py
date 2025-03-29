@@ -1,4 +1,4 @@
-from flask import Flask, render_template, request, jsonify, session
+from flask import Flask, render_template, request, jsonify, session, send_from_directory
 from flask_cors import CORS  # Import CORS
 import json
 import math
@@ -8,6 +8,7 @@ import sys
 from pathlib import Path
 import random
 from functools import reduce
+import os  # Add this import if not already present
 
 # Make sure the current directory is included in the path
 current_dir = str(Path(__file__).parent.absolute())
@@ -43,10 +44,23 @@ sample_matches = [
     ]},
 ]
 
-@app.route('/')
-def index():
-    """Render the main page"""
-    return render_template('index.html')
+@app.route('/', defaults={'path': ''})
+@app.route('/<path:path>')
+def serve_flutter_app(path):
+    """Serve the Flutter web app by default or the API endpoints as needed"""
+    if path.startswith('api/') or path in ['accept_bets', 'reject_bets', 'get_replacement_bets', 'get_same_match_alternatives', 'favicon.ico']:
+        # Let these routes be handled by their respective functions
+        return "API Endpoint"  # This will never actually be returned
+    
+    # For all other routes, serve the Flutter web app
+    flutter_web_path = 'flutter_tsipster/build/web'
+    
+    # First, try to serve the exact path
+    if path and os.path.exists(os.path.join(flutter_web_path, path)):
+        return send_from_directory(flutter_web_path, path)
+    
+    # If not found or root path, serve index.html
+    return send_from_directory(flutter_web_path, 'index.html')
 
 @app.route('/api/generate-bets', methods=['POST'])
 def generate_bets_api():
@@ -520,6 +534,9 @@ def get_same_match_alternatives():
         min_total_odds = float(data.get('min_total_odds', 2.0))
         max_total_odds = float(data.get('max_total_odds', 15.0))
         rejected_indices = data.get('rejected_bet_indices', [])
+        rejected_bet_options = data.get('rejected_bet_options', {})
+        
+        print(f"Received rejected bet options: {rejected_bet_options}")
         
         # Get current bets from session
         selected_bets = session.get('selected_bets', [])
@@ -538,7 +555,8 @@ def get_same_match_alternatives():
         
         if not bs_imported:
             return generate_alternative_sample_bets(
-                target_matches, kept_bets, num_needed, current_odds, min_total_odds, max_total_odds)
+                target_matches, kept_bets, num_needed, current_odds, 
+                min_total_odds, max_total_odds, rejected_bet_options)
         
         bs = bet_suggestor
         bets = bs.bets
@@ -547,7 +565,7 @@ def get_same_match_alternatives():
         
         new_bets = []
         
-        # We'll process one match at a time to ensure we get exactly one bet per rejected match
+        # Process one match at a time to ensure we get exactly one bet per rejected match
         for match_name in target_matches:
             # Filter bets to only include those from this specific match
             match_bets = [bet for bet in bets if bet['match'] == match_name]
@@ -558,16 +576,20 @@ def get_same_match_alternatives():
                 print(f"No alternatives found for match: {match_name}")
                 continue
                 
-            # Calculate ideal odds for this bet to keep the total within range
-            # This approximates what we need for this match to get total odds in range
-            ideal_odds = 1.0
-            if min_total_odds > current_odds:
-                ideal_odds = min_total_odds / current_odds
+            # Get previously rejected options for this match
+            match_rejected_options = rejected_bet_options.get(match_name, [])
+            print(f"Previously rejected options for {match_name}: {match_rejected_options}")
             
             # Score all available bets for this match
             scored_bets = []
             for bet in match_bets:
-                # Don't use the exact same bet we rejected
+                # Skip if this bet option was previously rejected
+                bet_key = f"{bet['market']}|{bet['outcome']}"
+                if bet_key in match_rejected_options:
+                    print(f"Skipping previously rejected option: {bet_key}")
+                    continue
+                
+                # Also skip the immediately rejected bets
                 skip = False
                 for rejected in rejected_bets:
                     if (bet['match'] == rejected['match'] and 
@@ -585,19 +607,21 @@ def get_same_match_alternatives():
                 base_score = bet['preference_score'] * nn_score
                 
                 # Adjust score based on how close odds are to ideal
+                ideal_odds = 1.0
+                if min_total_odds > current_odds:
+                    ideal_odds = min_total_odds / current_odds
                 odds_factor = 1.0 - abs(bet['odds'] - ideal_odds) / 10.0  # Prioritize odds close to ideal
                 bet['total_score'] = base_score * odds_factor
                 
                 scored_bets.append(bet)
             
             if not scored_bets:
-                print(f"No valid alternatives for match: {match_name}")
+                print(f"No valid alternatives for match: {match_name} after filtering")
                 continue
                 
             # Sort by score and take the best option for this match
             best_bet = max(scored_bets, key=lambda bet: bet['total_score'])
             
-            # Create bet info
             bet_info = {
                 'id': len(kept_bets) + len(new_bets),
                 'match': best_bet['match'],
@@ -608,12 +632,10 @@ def get_same_match_alternatives():
             }
             new_bets.append(bet_info)
         
-        # Calculate new total odds
         total_odds = current_odds
         for bet in new_bets:
             total_odds *= bet['odds']
         
-        # Update session with both kept and new bets
         updated_bets = kept_bets + new_bets
         session['selected_bets'] = updated_bets
         session['current_total_odds'] = total_odds
@@ -630,20 +652,21 @@ def get_same_match_alternatives():
         print(f"Error getting alternatives: {str(e)}")
         return jsonify({'error': str(e)}), 500
 
-def generate_alternative_sample_bets(target_matches, kept_bets, num_needed, current_odds, min_total_odds, max_total_odds):
+def generate_alternative_sample_bets(target_matches, kept_bets, num_needed, current_odds, 
+                                     min_total_odds, max_total_odds, rejected_bet_options=None):
     """Generate alternative sample bets for the specified matches"""
+    if rejected_bet_options is None:
+        rejected_bet_options = {}
+    
     generated_bets = []
     
-    # Desired odds range for the new bets combined
     min_combined_new_odds = min_total_odds / current_odds
     max_combined_new_odds = max_total_odds / current_odds
     
-    # For each target match, find samples that match
     for match_name in target_matches:
         if len(generated_bets) >= num_needed:
             break
             
-        # Find the corresponding sample match
         sample_match = None
         for match in sample_matches:
             if match["name"] == match_name:
@@ -651,23 +674,42 @@ def generate_alternative_sample_bets(target_matches, kept_bets, num_needed, curr
                 break
         
         if not sample_match:
-            # Try to find a close match if exact match not found
             for match in sample_matches:
                 if len(generated_bets) < num_needed:
                     sample_match = match
                     break
         
         if sample_match:
-            # Randomly choose an alternative market and outcome
-            market = random.choice(sample_match["markets"])
-            outcome = random.choice(market["outcomes"])
+            match_rejected_options = rejected_bet_options.get(match_name, [])
             
-            # Choose an outcome with odds that will fit the total odds range if possible
+            eligible_options = []
+            
+            for market in sample_match["markets"]:
+                for outcome in market["outcomes"]:
+                    bet_key = f"{market['name']}|{outcome['name']}"
+                    if bet_key not in match_rejected_options:
+                        eligible_options.append({
+                            "market": market,
+                            "outcome": outcome
+                        })
+            
+            if not eligible_options:
+                print(f"All options for match {match_name} have been rejected")
+                for market in sample_match["markets"]:
+                    for outcome in market["outcomes"]:
+                        eligible_options.append({
+                            "market": market,
+                            "outcome": outcome
+                        })
+            
+            chosen = random.choice(eligible_options)
+            market = chosen["market"]
+            outcome = chosen["outcome"]
+            
             target_odds = (min_combined_new_odds + max_combined_new_odds) / 2
             if num_needed > 1:
-                target_odds = target_odds ** (1 / num_needed)  # Distribute evenly
+                target_odds = target_odds ** (1 / num_needed)
                 
-            # Find closest outcome to target odds
             closest_outcome = min(market["outcomes"], 
                                  key=lambda o: abs(o["odds"] - target_odds))
             
@@ -682,12 +724,10 @@ def generate_alternative_sample_bets(target_matches, kept_bets, num_needed, curr
             
             generated_bets.append(bet)
     
-    # Calculate total odds
     total_odds = current_odds
     for bet in generated_bets:
         total_odds *= bet["odds"]
     
-    # Combine with kept bets
     all_bets = kept_bets + generated_bets
     
     return jsonify({
@@ -701,6 +741,4 @@ def favicon():
     return app.send_static_file('images/favicon.png')
 
 if __name__ == "__main__":
-    # 0.0.0.0 makes the server accessible from other devices on the network
-    # Use 127.0.0.1 for local access only
     app.run(debug=True, host='127.0.0.1', port=5000)

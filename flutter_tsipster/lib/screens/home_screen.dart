@@ -23,13 +23,6 @@ class HomeScreen extends StatelessWidget {
               height: 40,
             ),
             const SizedBox(width: 10),
-            const Text(
-              'Tsipster',
-              style: TextStyle(
-                fontWeight: FontWeight.bold,
-                fontSize: 24,
-              ),
-            ),
           ],
         ),
         actions: [
@@ -41,7 +34,7 @@ class HomeScreen extends StatelessWidget {
                 context: context,
                 applicationName: 'Tsipster',
                 applicationVersion: '1.0.0',
-                applicationLegalese: '© 2023 Tsipster - The Smart Bet Suggestor',
+                applicationLegalese: '© 2025 Tsipster - The Smart Bet Suggestor',
                 children: [
                   const Text(
                     'Tsipster is a Flutter application that suggests bets based on machine learning and user preferences.',
@@ -140,7 +133,7 @@ class HomeScreen extends StatelessWidget {
             ),
             const SizedBox(width: 10),
             const Text(
-              '© 2023 Tsipster - The Smart Bet Suggestor',
+              '© 2025 Tsipster - The Smart Bet Suggestor',
               style: TextStyle(color: Colors.white),
             ),
           ],

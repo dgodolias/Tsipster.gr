@@ -14,38 +14,24 @@ IF /I "%SCRAPE%"=="y" (
     echo.
 )
 
-REM Start the Flask server
+REM Start the Flask server (API)
 echo Starting Flask backend server...
 start cmd /k "python app.py && echo Flask server running at http://localhost:5000"
 
-REM Wait a moment for the server to start
+REM Wait for server to start
 echo Waiting for server to start...
 timeout /t 5 /nobreak > nul
 
-REM Ask if user wants to run the Flutter app
-SET /P FLUTTER=Do you want to run the Flutter app? (y/n): 
-IF /I "%FLUTTER%"=="y" (
-    echo Starting Flutter frontend...
-    cd flutter_tsipster
-    start cmd /k "flutter run -d chrome"
-    
-    REM Wait for Flutter to start
-    echo Waiting for Flutter to launch...
-    timeout /t 3 /nobreak > nul
-    
-    REM Open the browser automatically if Flutter doesn't
-    echo Opening browser if needed...
-    start http://localhost:5000
-) ELSE (
-    echo.
-    echo Opening browser to view web interface...
-    start http://localhost:5000
-)
+REM Run Flutter in Chrome (not just build)
+echo Starting Flutter frontend...
+cd flutter_tsipster
+start cmd /k "flutter run -d chrome"
+cd ..
 
 echo.
 echo Tsipster is now running!
-echo Flask API: http://localhost:5000
-echo Flutter Web (if selected): http://localhost:8080 or similar
+echo Flask API: http://localhost:5000 (backend)
+echo Flutter Web: Running in Chrome (should open automatically)
 echo.
 echo Press any key to exit this window...
 pause > nul

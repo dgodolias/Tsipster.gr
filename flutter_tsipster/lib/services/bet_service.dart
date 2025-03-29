@@ -14,6 +14,9 @@ class BetService extends ChangeNotifier {
   int _maxAvailableMatches = 0; // Store max available matches
   BetParameters _lastParameters = BetParameters.defaultParams(); // Remember last parameters
 
+  // Track previously rejected bet options per match
+  final Map<String, List<String>> _rejectedBetOptions = {};
+
   // Getters
   List<Bet> get currentBets => _currentBets;
   List<String> get statusLog => _statusLog;
@@ -167,6 +170,20 @@ class BetService extends ChangeNotifier {
       // Get matches for which we need alternatives
       final rejectedMatches = rejectedBets.map((bet) => bet.match).toList();
       
+      // Track rejected bet options to avoid recommending them again
+      for (final bet in rejectedBets) {
+        final matchKey = bet.match;
+        final betKey = '${bet.market}|${bet.outcome}';
+        
+        if (!_rejectedBetOptions.containsKey(matchKey)) {
+          _rejectedBetOptions[matchKey] = [];
+        }
+        
+        if (!_rejectedBetOptions[matchKey]!.contains(betKey)) {
+          _rejectedBetOptions[matchKey]!.add(betKey);
+        }
+      }
+      
       // Make a copy of the current bets before any changes
       final List<Bet> currentBetsCopy = List.from(_currentBets);
       
@@ -187,6 +204,12 @@ class BetService extends ChangeNotifier {
       
       addLogMessage('Finding alternatives for the same matches...');
       
+      // Serialize the rejected bet options for the request
+      final serializedRejections = {};
+      _rejectedBetOptions.forEach((match, options) {
+        serializedRejections[match] = options;
+      });
+      
       // Get replacements for rejected bets
       final response = await http.post(
         Uri.parse('$baseUrl/get_same_match_alternatives'),
@@ -198,6 +221,7 @@ class BetService extends ChangeNotifier {
           'min_total_odds': _lastParameters.minOdds,
           'max_total_odds': _lastParameters.maxOdds,
           'rejected_bet_indices': selectedIndices,
+          'rejected_bet_options': serializedRejections, // Pass the rejected options to the server
         }),
       ).timeout(const Duration(seconds: 15));
       
@@ -327,10 +351,11 @@ class BetService extends ChangeNotifier {
     notifyListeners();
   }
   
-  // Clear all bets
+  // Clear all bets and reset rejected options
   void clearBets() {
     _currentBets = [];
     _totalOdds = 0;
+    _rejectedBetOptions.clear(); // Clear rejected options when starting fresh
     notifyListeners();
   }
 }
