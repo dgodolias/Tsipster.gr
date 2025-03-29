@@ -61,3 +61,5 @@ The application currently uses odds data from:
 - Can be extended to support other sources
 
 When a bet is rejected, the system will find a replacement from the same match to maintain the betting slip structure.
+
+Copyright © 2025 Tsipster

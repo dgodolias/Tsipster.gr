@@ -76,7 +76,7 @@
                             },
                             {
                                 "outcome": "Under 0.5",
-                                "odds": "9.75"
+                                "odds": "9.50"
                             }
                         ]
                     },
@@ -241,7 +241,7 @@
                         "outcomes": [
                             {
                                 "outcome": "Over 4.25",
-                                "odds": "6.00"
+                                "odds": "6.10"
                             },
                             {
                                 "outcome": "Under 4.25",
@@ -2465,7 +2465,7 @@
                             },
                             {
                                 "outcome": "Under 1.75",
-                                "odds": "1.29"
+                                "odds": "1.30"
                             }
                         ]
                     },
@@ -2833,7 +2833,7 @@
                         "outcomes": [
                             {
                                 "outcome": "+1.5",
-                                "odds": "1.15"
+                                "odds": "1.16"
                             },
                             {
                                 "outcome": "-1.5",
@@ -3948,12 +3948,12 @@
                         "group_title": null,
                         "outcomes": [
                             {
-                                "outcome": "2 Και Ναι",
-                                "odds": "4.90"
-                            },
-                            {
                                 "outcome": "2 Και Όχι",
                                 "odds": "4.70"
+                            },
+                            {
+                                "outcome": "2 Και Ναι",
+                                "odds": "4.90"
                             }
                         ]
                     }
@@ -6488,11 +6488,11 @@
                         "outcomes": [
                             {
                                 "outcome": "Over 0.75",
-                                "odds": "1.42"
+                                "odds": "1.43"
                             },
                             {
                                 "outcome": "Under 0.75",
-                                "odds": "2.95"
+                                "odds": "2.90"
                             }
                         ]
                     },

@@ -232,4 +232,7 @@ document.addEventListener('DOMContentLoaded', function() {
     
     // Initialize the page
     renderBets();
+
+    // Add copyright year update
+    document.querySelector('footer p').textContent = '© 2025 Tsipster - The Smart Bet Suggestor';
 });

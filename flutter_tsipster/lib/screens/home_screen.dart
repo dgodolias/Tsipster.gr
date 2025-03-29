@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 import '../models/bet_parameters.dart';
 import '../services/bet_service.dart';
+import '../services/auth_service.dart'; // Add this import for AuthService
 import '../widgets/bet_parameters_form.dart';
 import '../widgets/bet_table.dart';
 import '../widgets/status_log.dart';
@@ -26,6 +27,20 @@ class HomeScreen extends StatelessWidget {
           ],
         ),
         actions: [
+          // Add a logout button
+          IconButton(
+            icon: const Icon(Icons.logout),
+            tooltip: 'Restart/Logout',
+            onPressed: () {
+              final authService = Provider.of<AuthService>(context, listen: false);
+              authService.logout().then((_) {
+                // Clear all betting data
+                Provider.of<BetService>(context, listen: false).clearBets();
+                // Navigate to landing page
+                Navigator.of(context).pushNamedAndRemoveUntil('/', (route) => false);
+              });
+            },
+          ),
           IconButton(
             icon: const Icon(Icons.info_outline),
             onPressed: () {
@@ -60,61 +75,77 @@ class HomeScreen extends StatelessWidget {
       body: SafeArea(
         child: Stack(
           children: [
-            SingleChildScrollView(
-              padding: const EdgeInsets.all(16.0),
-              child: Column(
-                crossAxisAlignment: CrossAxisAlignment.stretch,
-                children: [
-                  // Main content in two columns on larger screens
-                  LayoutBuilder(
-                    builder: (context, constraints) {
-                      if (constraints.maxWidth > 600) {
-                        // Tablet/desktop layout
-                        return Row(
-                          crossAxisAlignment: CrossAxisAlignment.start,
-                          children: [
-                            // Left column - Parameters and Status Log
-                            Expanded(
-                              flex: 1,
-                              child: Column(
-                                children: [
-                                  _buildParametersCard(context),
-                                  const SizedBox(height: 16),
-                                  _buildStatusLogCard(context),
-                                ],
+            // Use a CustomScrollView with slivers for more efficient scrolling
+            CustomScrollView(
+              slivers: [
+                SliverPadding(
+                  padding: const EdgeInsets.all(16.0),
+                  sliver: SliverToBoxAdapter(
+                    child: LayoutBuilder(
+                      builder: (context, constraints) {
+                        if (constraints.maxWidth > 600) {
+                          // Tablet/desktop layout
+                          return Row(
+                            crossAxisAlignment: CrossAxisAlignment.start,
+                            children: [
+                              // Left column - Parameters and Status Log
+                              Expanded(
+                                flex: 1,
+                                child: Column(
+                                  children: [
+                                    _buildParametersCard(context),
+                                    const SizedBox(height: 16),
+                                    _buildStatusLogCard(context),
+                                  ],
+                                ),
                               ),
-                            ),
-                            const SizedBox(width: 16),
-                            // Right column - Betting Slip
-                            Expanded(
-                              flex: 2,
-                              child: _buildBettingSlipCard(context),
-                            ),
-                          ],
-                        );
-                      } else {
-                        // Mobile layout - stacked
-                        return Column(
-                          children: [
-                            _buildParametersCard(context),
-                            const SizedBox(height: 16),
-                            _buildBettingSlipCard(context),
-                            const SizedBox(height: 16),
-                            _buildStatusLogCard(context),
-                          ],
-                        );
-                      }
-                    },
+                              const SizedBox(width: 16),
+                              // Right column - Betting Slip
+                              Expanded(
+                                flex: 2,
+                                child: _buildBettingSlipCard(context),
+                              ),
+                            ],
+                          );
+                        } else {
+                          // Mobile layout - stacked
+                          return Column(
+                            children: [
+                              _buildParametersCard(context),
+                              const SizedBox(height: 16),
+                              _buildBettingSlipCard(context),
+                              const SizedBox(height: 16),
+                              _buildStatusLogCard(context),
+                            ],
+                          );
+                        }
+                      },
+                    ),
                   ),
-                ],
-              ),
+                ),
+              ],
             ),
+            
             // Loading indicator
             if (betService.isLoading)
-              Container(
-                color: Colors.black54,
-                child: const Center(
-                  child: CircularProgressIndicator(),
+              const Material(
+                color: Colors.black38,
+                child: Center(
+                  child: Card(
+                    elevation: 8,
+                    child: Padding(
+                      padding: EdgeInsets.all(16.0),
+                      child: Column(
+                        mainAxisSize: MainAxisSize.min,
+                        children: [
+                          CircularProgressIndicator(),
+                          SizedBox(height: 16),
+                          Text("Processing...", 
+                               style: TextStyle(fontWeight: FontWeight.bold))
+                        ],
+                      ),
+                    ),
+                  ),
                 ),
               ),
           ],
