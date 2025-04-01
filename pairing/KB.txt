@@ -5,6 +5,9 @@ DRAW <== home_goals == away_goals
 GG <== home_goals > 0 and away_goals > 0
 NG <== home_goals == 0 or away_goals == 0
 
-# Ορισμοί στοιχηματικών τύπων
-"Διπλή ευκαιρία" <== (WINS(team_home) or DRAW)-{"1X"} OR (DRAW or WINS(team_away))-{"X2"} OR (WINS(team_home) or WINS(team_away))-{"12"}
-"Goal/No Goal" <== (GG)-{"GG"} OR (NG)-{"NG"}
+# Ορισμοί στοιχηματικών τύπων ως συναρτήσεις
+DOUBLE_CHANCE[X] <== if X = "1X" then (WINS(team_home) or DRAW)
+                    else if X = "X2" then (DRAW or WINS(team_away))
+                    else (WINS(team_home) or WINS(team_away))
+GOAL_NO_GOAL[X] <== if X = "GG" then (GG)
+                    else (NG)
