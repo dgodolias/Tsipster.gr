@@ -1,0 +1,10 @@
+# Ορισμοί βασικών όρων
+WINS(team_home) <== home_goals > away_goals
+WINS(team_away) <== away_goals > home_goals
+DRAW <== home_goals == away_goals
+GG <== home_goals > 0 and away_goals > 0
+NG <== home_goals == 0 or away_goals == 0
+
+# Ορισμοί στοιχηματικών τύπων
+"Διπλή ευκαιρία" <== (WINS(team_home) or DRAW)-{"1X"} OR (DRAW or WINS(team_away))-{"X2"} OR (WINS(team_home) or WINS(team_away))-{"12"}
+"Goal/No Goal" <== (GG)-{"GG"} OR (NG)-{"NG"}

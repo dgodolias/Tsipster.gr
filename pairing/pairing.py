@@ -1,5 +1,6 @@
 import difflib
 import json
+import random
 import re
 import os
 from dotenv import load_dotenv
@@ -53,7 +54,7 @@ def ai_compare(line1, candidates, use_api=True):
 
             # Step 5: Call the API
             response = client.chat.completions.create(
-                model="meta-llama/llama-3.2-3b-instruct:free",
+                model="google/gemini-flash-1.5-8b ",
                 messages=[
                     {"role": "system", "content": "You are a betting market matching expert"},
                     {"role": "user", "content": prompt},
@@ -144,6 +145,8 @@ def write_paired_file(output_file, paired, unpaired_stoiximan, unpaired_winmaste
         for unpaired in unpaired_winmasters:
             file.write(f"winmasters {unpaired}\n")
 
+
+
 def main():
     # File paths
     stoiximan_file = 'bet_names_stoiximan.txt'
@@ -154,6 +157,9 @@ def main():
     print(f"Reading input files: {stoiximan_file} and {winmasters_file}")
     stoiximan_lines = read_file(stoiximan_file)
     winmasters_lines = read_file(winmasters_file)
+    
+    # Shuffle the stoiximan lines to process them in random order
+    random.shuffle(stoiximan_lines)
     
     # Control whether to use API or just rules-based matching
     use_api = True  # Set to False to skip API calls and use only rules-based matching
