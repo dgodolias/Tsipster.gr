@@ -1,13 +1,19 @@
 # Ορισμοί βασικών όρων
-WINS(team_home) <== home_goals > away_goals
-WINS(team_away) <== away_goals > home_goals
-DRAW <== home_goals == away_goals
-GG <== home_goals > 0 and away_goals > 0
-NG <== home_goals == 0 or away_goals == 0
+WINS<x,y> <-- GOALS<x> > GOALS<y>
+DRAW<x,y> <-- GOALS<x> = GOALS<y> 
+GG<x,y> <-- GOALS<x> > 0 AND GOALS<y> > 0
+NG<x,y> <-- GOALS<x> = 0 OR GOALS<y> = 0
 
 # Ορισμοί στοιχηματικών τύπων ως συναρτήσεις
-DOUBLE_CHANCE[X] <== if X = "1X" then (WINS(team_home) or DRAW)
-                    else if X = "X2" then (DRAW or WINS(team_away))
-                    else (WINS(team_home) or WINS(team_away))
-GOAL_NO_GOAL[X] <== if X = "GG" then (GG)
-                    else (NG)
+DOUBLE_CHANCE[X] <-- if X = "1X" then (WINS<TEAM_HOME,TEAM_AWAY> or DRAW<TEAM_HOME,TEAM_AWAY>)
+                    else if X = "X2" then (DRAW<TEAM_HOME,TEAM_AWAY> or WINS<TEAM_HOME,TEAM_AWAY>)
+                    else if X = "12" (DRAW<TEAM_HOME,TEAM_AWAY> or WINS<TEAM_AWAY,TEAM_HOME>)
+GOAL_NO_GOAL[X] <-- if X = "GG" then (GG)
+                    else if X = "NG" then (NG)
+
+# σταθερες
+PLAYER <-- [TEAM_HOME_PLAYER_1, TEAM_HOME_PLAYER_2, TEAM_HOME_PLAYER_3, TEAM_HOME_PLAYER_4, TEAM_HOME_PLAYER_5, TEAM_HOME_PLAYER_6, TEAM_HOME_PLAYER_7, TEAM_HOME_PLAYER_8, TEAM_HOME_PLAYER_9, TEAM_HOME_PLAYER_10, TEAM_HOME_PLAYER_11, TEAM_HOME_PLAYER_12, TEAM_HOME_PLAYER_13, TEAM_HOME_PLAYER_14, TEAM_HOME_PLAYER_15, TEAM_HOME_PLAYER_16, TEAM_HOME_PLAYER_17, TEAM_HOME_PLAYER_18, TEAM_HOME_PLAYER_19, TEAM_HOME_PLAYER_20, TEAM_AWAY_PLAYER_1, TEAM_AWAY_PLAYER_2, TEAM_AWAY_PLAYER_3, TEAM_AWAY_PLAYER_4, TEAM_AWAY_PLAYER_5, TEAM_AWAY_PLAYER_6, TEAM_AWAY_PLAYER_7, TEAM_AWAY_PLAYER_8, TEAM_AWAY_PLAYER_9, TEAM_AWAY_PLAYER_10, TEAM_AWAY_PLAYER_11, TEAM_AWAY_PLAYER_12, TEAM_AWAY_PLAYER_13, TEAM_AWAY_PLAYER_14, TEAM_AWAY_PLAYER_15, TEAM_AWAY_PLAYER_16, TEAM_AWAY_PLAYER_17, TEAM_AWAY_PLAYER_18, TEAM_AWAY_PLAYER_19, TEAM_AWAY_PLAYER_20]
+TEAM <-- [TEAM_HOME, TEAM_AWAY]
+
+# συναρτησεις
+GOALS<x> <-- [0,1,2,3,4,5,6,7,8,9,10]
