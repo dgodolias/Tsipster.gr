@@ -1,162 +1,157 @@
 import re
 
-# ------------------------
-# Basic terms evaluation
-def evaluate_basic_terms(score, basic_terms):
-    try:
-        home_goals, away_goals = map(int, score.split('-'))
-        if not (0 <= home_goals <= 10 and 0 <= away_goals <= 10):
-            raise ValueError("Score out of range (0-10)")
-    except ValueError:
-        raise ValueError("Invalid score format. Use e.g., '1-1'.")
-    
-    context = {}
-    for term, condition in basic_terms.items():
-        eval_condition = condition.replace('home_goals', str(home_goals)).replace('away_goals', str(away_goals))
-        eval_condition = eval_condition.replace('AND', 'and').replace('OR', 'or')
-        context[term] = eval(eval_condition)
-    return context
-
-# ------------------------
-# Parse KB file into basic terms and betting function definitions
+# Function to parse the knowledge base (KB) file
 def parse_kb(file_path):
+    """
+    Parse the KB file into dictionaries for basic terms, betting types, constants, and functions.
+    """
     basic_terms = {}
-    betting_functions = {}
+    betting_types = {}
+    constants = {}
+    functions = {}
     
     with open(file_path, 'r', encoding='utf-8') as f:
+        current_section = None
         for line in f:
             line = line.strip()
-            if not line or line.startswith('#'):
+            if line.startswith('#'):
+                current_section = line[1:].strip()
                 continue
-            if '<==' not in line:
+            if not line or '<--' not in line:
                 continue
-            key, condition = line.split('<==', 1)
-            key = key.strip()
-            condition = condition.strip()
+            parts = line.split('<--')
+            definition = parts[0].strip()
+            condition = parts[1].strip()
             
-            # If the key has a parameter (e.g., DOUBLE_CHANCE[X]) then store as betting function
-            if '[' in key and ']' in key:
-                func_name = key.split('[')[0]
-                betting_functions[func_name] = condition
-            else:
-                # Otherwise, it's a basic term
-                basic_terms[key] = condition
-    return basic_terms, betting_functions
-
-# ------------------------
-# Load pairing names mapping
-def load_options_pairing_names(file_path):
-    mapping = {}
-    with open(file_path, 'r', encoding='utf-8') as f:
-        for line in f:
-            line = line.strip()
-            if not line or line.startswith('#') or ':' not in line:
-                continue
-            internal, aliases = line.split(':', 1)
-            internal = internal.strip()
-            aliases_list = [alias.strip() for alias in aliases.split(',')]
-            # Map each alias to the internal standardized type.
-            for alias in aliases_list:
-                mapping[alias] = internal
-            # Also add a mapping for the internal name
-            mapping[internal] = internal
-    return mapping
-
-# ------------------------
-# Evaluate a betting function definition
-def evaluate_betting_function(func_def, user_option):
-    # Expected format:
-    # if X = "1X" then (expression1) else if X = "X2" then (expression2) else (expression3)
-    pattern = r'if\s+X\s*=\s*"([^"]+)"\s*then\s*\((.*?)\)'
-    conditions = re.findall(pattern, func_def)
+            if current_section == 'Ορισμοί βασικών όρων':
+                basic_terms[definition] = condition
+            elif current_section == 'Ορισμοί στοιχηματικών τύπων ως συναρτήσεις':
+                betting_types[definition] = condition
+            elif current_section == 'σταθερες':
+                # Store as string instead of evaluating
+                constants[definition] = condition
+            elif current_section == 'συναρτησεις':
+                # Store as string instead of evaluating
+                functions[definition] = condition
     
-    for opt, expr in conditions:
-        if user_option == opt:
-            return expr
-    # Look for final else clause:
-    else_pattern = r'else\s*\((.*?)\)\s*$'
-    m = re.search(else_pattern, func_def)
-    if m:
-        return m.group(1)
-    else:
-        raise ValueError("No matching condition found in function definition.")
+    return basic_terms, betting_types, constants, functions
 
-# ------------------------
-# Main function
+# Function to load aliases from the options_pairing_names.txt file
+def load_aliases(file_path):
+    """
+    Load aliases from a file into a dictionary.
+    """
+    aliases = {}
+    try:
+        with open(file_path, 'r', encoding='utf-8') as f:
+            for line in f:
+                line = line.strip()
+                if ':' in line:
+                    key, values = line.split(':', 1)
+                    aliases[key.strip()] = [v.strip() for v in values.split(',')]
+    except Exception as e:
+        print(f"Error loading aliases: {e}")
+    return aliases
+
+# Function to normalize a betting option
+def normalize_option(option, aliases, betting_types, basic_terms, team_home, team_away):
+    """
+    Convert a betting option into its standardized logical condition.
+    """
+    # Split the option into parts (e.g., "Double Chance 1X" -> ["Double Chance", "1X"])
+    parts = option.strip().split()
+    if len(parts) < 1:
+        return option
+    
+    # Identify the betting type and parameter
+    bet_type = parts[0]
+    param = ' '.join(parts[1:]) if len(parts) > 1 else ''
+    
+    # Check aliases to standardize the betting type
+    for std_name, alias_list in aliases.items():
+        if bet_type in alias_list or option in alias_list:
+            bet_type = std_name
+            break
+    
+    # Construct the full betting type with parameter if applicable
+    full_bet_type = f"{bet_type}[{param}]" if param else bet_type
+    
+    # Expand the betting type using its definition
+    if full_bet_type in betting_types:
+        condition = betting_types[full_bet_type]
+    elif bet_type in betting_types:
+        condition = betting_types[bet_type]
+        if param:
+            # Handle conditional logic (e.g., if X = "GG" then ...)
+            condition = condition.replace('X', f'"{param}"')
+            # Simple parsing of if-then-else for this example
+            if 'if' in condition:
+                clauses = re.split('if|then|else', condition)
+                clauses = [c.strip(' ()') for c in clauses if c.strip()]
+                for i, clause in enumerate(clauses):
+                    if f'X = "{param}"' in clause and i + 1 < len(clauses):
+                        condition = clauses[i + 1]
+                        break
+    else:
+        return option  # Return as-is if not found
+    
+    # Substitute team names
+    condition = condition.replace('TEAM_HOME', team_home).replace('TEAM_AWAY', team_away)
+    
+    # Expand basic terms
+    for term, defn in basic_terms.items():
+        # Handle parameterized terms like WINS<x,y>
+        pattern = rf"{term}\<([^>]+)\>"
+        matches = re.findall(pattern, condition)
+        for match in matches:
+            params = match.split(',')
+            if len(params) == 2:
+                expanded = defn.replace('x', params[0]).replace('y', params[1])
+                condition = condition.replace(f"{term}<{match}>", f"({expanded})")
+        # Replace non-parameterized terms
+        if term in condition:
+            condition = condition.replace(term, f"({defn})")
+    
+    return condition
+
+# Function to check equivalence of two betting options
+def are_equivalent(option1, option2, team_home, team_away, kb_file, alias_file):
+    """
+    Determine if two betting options are logically equivalent.
+    """
+    basic_terms, betting_types, _, _ = parse_kb(kb_file)
+    aliases = load_aliases(alias_file)
+    
+    norm_opt1 = normalize_option(option1, aliases, betting_types, basic_terms, team_home, team_away)
+    norm_opt2 = normalize_option(option2, aliases, betting_types, basic_terms, team_home, team_away)
+    
+    # For simplicity, compare normalized strings
+    # A full logical equivalence checker would require a more complex parser
+    return norm_opt1 == norm_opt2
+
+# Main execution
 def main():
-    # Load KB
-    kb_file = 'pairing/KB.txt'
+    """
+    Main function to interact with the user and check betting option equivalence.
+    """
+    kb_file = 'pairing/KB.txt'  # Path to your KB file
+    alias_file = 'pairing/options_pairing_names.txt'  # Path to your aliases file
+    
+    # Get user inputs
+    print("Enter the team names and betting options.")
+    team_home = input("Home team: ").strip()
+    team_away = input("Away team: ").strip()
+    option1 = input("First betting option: ").strip()
+    option2 = input("Second betting option: ").strip()
+    
+    # Check equivalence
     try:
-        basic_terms, betting_functions = parse_kb(kb_file)
-        print("\nDEBUG - Available betting functions:")
-        for func, definition in betting_functions.items():
-            print(f"  {func}")
-        print()  # empty line for readability
-    except FileNotFoundError:
-        print("Error: 'KB.txt' file not found.")
-        return
-    except Exception as e:
-        print(f"Error parsing KB file: {e}")
-        return
-
-    # Load options pairing names mapping
-    mapping_file = 'pairing/options_pairing_names.txt'
-    try:
-        pairing_mapping = load_options_pairing_names(mapping_file)
-    except Exception as e:
-        print(f"Error loading options pairing names: {e}")
-        return
-
-    # Get user input
-    team_home = input("Enter home team (e.g., Μπόντο Γκλιμτ): ").strip()
-    team_away = input("Enter away team (e.g., Λάτσιο): ").strip()
-    print("Available betting types:", ', '.join(betting_functions.keys()))
-    user_bet_type_input = input("Enter betting type (e.g., Διπλη ευκαιρια / Double chance): ").strip()
-    # Translate user input to standardized betting type
-    if user_bet_type_input in pairing_mapping:
-        std_bet_type = pairing_mapping[user_bet_type_input]
-    else:
-        std_bet_type = user_bet_type_input
-
-    if std_bet_type not in betting_functions:
-        print(f"Error: Betting type '{user_bet_type_input}' not found in knowledge base.")
-        return
-
-    user_option = input("Enter your betting option (e.g., '1X'): ").strip()
-    score = input("Enter the match score (e.g., '1-1'): ").strip()
-
-    # Retrieve the betting function definition and pick the expression based on option.
-    try:
-        expression = evaluate_betting_function(betting_functions[std_bet_type], user_option)
-    except ValueError as e:
-        print(f"Error: {e}")
-        return
-
-    # Evaluate basic terms based on the score
-    try:
-        context = evaluate_basic_terms(score, basic_terms)
-    except ValueError as e:
-        print(f"Error: {e}")
-        return
-
-    # Specialize the expression with team names
-    expression = expression.replace('team_home', f'"{team_home}"').replace('team_away', f'"{team_away}"')
-    eval_expr = expression.replace('OR', 'or').replace('AND', 'and')
-
-    # Replace basic term tokens in the expression with their boolean values.
-    for key, value in context.items():
-        key_replaced = key.replace('team_home', f'"{team_home}"').replace('team_away', f'"{team_away}"')
-        eval_expr = eval_expr.replace(key_replaced, str(value))
-
-    # Evaluate the final condition.
-    try:
-        result = eval(eval_expr)
-        if result:
-            print(f"The betting option '{user_option}' for {team_home} vs {team_away} is **met** for the score {score}.")
+        if are_equivalent(option1, option2, team_home, team_away, kb_file, alias_file):
+            print(f"\nThe betting options '{option1}' and '{option2}' are equivalent.")
         else:
-            print(f"The betting option '{user_option}' for {team_home} vs {team_away} is **not met** for the score {score}.")
+            print(f"\nThe betting options '{option1}' and '{option2}' are not equivalent.")
     except Exception as e:
-        print(f"Error evaluating condition: {e}")
+        print(f"Error comparing options: {e}")
 
 if __name__ == "__main__":
     main()

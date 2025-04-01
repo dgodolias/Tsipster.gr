@@ -1,2 +1,7 @@
+# options
 DOUBLE_CHANCE: Διπλη ευκαιρια, Double chance, 1X/X2/12
-GOAL_NO_GOAL: Goal/No Goal, Goal No Goal, GG/NG
+GOAL_NO_GOAL: Goal/No Goal, Goal No Goal, GG/NG, Να σκοράρουν και οι δύο ομάδες
+
+# outcomes
+GG: Ναι, GG, Goal - Goal, Goal Goal
+NG: Οχι, ΝG, Νο - Goal, No Goal
