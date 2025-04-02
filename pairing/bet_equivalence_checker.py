@@ -127,6 +127,9 @@ class BettingEquivalenceChecker:
         Returns:
             Normalized parameter string
         """
+        if not parameters:
+            return ""
+            
         param = parameters
         
         # Replace team names with placeholders
@@ -135,18 +138,42 @@ class BettingEquivalenceChecker:
         if away_team:
             param = re.sub(re.escape(away_team), "TEAM_AWAY", param, flags=re.IGNORECASE)
         
-        # Handle composite parameters (with '/')
-        tokens = [token.strip() for token in param.split("/")]
-        normalized_tokens = [self.normalize_outcome(token) for token in tokens if token]
-        normalized_param = "/".join(normalized_tokens)
-        
-        # Check if the entire normalized expression matches any outcome alias
+        # First try to match the entire pattern after team substitution
         for key, alias_list in self.outcome_aliases.items():
             for alias in alias_list:
-                if self.remove_accents(normalized_param).lower() == self.remove_accents(alias).lower():
+                alias_norm = self.remove_accents(alias).lower()
+                param_norm = self.remove_accents(param).lower()
+                if param_norm == alias_norm:
                     return key
-                    
-        return normalized_param
+        
+        # Handle composite parameters (with '/')
+        tokens = [token.strip() for token in param.split("/")]
+        if len(tokens) > 1:
+            # Check if the entire parameter with slashes matches any outcome directly
+            joined_tokens = "/".join(tokens)
+            for key, alias_list in self.outcome_aliases.items():
+                for alias in alias_list:
+                    alias_norm = self.remove_accents(alias).lower()
+                    param_norm = self.remove_accents(joined_tokens).lower()
+                    if param_norm == alias_norm:
+                        return key
+            
+            # If not a direct match, normalize each token separately
+            normalized_tokens = [self.normalize_outcome(token) for token in tokens if token]
+            normalized_param = "/".join(normalized_tokens)
+            
+            # Check again if the now-normalized form matches any outcome alias
+            for key, alias_list in self.outcome_aliases.items():
+                for alias in alias_list:
+                    alias_norm = self.remove_accents(alias).lower()
+                    param_norm = self.remove_accents(normalized_param).lower()
+                    if param_norm == alias_norm:
+                        return key
+            
+            return normalized_param
+        
+        # If no match found, return the parameter as is
+        return param
     
     def standardize_betting_option(self, option, home_team, away_team):
         """
@@ -169,16 +196,22 @@ class BettingEquivalenceChecker:
             option_part = parts[0].strip()
             outcome_part = parts[1].strip()
         else:
-            # If no explicit delimiter, assume the last token is the outcome
+            # If no explicit delimiter, try to split intelligently
             tokens = option.strip().split()
-            outcome_part = ""
             option_part = option.strip()
-            if len(tokens) > 1:
-                candidate = tokens[-1]
-                normalized = self.normalize_outcome(candidate)
-                if normalized:
-                    outcome_part = candidate
-                    option_part = " ".join(tokens[:-1])
+            outcome_part = ""
+            
+            # Try to find a logical split point by checking for known betting types
+            normalized_option = self.normalize_bet_name(option_part)
+            if normalized_option != option_part:
+                # Found a match for the entire string as a betting type
+                # Now try to extract outcome from the end
+                if len(tokens) > 1:
+                    candidate = tokens[-1]
+                    normalized = self.normalize_outcome(candidate)
+                    if normalized != candidate:
+                        outcome_part = candidate
+                        option_part = " ".join(tokens[:-1])
         
         # Normalize the betting type
         bet_type = self.normalize_bet_name(option_part)
