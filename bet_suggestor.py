@@ -7,12 +7,39 @@ import torch.optim as optim
 from pathlib import Path
 
 # Load user profile
-with open('profile/user_profile.json', 'r', encoding='utf-8') as f:
-    user_profile = json.load(f)
+try:
+    with open('profile/user_profile.json', 'r', encoding='utf-8') as f:
+        user_profile = json.load(f)
+except FileNotFoundError:
+    # Default profile if file doesn't exist
+    user_profile = {
+        "preferences": {
+            "Over/Under": 1.0,
+            "Goal-Goal": 1.0,
+            "Final Result": 1.0,
+            "1X2": 1.0,
+            "Handicap": 1.0,
+            "Player-Specific": 1.0,
+            "Other": 1.0
+        }
+    }
+    print("User profile not found, using default")
 
 # Load odds data
-with open('odds/UEL_odds.json', 'r', encoding='utf-8') as f:
-    odds_data = json.load(f)
+try:
+    # Try to load winmasters data first
+    with open('odds/winmasters/UEL_odds.json', 'r', encoding='utf-8') as f:
+        odds_data = json.load(f)
+        print(f"Loaded winmasters odds data with {len(odds_data)} matches")
+except FileNotFoundError:
+    try:
+        # Fall back to bet365 data if available
+        with open('bet365_output.json', 'r', encoding='utf-8') as f:
+            odds_data = json.load(f)
+            print(f"Loaded bet365 odds data with {len(odds_data)} matches")
+    except FileNotFoundError:
+        odds_data = []
+        print("No odds data found! Make sure to run the winmasters scraper first.")
 
 # Define bet type categorization
 def get_bet_type(market_name, outcome=None):
@@ -58,6 +85,15 @@ def calculate_bet_score(bet, user_profile):
     market_type = get_bet_type(bet['market'], bet['outcome'])
     return user_profile['preferences'].get(market_type, 1)
 
+# Collect unique match names to determine max possible bets
+unique_matches = set()
+for match in odds_data:
+    unique_matches.add(match['match_title'])
+
+# Get the max number of unique matches
+max_unique_matches = len(unique_matches)
+print(f"Maximum available unique matches: {max_unique_matches}")
+
 # Collect bets with match information
 bets = []
 market_types = ["Over/Under", "Goal-Goal", "Final Result", "1X2", "Handicap", "Player-Specific", "Other"]
@@ -70,16 +106,19 @@ for match in odds_data:
             group_title = group['group_title']
             for outcome in group['outcomes']:
                 if outcome['odds'] != "N/A":
-                    odds = float(outcome['odds'])
-                    bet = {
-                        'match': match_title,
-                        'market': market_name,
-                        'group': group_title,
-                        'outcome': outcome['outcome'],
-                        'odds': odds
-                    }
-                    bet['preference_score'] = calculate_bet_score(bet, user_profile)
-                    bets.append(bet)
+                    try:
+                        odds = float(outcome['odds'])
+                        bet = {
+                            'match': match_title,
+                            'market': market_name,
+                            'group': group_title,
+                            'outcome': outcome['outcome'],
+                            'odds': odds
+                        }
+                        bet['preference_score'] = calculate_bet_score(bet, user_profile)
+                        bets.append(bet)
+                    except ValueError:
+                        print(f"Invalid odds value: {outcome['odds']}")
 
 # Initialize neural network
 input_size = len(market_types) + 1
@@ -90,17 +129,15 @@ criterion = nn.BCELoss()
 # Load saved model state if exists
 model_file = Path('nn_model.pth')
 if model_file.exists():
-    model.load_state_dict(torch.load(model_file, weights_only=True))
-    print("Loaded saved neural network state.")
+    try:
+        model.load_state_dict(torch.load(model_file))
+        print("Loaded saved neural network state.")
+    except Exception as e:
+        print(f"Error loading model: {e}")
 else:
     print("No saved model found. Starting with a fresh neural network.")
 
 model.eval()
-
-# User input
-N = int(input("Enter number of bets: "))
-A = float(input("Enter minimum total odds: "))
-B = float(input("Enter maximum total odds: "))
 
 # Function to calculate dynamic odds range
 def get_next_odds_range(current_total_odds, bets_selected, total_bets, min_total_odds, max_total_odds):
@@ -124,115 +161,6 @@ def get_next_odds_range(current_total_odds, bets_selected, total_bets, min_total
     
     return low, high
 
-# Select bets with dynamic odds filtering
-current_total_odds = 1.0
-selected_bets = []
-used_matches = set()
-
-for k in range(N):
-    low, high = get_next_odds_range(current_total_odds, k, N, A, B)
-    print(f"Selecting bet {k+1}: Odds range [{low:.2f}, {high:.2f}]")
-    
-    # Filter bets within the current odds range and from unused matches
-    available_bets = [bet for bet in bets if bet['match'] not in used_matches and low <= bet['odds'] <= high]
-    
-    if not available_bets:
-        print("No bets available in range. Widening search.")
-        available_bets = [bet for bet in bets if bet['match'] not in used_matches]
-        if not available_bets:
-            print("No more unique match bets available.")
-            break
-    
-    # Score available bets
-    for bet in available_bets:
-        features = get_bet_features(bet, market_types)
-        with torch.no_grad():
-            nn_score = model(features).item()
-        base_score = bet['preference_score'] * nn_score
-        if random.random() < 0.2:
-            base_score *= random.uniform(0.8, 1.2)
-        bet['total_score'] = base_score
-    
-    # Select the highest-scored bet
-    best_bet = max(available_bets, key=lambda bet: bet['total_score'])
-    selected_bets.append(best_bet)
-    used_matches.add(best_bet['match'])
-    current_total_odds *= best_bet['odds']
-
-# Training data collection
-training_data = []
-
-while True:
-    print("\nCurrent Betting Slip:")
-    for i, bet in enumerate(selected_bets, 1):
-        group_str = f" {bet['group']}" if bet['group'] else ""
-        print(f"{i}. {bet['match']} - {bet['market']}{group_str}: {bet['outcome']} @ {bet['odds']}")
-    user_input = input("Enter indices to reject (e.g., '1 3') or '-' to accept: ")
-    
-    if user_input.strip() == '-':
-        for bet in selected_bets:
-            features = get_bet_features(bet, market_types)
-            training_data.append((features, torch.tensor([1.0], dtype=torch.float32)))
-        break
-    else:
-        try:
-            reject_indices = [int(x) - 1 for x in user_input.split()]
-            if any(i < 0 or i >= len(selected_bets) for i in reject_indices):
-                print("Invalid indices. Try again.")
-                continue
-            
-            for i in reject_indices:
-                bet = selected_bets[i]
-                features = get_bet_features(bet, market_types)
-                training_data.append((features, torch.tensor([0.0], dtype=torch.float32)))
-            
-            selected_bets = [bet for i, bet in enumerate(selected_bets) if i not in reject_indices]
-            current_total_odds = math.prod(bet['odds'] for bet in selected_bets)
-            used_matches = set(bet['match'] for bet in selected_bets)
-            
-            while len(selected_bets) < N:
-                low, high = get_next_odds_range(current_total_odds, len(selected_bets), N, A, B)
-                available_bets = [bet for bet in bets if bet['match'] not in used_matches and low <= bet['odds'] <= high]
-                if not available_bets:
-                    available_bets = [bet for bet in bets if bet['match'] not in used_matches]
-                if not available_bets:
-                    print("No more unique match bets available.")
-                    break
-                
-                for bet in available_bets:
-                    features = get_bet_features(bet, market_types)
-                    with torch.no_grad():
-                        nn_score = model(features).item()
-                    base_score = bet['preference_score'] * nn_score
-                    if random.random() < 0.2:
-                        base_score *= random.uniform(0.8, 1.2)
-                    bet['total_score'] = base_score
-                
-                best_bet = max(available_bets, key=lambda bet: bet['total_score'])
-                selected_bets.append(best_bet)
-                used_matches.add(best_bet['match'])
-                current_total_odds *= best_bet['odds']
-        except ValueError:
-            print("Invalid input. Please enter numbers separated by spaces or '-' to accept.")
-            continue
-
-# Train the neural network
-if training_data:
-    model.train()
-    for features, label in training_data:
-        optimizer.zero_grad()
-        output = model(features)
-        loss = criterion(output, label)
-        loss.backward()
-        optimizer.step()
-    model.eval()
-    torch.save(model.state_dict(), 'nn_model.pth')
-    print("Neural network updated and saved.")
-
-# Display final betting slip
-print("\nFinal Betting Slip:")
-for bet in selected_bets:
-    group_str = f" {bet['group']}" if bet['group'] else ""
-    print(f"- {bet['match']} - {bet['market']}{group_str}: {bet['outcome']} @ {bet['odds']}")
-total_odds = math.prod(bet['odds'] for bet in selected_bets)
-print(f"Total Odds: {total_odds:.2f}")
+# Function to get available unique matches count
+def get_max_unique_matches():
+    return max_unique_matches

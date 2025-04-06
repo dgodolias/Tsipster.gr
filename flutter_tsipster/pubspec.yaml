@@ -1,0 +1,47 @@
+name: Tsipster
+description: Tsipster - Your Bet Mentor
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.5
+  provider: ^6.0.5
+  http: ^1.1.0
+  shared_preferences: ^2.1.1
+  path_provider: ^2.0.15
+  # Flutter PyTorch can be problematic for web, so commenting it out for now
+  # flutter_pytorch: ^1.0.1
+  
+  # For app icons and branding
+  flutter_launcher_icons: ^0.13.1
+  # For charts/visualization
+  fl_chart: ^0.63.0
+  # For more advanced UI components
+  flutter_slidable: ^3.0.0
+  
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.2
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/
+    - assets/data/
+
+flutter_icons:
+  android: "launcher_icon"
+  ios: true
+  image_path: "assets/images/tsipster.png"  # Updated path to your logo
+  adaptive_icon_background: "#0D6EFD"       # Primary color background
+  web:
+    generate: true
+    image_path: "assets/images/tsipster.png"
+    background_color: "#0D6EFD"
+    theme_color: "#0D6EFD"
