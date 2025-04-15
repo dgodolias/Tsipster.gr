@@ -1,0 +1,17 @@
+# Ορισμοί βασικών όρων
+WINS<x,y> <-- ((GOALS<x>) > (GOALS<y>))
+DRAW<x,y> <-- ((GOALS<x>) = (GOALS<y>))
+GG<x,y> <-- ((GOALS<x>) > 0 AND (GOALS<y>) > 0)
+NG<x,y> <-- ((GOALS<x>) = 0 OR (GOALS<y>) = 0)
+
+# Ορισμοί στοιχηματικών τύπων ως συναρτήσεις
+DOUBLE_CHANCE[X] <-- if (X = "1X") then ((WINS<TEAM_HOME,TEAM_AWAY>) or (DRAW<TEAM_HOME,TEAM_AWAY>))
+                    else if (X = "X2") then ((DRAW<TEAM_HOME,TEAM_AWAY>) or (WINS<TEAM_AWAY,TEAM_HOME>))
+                    else if (X = "12") ((WINS<TEAM_HOME,TEAM_AWAY>) or (WINS<TEAM_AWAY,TEAM_HOME>))
+GOAL_NO_GOAL[X] <-- if (X = "GG") then ((GG<TEAM_HOME,TEAM_AWAY>))
+                    else if (X = "NG") then ((NG<TEAM_HOME,TEAM_AWAY>))
+
+#συνδεσμοι
+AND
+OR
+NOT
