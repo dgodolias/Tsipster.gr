@@ -25,6 +25,20 @@ def fetch_match_urls(tournament_url):
         chrome_options.add_argument("--headless")  # Run in headless mode (no GUI)
         chrome_options.add_argument("--no-sandbox")
         chrome_options.add_argument("--disable-dev-shm-usage")
+        chrome_options.add_argument("--disable-gpu")
+        chrome_options.add_argument("--window-size=1920,1080")
+        chrome_options.add_argument("--disable-extensions")
+        chrome_options.add_argument("--proxy-server='direct://'")
+        chrome_options.add_argument("--proxy-bypass-list=*")
+        chrome_options.add_argument("--start-maximized")
+        chrome_options.add_argument("--ignore-certificate-errors")
+        chrome_options.add_argument("--allow-insecure-localhost")
+        chrome_options.add_argument("--disable-application-cache")
+        chrome_options.add_argument("--disable-infobars")
+        chrome_options.add_argument("--disable-notifications")
+        chrome_options.add_argument("--disable-translate")
+        chrome_options.add_argument("--disable-features=VizDisplayCompositor")
+        chrome_options.add_argument("user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36")
         
         # Initialize the WebDriver
         driver = webdriver.Chrome(service=Service(ChromeDriverManager().install()), options=chrome_options)
@@ -33,40 +47,32 @@ def fetch_match_urls(tournament_url):
         print(f"Loading page: {tournament_url}")
         driver.get(tournament_url)
         
-        # Wait for the iframe to load
+        # Wait for the match blocks to load
         WebDriverWait(driver, 15).until(
-            EC.presence_of_element_located((By.ID, "SportsIframe"))
-        )
-        print("Iframe detected, switching to it...")
-        
-        # Switch to the iframe where the match list resides
-        driver.switch_to.frame("SportsIframe")
-        
-        # Wait for at least one EventItem to load (indicating match data is present)
-        WebDriverWait(driver, 15).until(
-            EC.presence_of_element_located((By.CLASS_NAME, "EventItem"))
+            EC.presence_of_element_located((By.CSS_SELECTOR, "div[data-qa='league_page_event']"))
         )
         print("Match items detected, waiting for full content to load...")
         
         # Allow extra time for all dynamic content to load
         time.sleep(3)
         
-        # Get the page source from the iframe
-        iframe_source = driver.page_source
+        # Get the page source
+        page_source = driver.page_source
         
         # Parse the HTML with BeautifulSoup
-        soup = BeautifulSoup(iframe_source, "html.parser")
+        soup = BeautifulSoup(page_source, "html.parser")
         
-        # Find all anchor tags with class "EventItem__Indicator" (match links)
-        match_links = soup.find_all("a", class_="EventItem__Indicator")
+        # Find all match blocks
+        match_blocks = soup.select("div[data-qa='league_page_event']")
         
-        if not match_links:
+        if not match_blocks:
             print("No match links found on the page.")
             driver.quit()
             return []
         
         # Extract the href attributes (absolute URLs)
-        match_urls = [link["href"] for link in match_links if "href" in link.attrs]
+        match_urls = [block.find("a", {"data-qa": "pre-event"})["href"] for block in match_blocks if block.find("a", {"data-qa": "pre-event"})]
+        match_urls = ["https://www.stoiximan.gr" + url for url in match_urls]
         print(f"Found {len(match_urls)} match URLs.")
         
         # Clean up: close the WebDriver
@@ -82,9 +88,7 @@ def fetch_match_urls(tournament_url):
 
 if __name__ == "__main__":
     # Example tournament URL from the provided HTML (Europa League)
-    tournament_url = (
-        "https://www.winmasters.gr/el/sports/i/tournament-location/%CF%80%CE%BF%CE%B4%CF%8C%CF%83%CF%86%CE%B1%CE%B9%CF%81%CE%BF/1/%CE%B5%CF%85%CF%81%CF%8E%CF%80%CE%B7/67/europa-league-2024-2025/239341156955492352"
-    )
+    tournament_url = "https://www.stoiximan.gr/sport/podosfairo/diorganoseis/europa-league/188567/"
     
     # Fetch the match URLs
     match_urls = fetch_match_urls(tournament_url)
@@ -96,8 +100,8 @@ if __name__ == "__main__":
             print(f"{idx}. {url}")
         
         # Save to a JSON file for later use
-        with open("matches/winmasters/uel/match_urls.json", "w", encoding="utf-8") as f:
+        with open("matches/stoiximan/uel/match_urls.json", "w", encoding="utf-8") as f:
             json.dump(match_urls, f, ensure_ascii=False, indent=4)
-        print("\nMatch URLs saved to 'match_urls.json'.")
+        print("\nMatch URLs saved to 'matches/stoiximan/uel/match_urls.json'.")
     else:
         print("No match URLs were extracted.")

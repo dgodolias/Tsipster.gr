@@ -1,0 +1,2098 @@
+[
+    {
+        "home_team": "Τότεναμ",
+        "away_team": "Μάντσεστερ Γιουνάιτεντ",
+        "markets": [
+            {
+                "market_name": "Τελικό Αποτέλεσμα",
+                "groups": [
+                    {
+                        "group_title": null,
+                        "outcomes": [
+                            {
+                                "outcome": "Τότεναμ",
+                                "odds": "2.97"
+                            },
+                            {
+                                "outcome": "Ισοπαλία",
+                                "odds": "3.45"
+                            },
+                            {
+                                "outcome": "Μάντσεστερ Γιουνάιτεντ",
+                                "odds": "2.47"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "market_name": "Νικητής Τροπαίου, Αγώνας",
+                "groups": [
+                    {
+                        "group_title": null,
+                        "outcomes": [
+                            {
+                                "outcome": "Τότεναμ",
+                                "odds": "2.09"
+                            },
+                            {
+                                "outcome": "Μάντσεστερ Γιουνάιτεντ",
+                                "odds": "1.78"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "market_name": "Μάντσεστερ Γιουνάιτεντ Μέθοδος Νίκης, Αγώνας",
+                "groups": [
+                    {
+                        "group_title": null,
+                        "outcomes": [
+                            {
+                                "outcome": "Μάντσεστερ Γιουνάιτεντ Σε 90 Λεπτά",
+                                "odds": "2.24"
+                            },
+                            {
+                                "outcome": "Μάντσεστερ Γιουνάιτεντ Στα Πέναλτι",
+                                "odds": "9.50"
+                            },
+                            {
+                                "outcome": "Μάντσεστερ Γιουνάιτεντ Στην Παράταση",
+                                "odds": "9.75"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "market_name": "Τότεναμ Μέθοδος Νίκης, Αγώνας",
+                "groups": [
+                    {
+                        "group_title": null,
+                        "outcomes": [
+                            {
+                                "outcome": "Τότεναμ Σε 90 Λεπτά",
+                                "odds": "2.72"
+                            },
+                            {
+                                "outcome": "Τότεναμ Στα Πέναλτι",
+                                "odds": "9.50"
+                            },
+                            {
+                                "outcome": "Τότεναμ Στην Παράταση",
+                                "odds": "11.50"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "market_name": "Διπλή Ευκαιρία",
+                "groups": [
+                    {
+                        "group_title": null,
+                        "outcomes": [
+                            {
+                                "outcome": "Τότεναμ ή Ισοπαλία",
+                                "odds": "1.61"
+                            },
+                            {
+                                "outcome": "Τότεναμ ή Μάντσεστερ Γιουνάιτεντ",
+                                "odds": "1.34"
+                            },
+                            {
+                                "outcome": "Μάντσεστερ Γιουνάιτεντ ή Ισοπαλία",
+                                "odds": "1.44"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "market_name": "Γκολ Over/Under",
+                "groups": [
+                    {
+                        "group_title": "0.5",
+                        "outcomes": [
+                            {
+                                "outcome": "Over 0.5",
+                                "odds": "1.06"
+                            },
+                            {
+                                "outcome": "Under 0.5",
+                                "odds": "10.00"
+                            }
+                        ]
+                    },
+                    {
+                        "group_title": "1.25",
+                        "outcomes": [
+                            {
+                                "outcome": "Over 1.25",
+                                "odds": "1.19"
+                            },
+                            {
+                                "outcome": "Under 1.25",
+                                "odds": "4.90"
+                            }
+                        ]
+                    },
+                    {
+                        "group_title": "1.5",
+                        "outcomes": [
+                            {
+                                "outcome": "Over 1.5",
+                                "odds": "1.32"
+                            },
+                            {
+                                "outcome": "Under 1.5",
+                                "odds": "3.50"
+                            }
+                        ]
+                    },
+                    {
+                        "group_title": "1.75",
+                        "outcomes": [
+                            {
+                                "outcome": "Over 1.75",
+                                "odds": "1.38"
+                            },
+                            {
+                                "outcome": "Under 1.75",
+                                "odds": "3.10"
+                            }
+                        ]
+                    },
+                    {
+                        "group_title": "2",
+                        "outcomes": [
+                            {
+                                "outcome": "Over 2",
+                                "odds": "1.49"
+                            },
+                            {
+                                "outcome": "Under 2",
+                                "odds": "2.70"
+                            }
+                        ]
+                    },
+                    {
+                        "group_title": "2.25",
+                        "outcomes": [
+                            {
+                                "outcome": "Over 2.25",
+                                "odds": "1.73"
+                            },
+                            {
+                                "outcome": "Under 2.25",
+                                "odds": "2.16"
+                            }
+                        ]
+                    },
+                    {
+                        "group_title": "2.5",
+                        "outcomes": [
+                            {
+                                "outcome": "Over 2.5",
+                                "odds": "1.98"
+                            },
+                            {
+                                "outcome": "Under 2.5",
+                                "odds": "1.87"
+                            }
+                        ]
+                    },
+                    {
+                        "group_title": "2.75",
+                        "outcomes": [
+                            {
+                                "outcome": "Over 2.75",
+                                "odds": "2.23"
+                            },
+                            {
+                                "outcome": "Under 2.75",
+                                "odds": "1.68"
+                            }
+                        ]
+                    },
+                    {
+                        "group_title": "3",
+                        "outcomes": [
+                            {
+                                "outcome": "Over 3",
+                                "odds": "2.67"
+                            },
+                            {
+                                "outcome": "Under 3",
+                                "odds": "1.50"
+                            }
+                        ]
+                    },
+                    {
+                        "group_title": "3.25",
+                        "outcomes": [
+                            {
+                                "outcome": "Over 3.25",
+                                "odds": "3.05"
+                            },
+                            {
+                                "outcome": "Under 3.25",
+                                "odds": "1.40"
+                            }
+                        ]
+                    },
+                    {
+                        "group_title": "3.5",
+                        "outcomes": [
+                            {
+                                "outcome": "Over 3.5",
+                                "odds": "3.40"
+                            },
+                            {
+                                "outcome": "Under 3.5",
+                                "odds": "1.34"
+                            }
+                        ]
+                    },
+                    {
+                        "group_title": "3.75",
+                        "outcomes": [
+                            {
+                                "outcome": "Over 3.75",
+                                "odds": "4.10"
+                            },
+                            {
+                                "outcome": "Under 3.75",
+                                "odds": "1.25"
+                            }
+                        ]
+                    },
+                    {
+                        "group_title": "4",
+                        "outcomes": [
+                            {
+                                "outcome": "Over 4",
+                                "odds": "6.00"
+                            },
+                            {
+                                "outcome": "Under 4",
+                                "odds": "1.14"
+                            }
+                        ]
+                    },
+                    {
+                        "group_title": "4.25",
+                        "outcomes": [
+                            {
+                                "outcome": "Over 4.25",
+                                "odds": "6.20"
+                            },
+                            {
+                                "outcome": "Under 4.25",
+                                "odds": "1.13"
+                            }
+                        ]
+                    },
+                    {
+                        "group_title": "4.5",
+                        "outcomes": [
+                            {
+                                "outcome": "Over 4.5",
+                                "odds": "6.70"
+                            },
+                            {
+                                "outcome": "Under 4.5",
+                                "odds": "1.12"
+                            }
+                        ]
+                    },
+                    {
+                        "group_title": "5.5",
+                        "outcomes": [
+                            {
+                                "outcome": "Over 5.5",
+                                "odds": "13.00"
+                            },
+                            {
+                                "outcome": "Under 5.5",
+                                "odds": "1.03"
+                            }
+                        ]
+                    },
+                    {
+                        "group_title": "6.5",
+                        "outcomes": [
+                            {
+                                "outcome": "Over 6.5",
+                                "odds": "25.00"
+                            },
+                            {
+                                "outcome": "Under 6.5",
+                                "odds": "N/A"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "market_name": "Να Σκοράρουν Και Οι Δύο Ομάδες",
+                "groups": [
+                    {
+                        "group_title": null,
+                        "outcomes": [
+                            {
+                                "outcome": "Ναι",
+                                "odds": "1.76"
+                            },
+                            {
+                                "outcome": "Όχι",
+                                "odds": "2.06"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "market_name": "Να Σκοράρουν Και Οι Δύο Ομάδες ή Over 2.5",
+                "groups": [
+                    {
+                        "group_title": null,
+                        "outcomes": [
+                            {
+                                "outcome": "Ναι",
+                                "odds": "1.61"
+                            },
+                            {
+                                "outcome": "Όχι (2-0, 1-0, 0-0, 0-1 ή 0-2)",
+                                "odds": "2.25"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "market_name": "Τελικό Αποτέλεσμα, 1ο Ημίχρονο",
+                "groups": [
+                    {
+                        "group_title": null,
+                        "outcomes": [
+                            {
+                                "outcome": "Τότεναμ",
+                                "odds": "3.60"
+                            },
+                            {
+                                "outcome": "Ισοπαλία",
+                                "odds": "2.16"
+                            },
+                            {
+                                "outcome": "Μάντσεστερ Γιουνάιτεντ",
+                                "odds": "3.05"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "market_name": "Γκολ Over/Under, 1ο Ημίχρονο",
+                "groups": [
+                    {
+                        "group_title": "0.5",
+                        "outcomes": [
+                            {
+                                "outcome": "Over 0.5",
+                                "odds": "1.43"
+                            },
+                            {
+                                "outcome": "Under 0.5",
+                                "odds": "2.92"
+                            }
+                        ]
+                    },
+                    {
+                        "group_title": "0.75",
+                        "outcomes": [
+                            {
+                                "outcome": "Over 0.75",
+                                "odds": "1.58"
+                            },
+                            {
+                                "outcome": "Under 0.75",
+                                "odds": "2.46"
+                            }
+                        ]
+                    },
+                    {
+                        "group_title": "1",
+                        "outcomes": [
+                            {
+                                "outcome": "Over 1",
+                                "odds": "1.88"
+                            },
+                            {
+                                "outcome": "Under 1",
+                                "odds": "1.97"
+                            }
+                        ]
+                    },
+                    {
+                        "group_title": "1.25",
+                        "outcomes": [
+                            {
+                                "outcome": "Over 1.25",
+                                "odds": "2.39"
+                            },
+                            {
+                                "outcome": "Under 1.25",
+                                "odds": "1.60"
+                            }
+                        ]
+                    },
+                    {
+                        "group_title": "1.5",
+                        "outcomes": [
+                            {
+                                "outcome": "Over 1.5",
+                                "odds": "2.87"
+                            },
+                            {
+                                "outcome": "Under 1.5",
+                                "odds": "1.44"
+                            }
+                        ]
+                    },
+                    {
+                        "group_title": "1.75",
+                        "outcomes": [
+                            {
+                                "outcome": "Over 1.75",
+                                "odds": "3.70"
+                            },
+                            {
+                                "outcome": "Under 1.75",
+                                "odds": "1.29"
+                            }
+                        ]
+                    },
+                    {
+                        "group_title": "2",
+                        "outcomes": [
+                            {
+                                "outcome": "Over 2",
+                                "odds": "6.00"
+                            },
+                            {
+                                "outcome": "Under 2",
+                                "odds": "1.14"
+                            }
+                        ]
+                    },
+                    {
+                        "group_title": "2.25",
+                        "outcomes": [
+                            {
+                                "outcome": "Over 2.25",
+                                "odds": "6.70"
+                            },
+                            {
+                                "outcome": "Under 2.25",
+                                "odds": "1.12"
+                            }
+                        ]
+                    },
+                    {
+                        "group_title": "2.5",
+                        "outcomes": [
+                            {
+                                "outcome": "Over 2.5",
+                                "odds": "7.20"
+                            },
+                            {
+                                "outcome": "Under 2.5",
+                                "odds": "1.11"
+                            }
+                        ]
+                    },
+                    {
+                        "group_title": "3.5",
+                        "outcomes": [
+                            {
+                                "outcome": "Over 3.5",
+                                "odds": "19.00"
+                            },
+                            {
+                                "outcome": "Under 3.5",
+                                "odds": "1.01"
+                            }
+                        ]
+                    },
+                    {
+                        "group_title": "4.5",
+                        "outcomes": [
+                            {
+                                "outcome": "Over 4.5",
+                                "odds": "49.00"
+                            },
+                            {
+                                "outcome": "Under 4.5",
+                                "odds": "N/A"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "market_name": "Χάντικαπ",
+                "groups": [
+                    {
+                        "group_title": "0:3",
+                        "outcomes": [
+                            {
+                                "outcome": "Τότεναμ (-3)",
+                                "odds": "38.00"
+                            },
+                            {
+                                "outcome": "Ισοπαλία (Μάντσεστερ Γιουνάιτεντ +3)",
+                                "odds": "18.00"
+                            },
+                            {
+                                "outcome": "Μάντσεστερ Γιουνάιτεντ (+3)",
+                                "odds": "1.008"
+                            }
+                        ]
+                    },
+                    {
+                        "group_title": "0:2",
+                        "outcomes": [
+                            {
+                                "outcome": "Τότεναμ (-2)",
+                                "odds": "14.50"
+                            },
+                            {
+                                "outcome": "Ισοπαλία (Μάντσεστερ Γιουνάιτεντ +2)",
+                                "odds": "8.00"
+                            },
+                            {
+                                "outcome": "Μάντσεστερ Γιουνάιτεντ (+2)",
+                                "odds": "1.13"
+                            }
+                        ]
+                    },
+                    {
+                        "group_title": "0:1",
+                        "outcomes": [
+                            {
+                                "outcome": "Τότεναμ (-1)",
+                                "odds": "5.80"
+                            },
+                            {
+                                "outcome": "Ισοπαλία (Μάντσεστερ Γιουνάιτεντ +1)",
+                                "odds": "4.45"
+                            },
+                            {
+                                "outcome": "Μάντσεστερ Γιουνάιτεντ (+1)",
+                                "odds": "1.47"
+                            }
+                        ]
+                    },
+                    {
+                        "group_title": "1:0",
+                        "outcomes": [
+                            {
+                                "outcome": "Τότεναμ (+1)",
+                                "odds": "1.60"
+                            },
+                            {
+                                "outcome": "Ισοπαλία (Μάντσεστερ Γιουνάιτεντ -1)",
+                                "odds": "4.10"
+                            },
+                            {
+                                "outcome": "Μάντσεστερ Γιουνάιτεντ (-1)",
+                                "odds": "4.80"
+                            }
+                        ]
+                    },
+                    {
+                        "group_title": "2:0",
+                        "outcomes": [
+                            {
+                                "outcome": "Τότεναμ (+2)",
+                                "odds": "1.18"
+                            },
+                            {
+                                "outcome": "Ισοπαλία (Μάντσεστερ Γιουνάιτεντ -2)",
+                                "odds": "7.00"
+                            },
+                            {
+                                "outcome": "Μάντσεστερ Γιουνάιτεντ (-2)",
+                                "odds": "11.00"
+                            }
+                        ]
+                    },
+                    {
+                        "group_title": "3:0",
+                        "outcomes": [
+                            {
+                                "outcome": "Τότεναμ (+3)",
+                                "odds": "1.02"
+                            },
+                            {
+                                "outcome": "Ισοπαλία (Μάντσεστερ Γιουνάιτεντ -3)",
+                                "odds": "14.50"
+                            },
+                            {
+                                "outcome": "Μάντσεστερ Γιουνάιτεντ (-3)",
+                                "odds": "29.00"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "market_name": "Ασιατικό Χάντικαπ",
+                "groups": [
+                    {
+                        "group_title": null,
+                        "outcomes": [
+                            {
+                                "outcome": "-2",
+                                "odds": "13.00"
+                            },
+                            {
+                                "outcome": "+2",
+                                "odds": "1.03"
+                            }
+                        ]
+                    },
+                    {
+                        "group_title": null,
+                        "outcomes": [
+                            {
+                                "outcome": "-1.75",
+                                "odds": "7.90"
+                            },
+                            {
+                                "outcome": "+1.75",
+                                "odds": "1.09"
+                            }
+                        ]
+                    },
+                    {
+                        "group_title": null,
+                        "outcomes": [
+                            {
+                                "outcome": "-1.5",
+                                "odds": "6.20"
+                            },
+                            {
+                                "outcome": "+1.5",
+                                "odds": "1.13"
+                            }
+                        ]
+                    },
+                    {
+                        "group_title": null,
+                        "outcomes": [
+                            {
+                                "outcome": "-1.25",
+                                "odds": "5.70"
+                            },
+                            {
+                                "outcome": "+1.25",
+                                "odds": "1.15"
+                            }
+                        ]
+                    },
+                    {
+                        "group_title": null,
+                        "outcomes": [
+                            {
+                                "outcome": "-1",
+                                "odds": "5.20"
+                            },
+                            {
+                                "outcome": "+1",
+                                "odds": "1.18"
+                            }
+                        ]
+                    },
+                    {
+                        "group_title": null,
+                        "outcomes": [
+                            {
+                                "outcome": "-0.75",
+                                "odds": "3.55"
+                            },
+                            {
+                                "outcome": "+0.75",
+                                "odds": "1.31"
+                            }
+                        ]
+                    },
+                    {
+                        "group_title": null,
+                        "outcomes": [
+                            {
+                                "outcome": "-0.5",
+                                "odds": "2.85"
+                            },
+                            {
+                                "outcome": "+0.5",
+                                "odds": "1.45"
+                            }
+                        ]
+                    },
+                    {
+                        "group_title": null,
+                        "outcomes": [
+                            {
+                                "outcome": "-0.25",
+                                "odds": "2.50"
+                            },
+                            {
+                                "outcome": "+0.25",
+                                "odds": "1.56"
+                            }
+                        ]
+                    },
+                    {
+                        "group_title": null,
+                        "outcomes": [
+                            {
+                                "outcome": "0",
+                                "odds": "2.12"
+                            },
+                            {
+                                "outcome": "0",
+                                "odds": "1.76"
+                            }
+                        ]
+                    },
+                    {
+                        "group_title": null,
+                        "outcomes": [
+                            {
+                                "outcome": "+0.25",
+                                "odds": "1.79"
+                            },
+                            {
+                                "outcome": "-0.25",
+                                "odds": "2.08"
+                            }
+                        ]
+                    },
+                    {
+                        "group_title": null,
+                        "outcomes": [
+                            {
+                                "outcome": "+0.5",
+                                "odds": "1.61"
+                            },
+                            {
+                                "outcome": "-0.5",
+                                "odds": "2.38"
+                            }
+                        ]
+                    },
+                    {
+                        "group_title": null,
+                        "outcomes": [
+                            {
+                                "outcome": "+0.75",
+                                "odds": "1.43"
+                            },
+                            {
+                                "outcome": "-0.75",
+                                "odds": "2.90"
+                            }
+                        ]
+                    },
+                    {
+                        "group_title": null,
+                        "outcomes": [
+                            {
+                                "outcome": "+1",
+                                "odds": "1.28"
+                            },
+                            {
+                                "outcome": "-1",
+                                "odds": "3.80"
+                            }
+                        ]
+                    },
+                    {
+                        "group_title": null,
+                        "outcomes": [
+                            {
+                                "outcome": "+1.25",
+                                "odds": "1.23"
+                            },
+                            {
+                                "outcome": "-1.25",
+                                "odds": "4.35"
+                            }
+                        ]
+                    },
+                    {
+                        "group_title": null,
+                        "outcomes": [
+                            {
+                                "outcome": "+1.5",
+                                "odds": "1.20"
+                            },
+                            {
+                                "outcome": "-1.5",
+                                "odds": "4.85"
+                            }
+                        ]
+                    },
+                    {
+                        "group_title": null,
+                        "outcomes": [
+                            {
+                                "outcome": "+1.75",
+                                "odds": "1.12"
+                            },
+                            {
+                                "outcome": "-1.75",
+                                "odds": "6.50"
+                            }
+                        ]
+                    },
+                    {
+                        "group_title": null,
+                        "outcomes": [
+                            {
+                                "outcome": "+2",
+                                "odds": "1.06"
+                            },
+                            {
+                                "outcome": "-2",
+                                "odds": "10.00"
+                            }
+                        ]
+                    },
+                    {
+                        "group_title": null,
+                        "outcomes": [
+                            {
+                                "outcome": "+2.5",
+                                "odds": "1.05"
+                            },
+                            {
+                                "outcome": "-2.5",
+                                "odds": "10.50"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "market_name": "Ασιατικό Χάντικαπ, 1ο Ημίχρονο",
+                "groups": [
+                    {
+                        "group_title": null,
+                        "outcomes": [
+                            {
+                                "outcome": "-2",
+                                "odds": "44.00"
+                            },
+                            {
+                                "outcome": "Μάντσεστερ Γιουνάιτεντ",
+                                "odds": "N/A"
+                            }
+                        ]
+                    },
+                    {
+                        "group_title": null,
+                        "outcomes": [
+                            {
+                                "outcome": "-1.75",
+                                "odds": "17.50"
+                            },
+                            {
+                                "outcome": "+1.75",
+                                "odds": "1.01"
+                            }
+                        ]
+                    },
+                    {
+                        "group_title": null,
+                        "outcomes": [
+                            {
+                                "outcome": "-1.5",
+                                "odds": "11.50"
+                            },
+                            {
+                                "outcome": "+1.5",
+                                "odds": "1.04"
+                            }
+                        ]
+                    },
+                    {
+                        "group_title": null,
+                        "outcomes": [
+                            {
+                                "outcome": "-1.25",
+                                "odds": "10.50"
+                            },
+                            {
+                                "outcome": "+1.25",
+                                "odds": "1.05"
+                            }
+                        ]
+                    },
+                    {
+                        "group_title": null,
+                        "outcomes": [
+                            {
+                                "outcome": "-1",
+                                "odds": "9.50"
+                            },
+                            {
+                                "outcome": "+1",
+                                "odds": "1.06"
+                            }
+                        ]
+                    },
+                    {
+                        "group_title": null,
+                        "outcomes": [
+                            {
+                                "outcome": "-0.75",
+                                "odds": "4.80"
+                            },
+                            {
+                                "outcome": "+0.75",
+                                "odds": "1.20"
+                            }
+                        ]
+                    },
+                    {
+                        "group_title": null,
+                        "outcomes": [
+                            {
+                                "outcome": "-0.5",
+                                "odds": "3.55"
+                            },
+                            {
+                                "outcome": "+0.5",
+                                "odds": "1.32"
+                            }
+                        ]
+                    },
+                    {
+                        "group_title": null,
+                        "outcomes": [
+                            {
+                                "outcome": "-0.25",
+                                "odds": "2.77"
+                            },
+                            {
+                                "outcome": "+0.25",
+                                "odds": "1.47"
+                            }
+                        ]
+                    },
+                    {
+                        "group_title": null,
+                        "outcomes": [
+                            {
+                                "outcome": "0",
+                                "odds": "2.09"
+                            },
+                            {
+                                "outcome": "0",
+                                "odds": "1.78"
+                            }
+                        ]
+                    },
+                    {
+                        "group_title": null,
+                        "outcomes": [
+                            {
+                                "outcome": "+0.25",
+                                "odds": "1.60"
+                            },
+                            {
+                                "outcome": "-0.25",
+                                "odds": "2.40"
+                            }
+                        ]
+                    },
+                    {
+                        "group_title": null,
+                        "outcomes": [
+                            {
+                                "outcome": "+0.5",
+                                "odds": "1.41"
+                            },
+                            {
+                                "outcome": "-0.5",
+                                "odds": "3.00"
+                            }
+                        ]
+                    },
+                    {
+                        "group_title": null,
+                        "outcomes": [
+                            {
+                                "outcome": "+0.75",
+                                "odds": "1.26"
+                            },
+                            {
+                                "outcome": "-0.75",
+                                "odds": "4.05"
+                            }
+                        ]
+                    },
+                    {
+                        "group_title": null,
+                        "outcomes": [
+                            {
+                                "outcome": "+1",
+                                "odds": "1.09"
+                            },
+                            {
+                                "outcome": "-1",
+                                "odds": "8.00"
+                            }
+                        ]
+                    },
+                    {
+                        "group_title": null,
+                        "outcomes": [
+                            {
+                                "outcome": "+1.25",
+                                "odds": "1.07"
+                            },
+                            {
+                                "outcome": "-1.25",
+                                "odds": "8.75"
+                            }
+                        ]
+                    },
+                    {
+                        "group_title": null,
+                        "outcomes": [
+                            {
+                                "outcome": "+1.5",
+                                "odds": "1.06"
+                            },
+                            {
+                                "outcome": "-1.5",
+                                "odds": "9.75"
+                            }
+                        ]
+                    },
+                    {
+                        "group_title": null,
+                        "outcomes": [
+                            {
+                                "outcome": "+1.75",
+                                "odds": "1.02"
+                            },
+                            {
+                                "outcome": "-1.75",
+                                "odds": "14.50"
+                            }
+                        ]
+                    },
+                    {
+                        "group_title": null,
+                        "outcomes": [
+                            {
+                                "outcome": "Τότεναμ",
+                                "odds": "N/A"
+                            },
+                            {
+                                "outcome": "-2",
+                                "odds": "35.00"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "market_name": "Ισοπαλία Όχι Στοίχημα",
+                "groups": [
+                    {
+                        "group_title": null,
+                        "outcomes": [
+                            {
+                                "outcome": "Τότεναμ",
+                                "odds": "2.10"
+                            },
+                            {
+                                "outcome": "Μάντσεστερ Γιουνάιτεντ",
+                                "odds": "1.74"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "market_name": "Γηπεδούχος Όχι Στοίχημα",
+                "groups": [
+                    {
+                        "group_title": null,
+                        "outcomes": [
+                            {
+                                "outcome": "Μάντσεστερ Γιουνάιτεντ",
+                                "odds": "1.63"
+                            },
+                            {
+                                "outcome": "Ισοπαλία",
+                                "odds": "2.27"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "market_name": "Φιλοξενούμενος Όχι Στοίχημα",
+                "groups": [
+                    {
+                        "group_title": null,
+                        "outcomes": [
+                            {
+                                "outcome": "Τότεναμ",
+                                "odds": "1.79"
+                            },
+                            {
+                                "outcome": "Ισοπαλία",
+                                "odds": "2.02"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "market_name": "Ημίχρονο/Τελικό",
+                "groups": [
+                    {
+                        "group_title": null,
+                        "outcomes": [
+                            {
+                                "outcome": "Τότεναμ / Τότεναμ",
+                                "odds": "4.60"
+                            },
+                            {
+                                "outcome": "Τότεναμ / Ισοπαλία",
+                                "odds": "14.50"
+                            },
+                            {
+                                "outcome": "Τότεναμ / Μάντσεστερ Γιουνάιτεντ",
+                                "odds": "29.00"
+                            }
+                        ]
+                    },
+                    {
+                        "group_title": null,
+                        "outcomes": [
+                            {
+                                "outcome": "Ισοπαλία / Τότεναμ",
+                                "odds": "6.70"
+                            },
+                            {
+                                "outcome": "Ισοπαλία / Ισοπαλία",
+                                "odds": "5.30"
+                            },
+                            {
+                                "outcome": "Ισοπαλία / Μάντσεστερ Γιουνάιτεντ",
+                                "odds": "6.00"
+                            }
+                        ]
+                    },
+                    {
+                        "group_title": null,
+                        "outcomes": [
+                            {
+                                "outcome": "Μάντσεστερ Γιουνάιτεντ / Μάντσεστερ Γιουνάιτεντ",
+                                "odds": "3.90"
+                            },
+                            {
+                                "outcome": "Μάντσεστερ Γιουνάιτεντ / Ισοπαλία",
+                                "odds": "14.50"
+                            },
+                            {
+                                "outcome": "Μάντσεστερ Γιουνάιτεντ / Τότεναμ",
+                                "odds": "30.00"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "market_name": "Ημίχρονο Ή Τελικό",
+                "groups": [
+                    {
+                        "group_title": null,
+                        "outcomes": [
+                            {
+                                "outcome": "Τότεναμ",
+                                "odds": "2.23"
+                            },
+                            {
+                                "outcome": "Ισοπαλία",
+                                "odds": "1.67"
+                            },
+                            {
+                                "outcome": "Μάντσεστερ Γιουνάιτεντ",
+                                "odds": "1.89"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "market_name": "Να Κερδίσει και τα 2 Ημίχρονα",
+                "groups": [
+                    {
+                        "group_title": null,
+                        "outcomes": [
+                            {
+                                "outcome": "Τότεναμ",
+                                "odds": "9.75"
+                            },
+                            {
+                                "outcome": "Μάντσεστερ Γιουνάιτεντ",
+                                "odds": "7.30"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "market_name": "Γκολ Και Στα 2 Ημίχρονα",
+                "groups": [
+                    {
+                        "group_title": null,
+                        "outcomes": [
+                            {
+                                "outcome": "Ναι",
+                                "odds": "1.76"
+                            },
+                            {
+                                "outcome": "Όχι",
+                                "odds": "1.92"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "market_name": "Να Σκοράρει και Στα 2 Ημίχρονα",
+                "groups": [
+                    {
+                        "group_title": null,
+                        "outcomes": [
+                            {
+                                "outcome": "Τότεναμ",
+                                "odds": "4.10"
+                            },
+                            {
+                                "outcome": "Μάντσεστερ Γιουνάιτεντ",
+                                "odds": "3.50"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "market_name": "Να Βρεθεί Πίσω στο Σκορ Και να Kερδίσει",
+                "groups": [
+                    {
+                        "group_title": null,
+                        "outcomes": [
+                            {
+                                "outcome": "Τότεναμ",
+                                "odds": "12.50"
+                            },
+                            {
+                                "outcome": "Μάντσεστερ Γιουνάιτεντ",
+                                "odds": "10.00"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "market_name": "Ο αγώνας να κριθεί στα πέναλτι",
+                "groups": [
+                    {
+                        "group_title": null,
+                        "outcomes": [
+                            {
+                                "outcome": "Ναι",
+                                "odds": "5.40"
+                            },
+                            {
+                                "outcome": "Όχι",
+                                "odds": "1.12"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "market_name": "Σύνολο Γκολ",
+                "groups": [
+                    {
+                        "group_title": "Ακριβώς",
+                        "outcomes": [
+                            {
+                                "outcome": "0",
+                                "odds": "9.50"
+                            },
+                            {
+                                "outcome": "1",
+                                "odds": "4.20"
+                            },
+                            {
+                                "outcome": "2",
+                                "odds": "3.40"
+                            },
+                            {
+                                "outcome": "3",
+                                "odds": "4.00"
+                            },
+                            {
+                                "outcome": "4",
+                                "odds": "6.00"
+                            },
+                            {
+                                "outcome": "5",
+                                "odds": "10.50"
+                            },
+                            {
+                                "outcome": "6",
+                                "odds": "22.00"
+                            },
+                            {
+                                "outcome": "7",
+                                "odds": "47.00"
+                            }
+                        ]
+                    },
+                    {
+                        "group_title": "Εύρος",
+                        "outcomes": [
+                            {
+                                "outcome": "0-5",
+                                "odds": "1.02"
+                            },
+                            {
+                                "outcome": "0-4",
+                                "odds": "1.09"
+                            },
+                            {
+                                "outcome": "0-2",
+                                "odds": "1.73"
+                            },
+                            {
+                                "outcome": "0-1",
+                                "odds": "3.10"
+                            },
+                            {
+                                "outcome": "0-3",
+                                "odds": "1.26"
+                            },
+                            {
+                                "outcome": "1-2",
+                                "odds": "2.01"
+                            },
+                            {
+                                "outcome": "1-5",
+                                "odds": "1.10"
+                            },
+                            {
+                                "outcome": "1-4",
+                                "odds": "1.18"
+                            },
+                            {
+                                "outcome": "1-3",
+                                "odds": "1.40"
+                            },
+                            {
+                                "outcome": "2-3",
+                                "odds": "1.95"
+                            },
+                            {
+                                "outcome": "2-6",
+                                "odds": "1.35"
+                            },
+                            {
+                                "outcome": "2-4",
+                                "odds": "1.54"
+                            },
+                            {
+                                "outcome": "2-5",
+                                "odds": "1.40"
+                            },
+                            {
+                                "outcome": "3-4",
+                                "odds": "2.55"
+                            },
+                            {
+                                "outcome": "3-6",
+                                "odds": "2.05"
+                            },
+                            {
+                                "outcome": "3-5",
+                                "odds": "2.17"
+                            },
+                            {
+                                "outcome": "4-6",
+                                "odds": "3.70"
+                            },
+                            {
+                                "outcome": "4-5",
+                                "odds": "4.20"
+                            }
+                        ]
+                    },
+                    {
+                        "group_title": "X ή Περισσότερα",
+                        "outcomes": [
+                            {
+                                "outcome": "1",
+                                "odds": "1.06"
+                            },
+                            {
+                                "outcome": "2",
+                                "odds": "1.32"
+                            },
+                            {
+                                "outcome": "3",
+                                "odds": "1.99"
+                            },
+                            {
+                                "outcome": "4",
+                                "odds": "3.50"
+                            },
+                            {
+                                "outcome": "5",
+                                "odds": "7.20"
+                            },
+                            {
+                                "outcome": "6",
+                                "odds": "16.00"
+                            },
+                            {
+                                "outcome": "7",
+                                "odds": "36.00"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "market_name": "Ακριβές Σκορ",
+                "groups": [
+                    {
+                        "group_title": null,
+                        "outcomes": [
+                            {
+                                "outcome": "1:0",
+                                "odds": "8.75"
+                            },
+                            {
+                                "outcome": "2:0",
+                                "odds": "13.50"
+                            },
+                            {
+                                "outcome": "2:1",
+                                "odds": "9.75"
+                            },
+                            {
+                                "outcome": "3:0",
+                                "odds": "28.00"
+                            },
+                            {
+                                "outcome": "3:1",
+                                "odds": "22.00"
+                            },
+                            {
+                                "outcome": "3:2",
+                                "odds": "27.00"
+                            },
+                            {
+                                "outcome": "4:0",
+                                "odds": "70.00"
+                            },
+                            {
+                                "outcome": "4:1",
+                                "odds": "55.00"
+                            },
+                            {
+                                "outcome": "4:2",
+                                "odds": "65.00"
+                            },
+                            {
+                                "outcome": "4:3",
+                                "odds": "100.00"
+                            },
+                            {
+                                "outcome": "5:0",
+                                "odds": "125.00"
+                            },
+                            {
+                                "outcome": "5:1",
+                                "odds": "125.00"
+                            },
+                            {
+                                "outcome": "5:2",
+                                "odds": "125.00"
+                            },
+                            {
+                                "outcome": "5:3",
+                                "odds": "125.00"
+                            },
+                            {
+                                "outcome": "5:4",
+                                "odds": "150.00"
+                            },
+                            {
+                                "outcome": "6:0",
+                                "odds": "125.00"
+                            },
+                            {
+                                "outcome": "6:1",
+                                "odds": "150.00"
+                            },
+                            {
+                                "outcome": "6:2",
+                                "odds": "125.00"
+                            },
+                            {
+                                "outcome": "6:3",
+                                "odds": "150.00"
+                            },
+                            {
+                                "outcome": "7:0",
+                                "odds": "125.00"
+                            },
+                            {
+                                "outcome": "7:1",
+                                "odds": "175.00"
+                            },
+                            {
+                                "outcome": "8:0",
+                                "odds": "125.00"
+                            },
+                            {
+                                "outcome": "9:0",
+                                "odds": "125.00"
+                            },
+                            {
+                                "outcome": "10:0",
+                                "odds": "125.00"
+                            }
+                        ]
+                    },
+                    {
+                        "group_title": null,
+                        "outcomes": [
+                            {
+                                "outcome": "0:0",
+                                "odds": "9.50"
+                            },
+                            {
+                                "outcome": "1:1",
+                                "odds": "6.00"
+                            },
+                            {
+                                "outcome": "2:2",
+                                "odds": "12.50"
+                            },
+                            {
+                                "outcome": "3:3",
+                                "odds": "50.00"
+                            },
+                            {
+                                "outcome": "4:4",
+                                "odds": "125.00"
+                            }
+                        ]
+                    },
+                    {
+                        "group_title": null,
+                        "outcomes": [
+                            {
+                                "outcome": "0:1",
+                                "odds": "7.90"
+                            },
+                            {
+                                "outcome": "0:2",
+                                "odds": "11.00"
+                            },
+                            {
+                                "outcome": "1:2",
+                                "odds": "8.75"
+                            },
+                            {
+                                "outcome": "0:3",
+                                "odds": "20.00"
+                            },
+                            {
+                                "outcome": "1:3",
+                                "odds": "17.50"
+                            },
+                            {
+                                "outcome": "2:3",
+                                "odds": "25.00"
+                            },
+                            {
+                                "outcome": "0:4",
+                                "odds": "50.00"
+                            },
+                            {
+                                "outcome": "1:4",
+                                "odds": "40.00"
+                            },
+                            {
+                                "outcome": "2:4",
+                                "odds": "60.00"
+                            },
+                            {
+                                "outcome": "3:4",
+                                "odds": "100.00"
+                            },
+                            {
+                                "outcome": "0:5",
+                                "odds": "100.00"
+                            },
+                            {
+                                "outcome": "1:5",
+                                "odds": "95.00"
+                            },
+                            {
+                                "outcome": "2:5",
+                                "odds": "125.00"
+                            },
+                            {
+                                "outcome": "3:5",
+                                "odds": "125.00"
+                            },
+                            {
+                                "outcome": "4:5",
+                                "odds": "150.00"
+                            },
+                            {
+                                "outcome": "0:6",
+                                "odds": "125.00"
+                            },
+                            {
+                                "outcome": "1:6",
+                                "odds": "125.00"
+                            },
+                            {
+                                "outcome": "2:6",
+                                "odds": "125.00"
+                            },
+                            {
+                                "outcome": "3:6",
+                                "odds": "150.00"
+                            },
+                            {
+                                "outcome": "0:7",
+                                "odds": "125.00"
+                            },
+                            {
+                                "outcome": "1:7",
+                                "odds": "125.00"
+                            },
+                            {
+                                "outcome": "2:7",
+                                "odds": "175.00"
+                            },
+                            {
+                                "outcome": "0:8",
+                                "odds": "125.00"
+                            },
+                            {
+                                "outcome": "0:9",
+                                "odds": "125.00"
+                            },
+                            {
+                                "outcome": "0:10",
+                                "odds": "125.00"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "market_name": "Αποτέλεσμα και Over/Under 1.5",
+                "groups": [
+                    {
+                        "group_title": null,
+                        "outcomes": [
+                            {
+                                "outcome": "Over None",
+                                "odds": "3.55"
+                            },
+                            {
+                                "outcome": "Under None",
+                                "odds": "8.25"
+                            }
+                        ]
+                    },
+                    {
+                        "group_title": null,
+                        "outcomes": [
+                            {
+                                "outcome": "Over None",
+                                "odds": "4.60"
+                            },
+                            {
+                                "outcome": "Under None",
+                                "odds": "9.75"
+                            }
+                        ]
+                    },
+                    {
+                        "group_title": null,
+                        "outcomes": [
+                            {
+                                "outcome": "Over None",
+                                "odds": "3.05"
+                            },
+                            {
+                                "outcome": "Under None",
+                                "odds": "7.70"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "market_name": "Αποτέλεσμα και Over/Under 2.5",
+                "groups": [
+                    {
+                        "group_title": null,
+                        "outcomes": [
+                            {
+                                "outcome": "Over None",
+                                "odds": "4.70"
+                            },
+                            {
+                                "outcome": "Under None",
+                                "odds": "5.50"
+                            }
+                        ]
+                    },
+                    {
+                        "group_title": null,
+                        "outcomes": [
+                            {
+                                "outcome": "Over None",
+                                "odds": "13.00"
+                            },
+                            {
+                                "outcome": "Under None",
+                                "odds": "4.20"
+                            }
+                        ]
+                    },
+                    {
+                        "group_title": null,
+                        "outcomes": [
+                            {
+                                "outcome": "Over None",
+                                "odds": "4.00"
+                            },
+                            {
+                                "outcome": "Under None",
+                                "odds": "4.90"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "market_name": "Αποτέλεσμα και Over/Under 3.5",
+                "groups": [
+                    {
+                        "group_title": null,
+                        "outcomes": [
+                            {
+                                "outcome": "Over None",
+                                "odds": "9.50"
+                            },
+                            {
+                                "outcome": "Under None",
+                                "odds": "3.45"
+                            }
+                        ]
+                    },
+                    {
+                        "group_title": null,
+                        "outcomes": [
+                            {
+                                "outcome": "Over None",
+                                "odds": "12.50"
+                            },
+                            {
+                                "outcome": "Under None",
+                                "odds": "4.20"
+                            }
+                        ]
+                    },
+                    {
+                        "group_title": null,
+                        "outcomes": [
+                            {
+                                "outcome": "Over None",
+                                "odds": "7.90"
+                            },
+                            {
+                                "outcome": "Under None",
+                                "odds": "3.00"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "market_name": "Αποτέλεσμα και Over/Under 4.5",
+                "groups": [
+                    {
+                        "group_title": null,
+                        "outcomes": [
+                            {
+                                "outcome": "Over None",
+                                "odds": "15.50"
+                            },
+                            {
+                                "outcome": "Under None",
+                                "odds": "2.95"
+                            }
+                        ]
+                    },
+                    {
+                        "group_title": null,
+                        "outcomes": [
+                            {
+                                "outcome": "Over None",
+                                "odds": "55.00"
+                            },
+                            {
+                                "outcome": "Under None",
+                                "odds": "3.35"
+                            }
+                        ]
+                    },
+                    {
+                        "group_title": null,
+                        "outcomes": [
+                            {
+                                "outcome": "Over None",
+                                "odds": "13.50"
+                            },
+                            {
+                                "outcome": "Under None",
+                                "odds": "2.57"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "market_name": "Αποτέλεσμα και Over/Under 5.5",
+                "groups": [
+                    {
+                        "group_title": null,
+                        "outcomes": [
+                            {
+                                "outcome": "Over None",
+                                "odds": "42.00"
+                            },
+                            {
+                                "outcome": "Under None",
+                                "odds": "2.85"
+                            }
+                        ]
+                    },
+                    {
+                        "group_title": null,
+                        "outcomes": [
+                            {
+                                "outcome": "Over None",
+                                "odds": "55.00"
+                            },
+                            {
+                                "outcome": "Under None",
+                                "odds": "3.55"
+                            }
+                        ]
+                    },
+                    {
+                        "group_title": null,
+                        "outcomes": [
+                            {
+                                "outcome": "Over None",
+                                "odds": "35.00"
+                            },
+                            {
+                                "outcome": "Under None",
+                                "odds": "2.48"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "market_name": "Αποτέλεσμα Και Να Σκοράρουν Και Οι Δύο Ομάδες (6πλής Επιλογής)",
+                "groups": [
+                    {
+                        "group_title": null,
+                        "outcomes": [
+                            {
+                                "outcome": "1 Και Ναι",
+                                "odds": "5.40"
+                            },
+                            {
+                                "outcome": "1 Και Όχι",
+                                "odds": "4.85"
+                            }
+                        ]
+                    },
+                    {
+                        "group_title": null,
+                        "outcomes": [
+                            {
+                                "outcome": "Ισοπαλία Και Όχι",
+                                "odds": "9.50"
+                            },
+                            {
+                                "outcome": "Ισοπαλία Και Ναι",
+                                "odds": "4.25"
+                            }
+                        ]
+                    },
+                    {
+                        "group_title": null,
+                        "outcomes": [
+                            {
+                                "outcome": "2 Και Όχι",
+                                "odds": "3.90"
+                            },
+                            {
+                                "outcome": "2 Και Ναι",
+                                "odds": "4.40"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "market_name": "Να Σκοράρουν Και Οι Δύο Ομάδες και Over/Under 2.5",
+                "groups": [
+                    {
+                        "group_title": null,
+                        "outcomes": [
+                            {
+                                "outcome": "Ναι και Over 2.5",
+                                "odds": "2.20"
+                            },
+                            {
+                                "outcome": "Όχι και Under 2.5",
+                                "odds": "2.35"
+                            },
+                            {
+                                "outcome": "Ναι και Under 2.5",
+                                "odds": "6.30"
+                            },
+                            {
+                                "outcome": "Όχι και Over 2.5",
+                                "odds": "10.00"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "market_name": "Να Σκοράρουν Και Οι Δύο Ομάδες και Over/Under 3.5",
+                "groups": [
+                    {
+                        "group_title": null,
+                        "outcomes": [
+                            {
+                                "outcome": "Όχι και Under 3.5",
+                                "odds": "2.05"
+                            },
+                            {
+                                "outcome": "Ναι και Under 3.5",
+                                "odds": "3.00"
+                            },
+                            {
+                                "outcome": "Ναι και Over 3.5",
+                                "odds": "3.50"
+                            },
+                            {
+                                "outcome": "Όχι και Over 3.5",
+                                "odds": "29.00"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "market_name": "Να Σκοράρουν Και Οι Δύο Ομάδες και Over/Under 4.5",
+                "groups": [
+                    {
+                        "group_title": null,
+                        "outcomes": [
+                            {
+                                "outcome": "Όχι και Under 4.5",
+                                "odds": "2.00"
+                            },
+                            {
+                                "outcome": "Ναι και Under 4.5",
+                                "odds": "2.15"
+                            },
+                            {
+                                "outcome": "Ναι και Over 4.5",
+                                "odds": "6.50"
+                            },
+                            {
+                                "outcome": "Όχι και Over 4.5",
+                                "odds": "46.00"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "market_name": "Να Σκοράρουν Και Οι Δύο Ομάδες και Over/Under 5.5",
+                "groups": [
+                    {
+                        "group_title": null,
+                        "outcomes": [
+                            {
+                                "outcome": "Ναι και Under 5.5",
+                                "odds": "1.90"
+                            },
+                            {
+                                "outcome": "Όχι και Under 5.5",
+                                "odds": "1.98"
+                            },
+                            {
+                                "outcome": "Ναι και Over 5.5",
+                                "odds": "12.50"
+                            },
+                            {
+                                "outcome": "Όχι και Over 5.5",
+                                "odds": "90.00"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "datetime": "2025-05-10T20:08:57",
+        "tournament": "Europa League"
+    }
+]
